@@ -1,0 +1,17 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');const m={exports:{}};new Function('module','exports','require',fs.readFileSync(path.join(process.cwd(),'scripts/policy.cjs'),'utf8'))(m,m.exports,require);const P=m.exports;
+let n=0;const test=(name,fn)=>{fn();console.log('PASS '+name);n++;};
+const bundle='const AB=new Set(["paper","gallery"]);function xyz(e){return!e?.id||!AB.has(String(e.id))}';
+const rows=[{id:'1',url:'https://threeui.com/three-js/paper/variant',sourceId:'threeui',title:'Paper',description:'',tags:[]},{id:'2',url:'https://threeui.com/hero/premium-ship',sourceId:'threeui',title:'Ship',description:'',tags:[]}];
+const classified=P.classifyThreeUI(rows,bundle,'https://threeui.com/assets/index-test.js','2026-11-14T00:00:00Z');
+const raw={version:1,items:classified,sources:[{id:'threeui',itemCount:2}],runs:[]};
+test('official free group list parsed without executing remote code',()=>assert.equal(P.freeGroups(bundle).size,2));
+test('schema changes fail closed',()=>assert.throws(()=>P.freeGroups('const foo=[]')));
+test('variant inherits official group classification',()=>{assert.equal(classified[0].access,'free');assert.equal(classified[1].access,'paid');});
+test('paid resources are absent from public dataset',()=>{const d=P.publishFree(raw);assert.equal(d.items.length,1);assert.equal(d.policy.excludedCounts.paid,1);});
+test('unknown access never becomes free by assumption',()=>{const d=P.publishFree({...raw,items:[{...rows[0],access:'public-link'}]});assert.equal(d.items.length,0);assert.equal(d.policy.excludedCounts.unverified,1);});
+test('free claim without evidence is excluded',()=>assert.equal(P.publishFree({...raw,items:[{...rows[0],access:'free'}]}).items.length,0));
+const meeting={id:'m',url:'https://app.notion.com/p/417fd99f0e5f81e5a049c412f2c5e3ce',sourceId:'promptwhat',title:'클로드 회의',description:'Team Enterprise',tags:[],access:'public-link'};
+test('creator productivity guide is in scope',()=>assert.equal(P.inScope(meeting),true));
+test('free guide about a paid tool is retained with separate cost label',()=>{const r={...raw,items:[meeting],sources:[{id:'promptwhat'}]};const verified=P.applyReadingEvidence(r,{entries:{m:{url:meeting.url,checkedAt:'2026-11-14T00:00:00Z',toolCost:'paid-plan'}}});const out=P.publishFree(verified);assert.equal(out.items.length,1);assert.equal(out.items[0].access,'free');assert.equal(out.items[0].toolCost,'paid-plan');});
+console.log(n+' policy tests passed');

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "discovered-ant-design-ant-design-landing",
+    "name": "디자인·웹 제작 · ant-design",
+    "owner": "ant-design",
+    "repo": "ant-design/ant-design-landing",
+    "branch": "master",
+    "url": "https://github.com/ant-design/ant-design-landing",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/ant-design/ant-design-landing",
+    "seed": false,
+    "discoveredAt": "2026-11-14T07:41:43.295Z",
+    "discoveryQuery": "design system templates fork:false archived:false",
+    "topicLabel": "디자인·웹 제작",
+    "displayTitle": "디자인·웹 제작 · ant-design-landing",
+    "displayDescription": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": ":mountain_bicyclist: Landing Pages of Ant Design System",
+    "readmeUrl": "https://github.com/ant-design/ant-design-landing/blob/master/README.md",
+    "readmeSha": "a506b4a1bcfdd3f917e5cbf6085e506f2e54b4a9",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-mjmirza-apple-design-system",
+    "name": "디자인·웹 제작 · mjmirza",
+    "owner": "mjmirza",
+    "repo": "mjmirza/apple-design-system",
+    "branch": "master",
+    "url": "https://github.com/mjmirza/apple-design-system",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/mjmirza/apple-design-system",
+    "seed": false,
+    "discoveredAt": "2026-11-14T07:41:43.295Z",
+    "discoveryQuery": "design system templates fork:false archived:false",
+    "topicLabel": "디자인·웹 제작",
+    "displayTitle": "디자인·웹 제작 · apple-design-system",
+    "displayDescription": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Named, documented, reproducible reference catalog of Apple's design system (HIG components, foundations, patterns, fonts, SF Symbols, templates, bezels). Fetches assets directly from Apple; redistributes none.",
+    "readmeUrl": "https://github.com/mjmirza/apple-design-system/blob/master/README.md",
+    "readmeSha": "92a44098b412735db8910675358096544bcfc5eb",
+    "thumbnailUrl": null
+  }
+]
