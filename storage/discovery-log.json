@@ -1,28 +1,22 @@
 {
-  "at": "2026-11-14T10:55:49.607Z",
+  "at": "2026-11-14T11:00:17.552Z",
   "provider": "github-public-search",
   "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
   "queries": [
     {
-      "query": "ComfyUI workflow fork:false archived:false",
+      "query": "creator productivity workflow fork:false archived:false",
       "page": 2,
-      "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      "url": "https://api.github.com/search/repositories?q=creator%20productivity%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
     },
     {
-      "query": "text-to-video tutorial fork:false archived:false",
+      "query": "vibe coding templates fork:false archived:false",
       "page": 2,
-      "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
-    },
-    {
-      "query": "text-to-video tutorial fork:false archived:false",
-      "page": 1,
-      "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      "url": "https://api.github.com/search/repositories?q=vibe%20coding%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
     }
   ],
   "newSourceIds": [
-    "discovered-a719689614-comfyui-workflow",
-    "discovered-ltdrdata-comfyui-workflow-component"
+    "discovered-touzanisaeed-ux-ai-prompts-collection"
   ],
   "errors": [],
-  "poolCount": 9
+  "poolCount": 10
 }
