@@ -51,6 +51,8 @@ jobs:
             git commit -m 'Update public resource index'
             git push
           fi
+      - name: Version browser assets
+        run: node scripts/version-assets.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
