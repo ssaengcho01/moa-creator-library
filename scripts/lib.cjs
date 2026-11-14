@@ -77,14 +77,16 @@ function mergeLibrary(previous,results,at=new Date().toISOString(),sources=SOURC
 function applyTranslations(library,cache={entries:{}}) {
  let translated=0,pending=0;
  const items=library.items.map(item=>{
-  const {titleKo,descriptionKo,translationStatus,...base}=item;
-  if(item.sourceId!=='threeui')return {...base,translationStatus:'native'};
+  const {titleKo,descriptionKo,translationStatus,usageKo,stepsKo,audienceKo,requirementsKo,cautionsKo,referenceUrls,reviewedAt,editorialStatus,exclusionReason,...base}=item;
   const entry=cache.entries?.[item.id];
-  if(entry&&entry.originalTitle===item.title&&entry.originalDescription===item.description&&typeof entry.titleKo==='string'&&/[가-힣]/.test(entry.titleKo)&&typeof entry.descriptionKo==='string'&&/[가-힣]/.test(entry.descriptionKo)){
-   translated++;return {...base,titleKo:entry.titleKo,descriptionKo:entry.descriptionKo,translationStatus:'translated'};
+  const current=entry&&entry.originalTitle===item.title&&entry.originalDescription===item.description;
+  if(current&&entry.excludeFromLibrary===true)return {...base,editorialStatus:'excluded',exclusionReason:entry.exclusionReason,reviewedAt:entry.reviewedAt,referenceUrls:entry.referenceUrls,translationStatus:'excluded'};
+  if(current&&typeof entry.titleKo==='string'&&/[가-힣]/.test(entry.titleKo)&&typeof entry.descriptionKo==='string'&&/[가-힣]/.test(entry.descriptionKo)){
+   translated++;return {...base,titleKo:entry.titleKo,descriptionKo:entry.descriptionKo,translationStatus:'translated',...(entry.editorialStatus==='reviewed'?{editorialStatus:'reviewed',usageKo:entry.usageKo,stepsKo:entry.stepsKo,audienceKo:entry.audienceKo,requirementsKo:entry.requirementsKo,cautionsKo:entry.cautionsKo,referenceUrls:entry.referenceUrls,reviewedAt:entry.reviewedAt}:{})};
   }
-  pending++;return {...base,translationStatus:'pending'};
+  if(item.sourceId!=='threeui'&&!item.sourceId.startsWith('discovered-'))return {...base,translationStatus:'native'};
+  pending++;return {...base,translationStatus:'pending',...(item.sourceId.startsWith('discovered-')?{editorialStatus:'pending'}:{})};
  });
- return {...library,items,localization:{language:'ko',translated,pending,updatedAt:cache.updatedAt||null}};
+ return {...library,items,sources:library.sources.map(s=>({...s,name:cache.sourceNames?.[s.id]||s.name})),localization:{language:'ko',translated,pending,updatedAt:cache.updatedAt||null}};
 }
 module.exports={SOURCES,canonical,idFor,promptItems,threeItems,mergeLibrary,robotsAllowed,applyTranslations};

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T06:47:59.414Z",
+  "updatedAt": "2026-11-14T09:04:24.779Z",
   "entries": {
     "6b9967a5acfc336fce6f": {
       "originalTitle": "365 Shapes — Cube",
@@ -5071,6 +5071,75 @@
       "originalDescription": "XGIMI Short-Throw Projector. Independently reusable source from the featured Aura team collection. Original GLB geometry and base PBR materials; the landing page photo-projection treatments remain in the full page.",
       "titleKo": "엑스지미 단초점 프로젝터",
       "descriptionKo": "엑스지미 단초점 프로젝터입니다. 추천 아우라 팀 컬렉션에서 가져온, 독립적으로 재사용할 수 있는 소스입니다. 원본 GLB 지오메트리와 기본 PBR 재질을 사용하며, 랜딩 페이지의 사진 투사 연출은 전체 페이지에 남아 있습니다."
+    },
+    "01bc465e2f125f82241a": {
+      "originalTitle": "AI 이미지 제작 · CEXI-public",
+      "originalDescription": "AI 이미지 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "reviewedAt": "2026-11-14T09:04:24.779Z",
+      "editorialStatus": "excluded",
+      "excludeFromLibrary": true,
+      "exclusionReason": "확산 MRI 신호·세포막 물 교환을 연구하는 의료 영상 모델 튜토리얼로, 크리에이터용 AI 이미지 생성 자료가 아닙니다.",
+      "referenceUrls": [
+        "https://github.com/jonhrafe/CEXI-public/blob/main/README.md"
+      ]
+    },
+    "5e13c1d4a7b14f3b8a72": {
+      "originalTitle": "AI 이미지 제작 · TutorialDiffusionModels",
+      "originalDescription": "AI 이미지 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "reviewedAt": "2026-11-14T09:04:24.779Z",
+      "editorialStatus": "excluded",
+      "excludeFromLibrary": true,
+      "exclusionReason": "조회 시 README·LICENSE·.gitignore만 있으며 안내한 Python 실습 코드나 노트북이 없어 실제 활용 자료로 공개하지 않습니다.",
+      "referenceUrls": [
+        "https://github.com/sazio/TutorialDiffusionModels"
+      ]
+    },
+    "c9e8f28e47000cc90bd7": {
+      "originalTitle": "디자인·웹 제작 · ant-design-landing",
+      "originalDescription": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "reviewedAt": "2026-11-14T09:04:24.779Z",
+      "titleKo": "움직이는 제품·강의 소개 페이지 만들기 · Ant Design Landing",
+      "descriptionKo": "배너·콘텐츠 구역을 조합해 움직임이 있는 소개 페이지를 만드는 React 템플릿 프로젝트입니다. 화면 구성과 모션 예제를 참고하고, 제공되는 코드를 개발 프로젝트에 활용할 수 있습니다.",
+      "usageKo": "강의·디지털 상품 소개 페이지의 첫 화면과 콘텐츠 배치를 기획하거나, 웹디자인 수업에서 스크롤 모션과 페이지 구성을 설명할 때 활용하세요.",
+      "stepsKo": [
+        "README의 소개와 예제를 보고 필요한 화면 구성을 고릅니다.",
+        "문서의 docs/use/getting-started.md에서 React·Less 코드 적용 방법을 확인합니다.",
+        "코드를 쓸 때는 React 개발환경에서 의존성을 확인하고 직접 실행·수정합니다. 편집기 접속은 별도 확인이 필요합니다."
+      ],
+      "audienceKo": "웹디자이너·랜딩페이지 기획자·React 개발자",
+      "requirementsKo": "문서 열람은 설치 없이 가능합니다. 코드 적용에는 React/JSX·Less와 npm 개발환경이 필요합니다.",
+      "cautionsKo": "노코드 완성 사이트나 결제·회원관리 서비스가 아닙니다. 현재 온라인 편집기 작동과 최신 React 호환성은 확인되지 않았습니다. 저장소 코드는 MIT 고지 조건을 확인하세요.",
+      "referenceUrls": [
+        "https://github.com/ant-design/ant-design-landing/blob/master/README.md",
+        "https://github.com/ant-design/ant-design-landing/blob/master/docs/use/getting-started.md"
+      ],
+      "editorialStatus": "reviewed"
+    },
+    "a4370041b0e5de65ce9b": {
+      "originalTitle": "디자인·웹 제작 · apple-design-system",
+      "originalDescription": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "reviewedAt": "2026-11-14T09:04:24.779Z",
+      "titleKo": "애플 앱 화면 설계 자료 찾기 · UI 구성요소·공식 링크 카탈로그",
+      "descriptionKo": "애플 앱의 버튼·탐색 구조 같은 UI 구성요소, 디자인 원칙, 폰트·아이콘·UI 키트의 공식 출처를 모은 비공식 카탈로그입니다. 무료 이미지 팩이 아니라 필요한 디자인 자료와 사용 맥락을 찾는 참고용 색인입니다.",
+      "usageKo": "iOS 앱 시안을 만들 때 필요한 UI 키트와 공식 지침을 찾거나, 디자인 강의에서 애플 앱의 구성요소·패턴을 비교하고 출처를 제시할 때 쓰세요.",
+      "stepsKo": [
+        "README에서 구성요소·기초 원칙·패턴 색인을 읽고 필요한 항목을 찾습니다.",
+        "연결된 Apple 공식 문서에서 용도와 에셋별 사용 조건을 확인합니다.",
+        "파일이 필요할 때만 공식 다운로드 링크를 이용합니다. 내용을 읽는 데 전체 다운로드나 스크립트 실행은 필요 없습니다."
+      ],
+      "audienceKo": "iOS 앱 디자이너·UI/UX 강사·앱 개발자",
+      "requirementsKo": "색인과 문서는 브라우저만으로 읽을 수 있습니다. 전체 자료를 로컬로 재현하는 스크립트는 macOS 도구 등을 사용하며 README 기준 약 3.1GB가 필요합니다.",
+      "cautionsKo": "Apple의 공식 배포 저장소가 아니며 Apple 파일을 재배포하지 않습니다. 폰트·SF Symbols·UI 키트는 개별 Apple 약관을 따릅니다. 저장소 라이선스 문구도 파일마다 달라 상업적 재사용·재배포 전에 확인해야 합니다. Windows에서 전체 스크립트가 그대로 실행된다고 보장하지 않습니다.",
+      "referenceUrls": [
+        "https://github.com/mjmirza/apple-design-system/blob/master/README.md",
+        "https://github.com/mjmirza/apple-design-system/blob/master/CREDITS.md",
+        "https://github.com/mjmirza/apple-design-system/blob/master/LICENSE"
+      ],
+      "editorialStatus": "reviewed"
     }
+  },
+  "sourceNames": {
+    "discovered-ant-design-ant-design-landing": "Ant Design 랜딩페이지 템플릿",
+    "discovered-mjmirza-apple-design-system": "애플 앱 디자인 자료 색인"
   }
 }

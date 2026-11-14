@@ -21,11 +21,12 @@ function applyReadingEvidence(raw,cache={entries:{}}){
  return {...raw,items:raw.items.map(item=>{const proof=cache.entries?.[item.id];if(item.sourceId!=='promptwhat'||!proof||proof.url!==item.url||!proof.checkedAt)return item;return {...item,access:'free',accessNote:'가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.',pricingEvidence:{sourceUrl:item.url,method:'브라우저에서 로그인·결제 없이 가이드 본문 확인',checkedAt:proof.checkedAt},contentTitle:proof.contentTitle,toolCost:proof.toolCost||'unverified',toolCostNote:proof.toolCostNote||'소개 도구의 요금제·크레딧 조건은 원문에서 별도로 확인하세요.'};})};
 }
 function publishFree(raw){
- const excluded={paid:0,unverified:0,outOfScope:0};const eligible=[];
+ const excluded={paid:0,unverified:0,outOfScope:0,translationPending:0};const eligible=[];
  for(const item of raw.items){
-  if(!inScope(item)){excluded.outOfScope++;continue;}
+  if(!inScope(item)||item.editorialStatus==='excluded'){excluded.outOfScope++;continue;}
   if(item.access==='paid'){excluded.paid++;continue;}
   if(item.access!=='free'||!item.pricingEvidence?.checkedAt){excluded.unverified++;continue;}
+  if(item.translationStatus==='pending'||(item.sourceId.startsWith('discovered-')&&item.editorialStatus!=='reviewed')){excluded.translationPending++;continue;}
   eligible.push({...item,topicLabels:item.sourceId==='threeui'?['AI 디자인','바이브코딩']:['강의·콘텐츠 제작','업무 자동화·생산성'],topicBasis:item.sourceId==='threeui'?'AI 코딩 도구에 적용할 수 있는 디자인·코드 참고 자료입니다. AI로 생성되었다는 뜻은 아닙니다.':undefined});
  }
  const sources=raw.sources.map(s=>({...s,eligibleCount:eligible.filter(x=>x.sourceId===s.id).length,paidCount:raw.items.filter(x=>x.sourceId===s.id&&x.access==='paid').length,unverifiedCount:raw.items.filter(x=>x.sourceId===s.id&&!['free','paid'].includes(x.access)).length}));

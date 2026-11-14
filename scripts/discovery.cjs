@@ -29,7 +29,7 @@ function safeImage(text) {
 function normalizePool(previous,seeds) {
   const ids=new Set(seeds.map(s=>key(s.id))),owners=new Set(seeds.map(ownerOf)),repos=new Set(seeds.map(s=>key(s.repo)).filter(Boolean)),pool=[];
   for(const s of Array.isArray(previous)?previous:[]){
-    if(!s || !s.id || s.seed===true || ids.has(key(s.id)) || owners.has(ownerOf(s)) || (s.repo && repos.has(key(s.repo)))) continue;
+    if(!s || (config.excludedRepos||[]).some(r=>key(r)===key(s.repo)) || !s.id || s.seed===true || ids.has(key(s.id)) || owners.has(ownerOf(s)) || (s.repo && repos.has(key(s.repo)))) continue;
     pool.push(s);ids.add(key(s.id));owners.add(ownerOf(s));if(s.repo)repos.add(key(s.repo));
     if(pool.length>=config.maxPool) break;
   }
@@ -74,6 +74,7 @@ async function discoverCandidates(request,previousPool,options={}) {
       if(!repo || repo.fork || repo.private || repo.disabled || repo.archived || !repo.license || typeof repo.license!=='object')continue;
       const full=String(repo.full_name || '');
       if(!/^[a-z\d-]+\/[a-z\d_.-]+$/i.test(full))continue;
+      if((config.excludedRepos||[]).some(r=>key(r)===key(full)))continue;
       const owner=full.split('/')[0],id='discovered-'+full.toLowerCase().replace(/[^a-z0-9-]/g,'-');
       if(owners.has(key(owner)) || repos.has(key(full)) || ids.has(key(id)))continue;
       if(repo.url!=='https://api.github.com/repos/'+full || repo.html_url!=='https://github.com/'+full || !repo.default_branch)continue;

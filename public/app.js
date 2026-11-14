@@ -50,7 +50,7 @@
     const list = $('source-list'); const select = $('source-filter');
     list.replaceChildren(); select.replaceChildren();
     const all = node('option', '', '모든 출처'); all.value = 'all'; select.append(all);
-    for (const source of state.data.sources) {
+    for (const source of state.data.sources.filter(s=>s.eligibleCount>0)) {
       const option = node('option', '', source.name); option.value = source.id; select.append(option);
       const url = safeURL(source.url); const link = node(url ? 'a' : 'span', 'source-link');
       const dot = node('span', 'source-dot'); dot.setAttribute('aria-hidden', 'true');
@@ -60,7 +60,7 @@
     }
     if (!state.data.sources.some(source => source.id === state.source)) state.source = 'all';
     select.value = state.source;
-    $('source-count').textContent = String(state.data.sources.length);
+    $('source-count').textContent = String(state.data.sources.filter(s=>s.eligibleCount>0).length);
     const names = state.data.sources.map(source => source.name).join(' · ');
     const withData=state.data.sources.filter(source => (source.eligibleCount || 0)>0).length;const discovery=state.data.discovery;
     $('source-scope').textContent = '자료가 있는 출처 '+withData+'곳 · 이번 회차 무작위 수집 '+(discovery?.selectedCount || 0)+'곳 · 후보 '+(discovery?.totalSourceCount || state.data.sources.length)+'곳';
@@ -100,15 +100,17 @@
     const read = node('button', 'read-button', state.read.has(item.id) ? '읽음 취소' : '읽음 표시'); read.type = 'button'; read.setAttribute('aria-pressed', String(state.read.has(item.id))); read.setAttribute('aria-label', title + (state.read.has(item.id) ? ' 읽음 취소' : ' 읽음 표시')); read.dataset.control = 'read'; read.dataset.itemId = item.id;
     read.addEventListener('click', () => { if (state.read.has(item.id)) state.read.delete(item.id); else state.read.add(item.id); persist(); render({ id: item.id, control: 'read' }); });
     bottom.append(dates, read); body.append(top, heading, description);
-    if (item.titleKo || !/[가-힣]/.test(item.title)) { const original = node('details', 'original-details'); const summary = node('summary', '', '영어 원문 보기'); original.append(summary, node('strong', '', item.title), node('p', '', item.description), node('p', 'translation-note', item.titleKo ? '제목·설명의 한국어 번역입니다. 연결된 사이트 본문은 원문으로 열립니다.' : '새 자료이거나 원문이 바뀌어 번역을 기다리고 있습니다.')); body.append(original); }
-    if (item.toolCostNote) body.append(node('p','tool-cost-note',item.toolCost === 'paid-plan' ? '소개 기능은 유료 요금제 대상 · 이 자료는 무료' : '소개 도구의 요금제·크레딧 비용은 별도 확인'));
+    if(item.usageKo){const use=node('section','card-usage');use.append(node('strong','','이렇게 활용하세요'),node('p','',item.usageKo));body.append(use);}
+    if(Array.isArray(item.stepsKo)&&item.stepsKo.length){const guide=node('details','usage-details');guide.append(node('summary','','시작 방법·준비물·주의사항'));if(item.audienceKo)guide.append(node('p','', '추천 대상: '+item.audienceKo));const steps=node('ol');for(const step of item.stepsKo)steps.append(node('li','',step));guide.append(steps);if(item.requirementsKo)guide.append(node('p','', '준비물: '+item.requirementsKo));if(item.cautionsKo)guide.append(node('p','guide-caution','주의: '+item.cautionsKo));for(const [i,url] of (item.referenceUrls||[]).entries()){if(safeURL(url)){const ref=node('a','guide-reference','확인한 원문 '+(i+1)+' ↗');ref.href=safeURL(url);ref.target='_blank';ref.rel='noopener noreferrer';guide.append(ref);}}if(item.reviewedAt)guide.append(node('p','review-date','내용 확인: '+date(item.reviewedAt)));body.append(guide);}
+    if (item.titleKo || !/[가-힣]/.test(item.title)) { const original = node('details', 'original-details'); const summary = node('summary', '', '영어 원문 보기'); original.append(summary, node('strong', '', item.originalTitle || item.title), node('p', '', item.originalDescription || item.description), node('p', 'translation-note', item.titleKo ? '원문 내용을 바탕으로 정리한 한국어 안내입니다. 연결된 사이트 본문은 원문으로 열립니다.' : '새 자료이거나 원문이 바뀌어 번역을 기다리고 있습니다.')); body.append(original); }
+    if (item.toolCostNote && item.editorialStatus!=='reviewed') body.append(node('p','tool-cost-note',item.toolCost === 'paid-plan' ? '소개 기능은 유료 요금제 대상 · 이 자료는 무료' : '소개 도구의 요금제·크레딧 비용은 별도 확인'));
     const provenance = node('details', 'original-details');
     if (safeURL(item.thumbnailSourceUrl)) { const imageSource = node('a', '', '미리보기 원본 ↗'); imageSource.href = safeURL(item.thumbnailSourceUrl); imageSource.target = '_blank'; imageSource.rel = 'noopener noreferrer'; provenance.append(imageSource); }
      provenance.append(node('summary', '', '출처 및 무료 확인 근거')); const srcLink = node('a', '', '수집한 원본 자료실'); srcLink.href = safeURL(item.sourceUrl); srcLink.target = '_blank'; srcLink.rel = 'noopener noreferrer'; provenance.append(srcLink); if (safeURL(item.sourceEntryUrl)) { const entryLink=node('a','',' · 원본 목록 항목');entryLink.href=safeURL(item.sourceEntryUrl);entryLink.target='_blank';entryLink.rel='noopener noreferrer';provenance.append(entryLink); } provenance.append(node('p','',item.pricingEvidence?.method || '무료 여부를 별도 확인했습니다.'),node('p','','무료 확인: '+date(item.pricingEvidence?.checkedAt,true)));if(item.toolCostNote)provenance.append(node('p','',item.toolCostNote));body.append(provenance,tags, bottom); article.append(visual, body); return article;
   }
   function filteredItems() {
     const query = state.query.toLocaleLowerCase('ko');
-    const sorted = state.data.items.filter(item => (!state.savedView || state.saved.has(item.id)) && (!state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || item.category === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
+    const sorted = state.data.items.filter(item => (!state.savedView || state.saved.has(item.id)) && (!state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || item.category === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.usageKo || '', item.audienceKo || '', ...(item.stepsKo || []), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
       if (state.sort === 'title') return shownTitle(a).localeCompare(shownTitle(b), 'ko') || a.id.localeCompare(b.id);
       const field = state.sort === 'published' ? 'publishedAt' : 'firstSeenAt'; return timestamp(b[field]) - timestamp(a[field]) || (state.sort === 'discovered' ? timestamp(b.publishedAt) - timestamp(a.publishedAt) : 0) || shownTitle(a).localeCompare(shownTitle(b), 'ko');
     });
@@ -147,6 +149,7 @@
   function resetFilters() { state.query = ''; state.category = 'all'; state.source = 'all'; state.hideRead = false; state.limit = PAGE_SIZE; $('search').value = ''; $('source-filter').value = 'all'; $('hide-read').checked = false; persist(); if (state.data) { buildCategories(); render(); } }
   function renderSources() {
     const container = $('source-details'); container.replaceChildren();
+    container.append(node('p','small-note','새 출처 탐색과 수집은 자동으로 실행합니다. 새 GitHub 자료는 실제 내용·활용법을 확인한 한국어 설명이 있어야 공개하며, 검수 전 자료와 주제가 맞지 않거나 실습 파일이 없는 자료는 자료함에서 보류합니다.')); 
     if(state.data?.discovery){const d=state.data.discovery;const log=node('section','source-detail');log.append(node('strong','','무작위 수집 기록'),node('p','','후보 '+(d.totalSourceCount || state.data.sources.length)+'곳 중 '+(d.selectedCount || 0)+'곳 선택 · 신규 출처 '+(d.newSourceIds?.length || 0)+'곳 발견'),node('p','',d.scope || '새 출처 탐색은 공개 저장소 검색을 사용합니다. 웹 전체·SNS 직접 크롤링은 아닙니다.'),node('p','','선택한 곳: '+(d.selectedSourceIds||[]).map(sourceLabel).join(' · ')));if(d.errors?.length)log.append(node('p','source-error','탐색 오류 '+d.errors.length+'건 · 기존 자료는 유지했습니다.'));container.append(log);}
     if (!state.data || !state.data.sources.length) { container.append(node('p', '', '아직 확인할 수집 기록이 없습니다.')); return; }
     for (const source of state.data.sources) {
@@ -166,7 +169,7 @@
       const embedded = document.getElementById('embedded-library');
       if (embedded) { state.data = validateLibrary(JSON.parse(embedded.textContent)); }
       else { const response = await fetch('./data/library.json', { cache: 'no-cache', signal: controller.signal }); if (!response.ok) throw new Error('데이터 응답 오류'); state.data = validateLibrary(await response.json()); }
-      const policy=state.data.policy; if ($('policy-summary')) $('policy-summary').textContent = policy ? '무료 확인 '+state.data.items.length+'개 표시 · 유료 분류 '+(policy.excludedCounts?.paid || 0)+'개 제외 · 무료 여부 미확인 '+(policy.excludedCounts?.unverified || 0)+'개 보류' : '무료 확인 자료만 표시합니다. 소개 도구의 요금은 별도입니다.';
+      const policy=state.data.policy; if ($('policy-summary')) $('policy-summary').textContent = policy ? '무료 확인 '+state.data.items.length+'개 표시 · 유료 분류 '+(policy.excludedCounts?.paid || 0)+'개 제외 · 무료 여부 미확인 '+(policy.excludedCounts?.unverified || 0)+'개 보류'+(policy.excludedCounts?.translationPending?' · 한국어 설명 검수 대기 '+policy.excludedCounts.translationPending+'개':'')+(policy.excludedCounts?.outOfScope?' · 내용·주제 검토 제외 '+policy.excludedCounts.outOfScope+'개':'') : '무료 확인 자료만 표시합니다. 소개 도구의 요금은 별도입니다.';
       $('collected-at').textContent = '마지막 수집 ' + date(state.data.updatedAt, true);
       $('baseline-note').textContent = state.data.runs.length <= 1 ? '첫 수집은 기준 목록으로 표시합니다' : '신규는 가장 최근 수집에서 처음 발견한 링크';
       buildSourceControls();

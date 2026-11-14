@@ -4,12 +4,101 @@
   "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
   "maxPool": 200,
   "topics": [
-    {"label":"ComfyUI 워크플로","queries":["ComfyUI workflow","ComfyUI video examples"],"terms":["comfyui","comfy ui"]},
-    {"label":"AI 이미지 제작","queries":["image generation workflow","diffusion image tutorial"],"terms":["image generation","diffusion","flux","image workflow"]},
-    {"label":"AI 영상 제작","queries":["video generation workflow","text-to-video tutorial"],"terms":["video generation","text-to-video","image-to-video","video workflow"]},
-    {"label":"모션·Remotion","queries":["remotion templates","motion graphics examples"],"terms":["remotion","motion graphics","animation"]},
-    {"label":"디자인·웹 제작","queries":["design system templates","creative coding examples"],"terms":["design system","creative coding","design","webgl"]},
-    {"label":"크리에이터·강사 생산성","queries":["presentation automation","creator productivity workflow"],"terms":["presentation","slides","creator","teaching","productivity"]},
-    {"label":"바이브 코딩","queries":["vibe coding templates","AI coding workflow"],"terms":["vibe coding","ai coding","coding agent","llm"]}
+    {
+      "label": "ComfyUI 워크플로",
+      "queries": [
+        "ComfyUI workflow",
+        "ComfyUI video examples"
+      ],
+      "terms": [
+        "comfyui",
+        "comfy ui"
+      ]
+    },
+    {
+      "label": "AI 이미지 제작",
+      "queries": [
+        "image generation workflow",
+        "diffusion image tutorial"
+      ],
+      "terms": [
+        "image generation",
+        "image synthesis",
+        "text-to-image",
+        "stable diffusion",
+        "generative model",
+        "diffusion models for imaging and vision",
+        "image workflow"
+      ]
+    },
+    {
+      "label": "AI 영상 제작",
+      "queries": [
+        "video generation workflow",
+        "text-to-video tutorial"
+      ],
+      "terms": [
+        "video generation",
+        "text-to-video",
+        "image-to-video",
+        "video workflow"
+      ]
+    },
+    {
+      "label": "모션·Remotion",
+      "queries": [
+        "remotion templates",
+        "motion graphics examples"
+      ],
+      "terms": [
+        "remotion",
+        "motion graphics",
+        "animation"
+      ]
+    },
+    {
+      "label": "디자인·웹 제작",
+      "queries": [
+        "design system templates",
+        "creative coding examples"
+      ],
+      "terms": [
+        "design system",
+        "creative coding",
+        "design",
+        "webgl"
+      ]
+    },
+    {
+      "label": "크리에이터·강사 생산성",
+      "queries": [
+        "presentation automation",
+        "creator productivity workflow"
+      ],
+      "terms": [
+        "presentation",
+        "slides",
+        "creator",
+        "teaching",
+        "productivity"
+      ]
+    },
+    {
+      "label": "바이브 코딩",
+      "queries": [
+        "vibe coding templates",
+        "AI coding workflow"
+      ],
+      "terms": [
+        "vibe coding",
+        "ai coding",
+        "coding agent",
+        "llm"
+      ]
+    }
+  ],
+  "excludedRepos": [
+    "jonhrafe/CEXI-public",
+    "sazio/TutorialDiffusionModels"
   ]
 }
