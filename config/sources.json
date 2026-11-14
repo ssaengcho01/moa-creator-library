@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "promptwhat",
+      "name": "프롬왓",
+      "owner": "promptwhat",
+      "url": "https://promptwhat-ai-library.promptwhatt.chatgpt.site/",
+      "feed": "https://promptwhat-ai-library.promptwhatt.chatgpt.site/api/materials",
+      "kind": "json"
+    },
+    {
+      "id": "threeui",
+      "name": "쓰리유아이",
+      "owner": "mengto",
+      "url": "https://threeui.com/",
+      "feed": "https://threeui.com/browse?sort=recent",
+      "kind": "html"
+    },
+    {
+      "id": "comfy-workflows",
+      "name": "Comfy 공식 워크플로",
+      "url": "https://github.com/Comfy-Org/workflows",
+      "repo": "Comfy-Org/workflows",
+      "owner": "Comfy-Org",
+      "branch": "main",
+      "kind": "github-tree",
+      "feed": "https://api.github.com/repos/Comfy-Org/workflows/git/trees/main?recursive=1",
+      "evidenceUrl": "https://github.com/Comfy-Org/workflows/blob/main/README.md",
+      "thirdPartyNotes": "워크플로 파일과 설명은 무료 공개입니다. Partner Nodes·Comfy Cloud·일부 생성 API는 별도 크레딧이 필요합니다.",
+      "items": [
+        {
+          "path": "shared/car-transition",
+          "titleKo": "미니카에서 실제 자동차로 이어지는 영상 전환",
+          "descriptionKo": "두 장의 참고 이미지로 기차 창가의 미니카가 야간 도심을 달리는 자동차가 되는 10초 장면을 만드는 워크플로.",
+          "category": "영상",
+          "tags": [
+            "ComfyUI",
+            "전환",
+            "Seedance"
+          ],
+          "thumbnailPath": "shared/car-transition/media/train-windowsill.png"
+        },
+        {
+          "path": "shared/halloween-sd",
+          "titleKo": "박자마다 의상이 바뀌는 할로윈 숏폼",
+          "descriptionKo": "3D 블록아웃과 참고 이미지 7장을 이용해 캐릭터의 의상이 박자마다 바뀌는 18초 세로 애니메이션을 만드는 예제.",
+          "category": "영상",
+          "tags": [
+            "ComfyUI",
+            "캐릭터",
+            "숏폼"
+          ],
+          "thumbnailPath": "shared/halloween-sd/media/screenshot-reference-images.png"
+        },
+        {
+          "path": "shared/haunted-subway",
+          "titleKo": "1인칭 공포 지하철 영상 워크플로",
+          "descriptionKo": "3D 블록아웃과 네 장의 참고 이미지로 21초짜리 1인칭 공포 영상을 만드는 로컬 워크플로와 설명.",
+          "category": "영상",
+          "tags": [
+            "ComfyUI",
+            "스토리보드",
+            "연출"
+          ],
+          "thumbnailPath": "shared/haunted-subway/media/main.png"
+        }
+      ]
+    },
+    {
+      "id": "djz-workflows",
+      "name": "드리프트 존슨 워크플로",
+      "url": "https://github.com/MushroomFleet/DJZ-Workflows",
+      "repo": "MushroomFleet/DJZ-Workflows",
+      "owner": "MushroomFleet",
+      "branch": "main",
+      "kind": "github-tree",
+      "feed": "https://api.github.com/repos/MushroomFleet/DJZ-Workflows/git/trees/main?recursive=1",
+      "evidenceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/blob/main/README.md",
+      "thirdPartyNotes": "공개 워크플로 자료 열람·다운로드는 무료입니다. GPU, 모델·노드 라이선스와 외부 API 사용료는 별도입니다.",
+      "items": [
+        {
+          "path": "Foda_Flux",
+          "titleKo": "플럭스 이미지 생성·편집 워크플로",
+          "descriptionKo": "ControlNet·인페인팅·IP Adapter·업스케일과 장면 편집 등을 다루는 ComfyUI 워크플로 모음.",
+          "category": "이미지",
+          "tags": [
+            "ComfyUI",
+            "이미지"
+          ],
+          "thumbnailPath": "Foda_Flux/Flux Inpaint/MatAnyone-InspyrenetRemBG-single-frame-mask-v10.png"
+        },
+        {
+          "path": "Hoda-Hunyuan-Video",
+          "titleKo": "훈위안 AI 영상 워크플로",
+          "descriptionKo": "텍스트·이미지에서 영상을 만들거나 기존 영상을 변환하는 ComfyUI 워크플로 팩.",
+          "category": "영상",
+          "tags": [
+            "ComfyUI",
+            "영상"
+          ],
+          "thumbnailPath": "Hoda-Hunyuan-Video/native-i2v-official/Hoda-Hyvid-Qwen25VL-autoprompt-i2v-lines-v45.png"
+        },
+        {
+          "path": "DJZ-3D",
+          "titleKo": "이미지에서 3D를 만드는 워크플로",
+          "descriptionKo": "SV3Du·TripoSR·Zero123 등 3D 생성 작업을 위한 ComfyUI 워크플로 모음.",
+          "category": "3D · WebGL",
+          "tags": [
+            "ComfyUI",
+            "3D · WebGL"
+          ]
+        },
+        {
+          "path": "JustUpscalingThings-Pack",
+          "titleKo": "이미지 업스케일 워크플로 모음",
+          "descriptionKo": "확대와 화질 개선 작업을 위한 전용 ComfyUI 워크플로 팩.",
+          "category": "이미지",
+          "tags": [
+            "ComfyUI",
+            "이미지"
+          ]
+        },
+        {
+          "path": "XODA-LTXV-Video-Pack",
+          "titleKo": "LTX 영상 생성 워크플로 팩",
+          "descriptionKo": "LTX 계열 영상 제작 워크플로와 공개 사용 안내를 모은 자료.",
+          "category": "영상",
+          "tags": [
+            "ComfyUI",
+            "영상"
+          ],
+          "thumbnailPath": "XODA-LTXV-Video-Pack/ltxv-13B-097/XODA-13B-097-img2vid-Extendo-v12.png"
+        },
+        {
+          "path": "Roda-AudioReactive-Pack",
+          "titleKo": "소리에 반응하는 비주얼 워크플로",
+          "descriptionKo": "오디오에 반응하는 시각 효과를 만드는 ComfyUI 워크플로 모음.",
+          "category": "모션",
+          "tags": [
+            "ComfyUI",
+            "모션"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rendercomp",
+      "name": "RenderComp 무료 Remotion 템플릿",
+      "url": "https://github.com/RenderComp/free-remotion-templates",
+      "repo": "RenderComp/free-remotion-templates",
+      "branch": "main",
+      "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+      "access": "공개 README와 소스는 로그인 없이 무료 열람·다운로드 가능",
+      "license": "MIT",
+      "licenseEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/LICENSE",
+      "thirdPartyNotes": "템플릿 자체는 MIT. Remotion 엔진은 별도 라이선스이며 큰 팀은 Company License가 필요할 수 있음. RenderComp 유료 전체 카탈로그와 별개. 추가하는 폰트·이미지·오디오는 별도 권리 확인.",
+      "thirdPartyEvidenceUrls": [
+        "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md#license"
+      ],
+      "items": [
+        {
+          "path": "src/components/brush-stroke-reveal/BrushStrokeReveal.tsx",
+          "titleKo": "붓터치 브랜드 리빌",
+          "descriptionKo": "붓으로 칠하듯 타이틀과 브랜드를 드러내는 4초 React 영상 템플릿.",
+          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/brush-stroke-reveal/BrushStrokeReveal.tsx",
+          "category": "모션",
+          "tags": [
+            "Remotion",
+            "브랜드",
+            "인트로"
+          ],
+          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/brush-stroke-reveal.gif",
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+        },
+        {
+          "path": "src/components/typewriter/Typewriter.tsx",
+          "titleKo": "타자기 텍스트 애니메이션",
+          "descriptionKo": "문구를 한 글자씩 입력하듯 보여주는 정사각형 타이틀 템플릿.",
+          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx",
+          "category": "모션",
+          "tags": [
+            "Remotion",
+            "텍스트",
+            "타자기"
+          ],
+          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/typewriter.gif",
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+        },
+        {
+          "path": "src/components/bar-chart-anim/BarChartAnim.tsx",
+          "titleKo": "애니메이션 막대 차트",
+          "descriptionKo": "입력한 수치에 맞춰 막대가 순서대로 자라는 5초 데이터 시각화 템플릿.",
+          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx",
+          "category": "모션",
+          "tags": [
+            "Remotion",
+            "통계",
+            "차트"
+          ],
+          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bar-chart-anim.gif",
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+        },
+        {
+          "path": "src/components/kpi-counter/KpiCounter.tsx",
+          "titleKo": "KPI 숫자 카운터",
+          "descriptionKo": "이름표와 함께 지표 숫자가 목표값까지 올라가는 4초 성과 소개 템플릿.",
+          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
+          "category": "모션",
+          "tags": [
+            "Remotion",
+            "KPI",
+            "숫자"
+          ],
+          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+        },
+        {
+          "path": "src/components/lower-third-glass-card/LowerThirdGlassCard.tsx",
+          "titleKo": "유리 효과 인물 소개 자막",
+          "descriptionKo": "반투명 유리 느낌의 이름·직함 카드가 모서리에서 들어오는 4초 템플릿.",
+          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/lower-third-glass-card/LowerThirdGlassCard.tsx",
+          "category": "모션",
+          "tags": [
+            "Remotion",
+            "강사소개",
+            "로어써드"
+          ],
+          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/lower-third-glass-card.gif",
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+        }
+      ],
+      "kind": "github-tree",
+      "feed": "https://api.github.com/repos/RenderComp/free-remotion-templates/git/trees/main?recursive=1",
+      "owner": "RenderComp"
+    },
+    {
+      "id": "motion-prompt",
+      "name": "Motion Prompt AI 표현 사전",
+      "url": "https://github.com/showheyohtaki/motion-prompt",
+      "repo": "showheyohtaki/motion-prompt",
+      "branch": "main",
+      "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/README.md",
+      "access": "공개 목록·예제·영상과 코드는 로그인 없이 무료 열람·다운로드 가능",
+      "license": "MIT",
+      "licenseEvidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/LICENSE",
+      "thirdPartyNotes": "저장소는 코드·영상·이미지의 상업적 사용을 허용하며 저작권 고지 보존 필요. 프롬프트를 실행하는 외부 AI·영상 생성 도구 사용료는 별도.",
+      "items": [
+        {
+          "path": "packs/motion/README.md",
+          "titleKo": "모션그래픽 표현 24선",
+          "descriptionKo": "팝인·스태거·마스크 리빌 등 24가지 움직임의 뜻과 AI 요청 예문을 정리한 사전.",
+          "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
+          "category": "모션",
+          "tags": [
+            "모션그래픽",
+            "프롬프트",
+            "타이포그래피"
+          ],
+          "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
+          "thumbnailUrl": "https://raw.githubusercontent.com/showheyohtaki/motion-prompt/main/assets/preview-motion.gif",
+          "thumbnailEvidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md"
+        },
+        {
+          "path": "packs/camera/README.md",
+          "titleKo": "카메라 움직임과 전환 24선",
+          "descriptionKo": "팬·틸트·돌리 인·줌 등 카메라 연출 용어 24개를 의미와 요청 문장으로 익히는 목록.",
+          "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
+          "category": "영상",
+          "tags": [
+            "카메라",
+            "영상연출",
+            "프롬프트"
+          ],
+          "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
+          "thumbnailUrl": "https://raw.githubusercontent.com/showheyohtaki/motion-prompt/main/assets/preview-camera.gif",
+          "thumbnailEvidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md"
+        },
+        {
+          "path": "packs/ui/README.md",
+          "titleKo": "UI 컴포넌트 이름 24선",
+          "descriptionKo": "모달·드로어·바텀시트·아코디언 등 UI 요소를 AI에게 정확히 설명하는 용어와 예문.",
+          "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
+          "category": "웹사이트",
+          "tags": [
+            "UI",
+            "컴포넌트",
+            "프로토타입"
+          ],
+          "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md"
+        },
+        {
+          "path": "packs/lp/README.md",
+          "titleKo": "랜딩페이지 웹 효과 24선",
+          "descriptionKo": "패럴랙스·스크롤 등장·고정 헤더 등 웹 인터랙션의 이름과 구현 요청 예문.",
+          "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md",
+          "category": "웹사이트",
+          "tags": [
+            "랜딩페이지",
+            "스크롤",
+            "인터랙션"
+          ],
+          "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md"
+        },
+        {
+          "path": "packs/photo/README.md",
+          "titleKo": "사진 조명과 스타일 24선",
+          "descriptionKo": "역광·림라이트·실루엣 등 사진 조명과 렌즈·색감 표현을 AI에게 요청하는 용어집.",
+          "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md",
+          "category": "이미지",
+          "tags": [
+            "사진",
+            "조명",
+            "이미지생성"
+          ],
+          "evidenceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md"
+        }
+      ],
+      "kind": "github-tree",
+      "feed": "https://api.github.com/repos/showheyohtaki/motion-prompt/git/trees/main?recursive=1",
+      "owner": "showheyohtaki"
+    },
+    {
+      "id": "anthropic-skills",
+      "name": "Anthropic 디자인·교육 생산성 스킬",
+      "url": "https://github.com/anthropics/skills",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "evidenceUrl": "https://github.com/anthropics/skills/blob/main/README.md",
+      "access": "선정한 SKILL.md와 보조 자료는 공개 저장소에서 무료 열람·다운로드 가능",
+      "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인",
+      "thirdPartyNotes": "무료 공개 자료와 Claude 실행 요금은 별개. README는 Claude.ai의 예제 스킬 사용을 유료 플랜 기능으로 설명하며 API·Claude Code 등 실행 환경의 요금과 요구사항은 따로 확인해야 함. Academy Guide는 교육 추천용 스킬이며 연결된 강좌 전체의 무료 이용을 보증하지 않음.",
+      "thumbnailNotes": "선정한 스킬에서 실제 README 미리보기 이미지를 확인하지 못해 thumbnailUrl 생략. 임의 OG 이미지나 PDF 파일을 이미지로 대체하지 않음.",
+      "items": [
+        {
+          "path": "skills/canvas-design/SKILL.md",
+          "titleKo": "포스터·정적 비주얼 디자인 스킬",
+          "descriptionKo": "디자인 철학을 세운 뒤 PNG·PDF 포스터와 정적 비주얼을 만드는 워크플로 가이드.",
+          "url": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
+          "category": "이미지",
+          "tags": [
+            "포스터",
+            "PNG",
+            "PDF"
+          ],
+          "evidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
+          "licenseEvidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/LICENSE.txt"
+        },
+        {
+          "path": "skills/frontend-design/SKILL.md",
+          "titleKo": "차별화된 웹 UI 디자인 스킬",
+          "descriptionKo": "주제에 맞는 시각 방향·타이포그래피·구성과 검토 과정을 안내하는 프런트엔드 디자인 지침.",
+          "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+          "category": "웹사이트",
+          "tags": [
+            "UI",
+            "타이포그래피",
+            "프런트엔드"
+          ],
+          "evidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+          "licenseEvidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/LICENSE.txt"
+        },
+        {
+          "path": "skills/pptx/SKILL.md",
+          "titleKo": "강의·발표 슬라이드 제작 스킬",
+          "descriptionKo": "PPTX 생성·수정·내용 추출부터 레이아웃·발표자 노트·품질 검수까지 다루는 실무 가이드.",
+          "url": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
+          "category": "강의자료",
+          "tags": [
+            "강의자료",
+            "PPTX",
+            "슬라이드"
+          ],
+          "evidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
+          "licenseEvidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/pptx/LICENSE.txt"
+        },
+        {
+          "path": "skills/theme-factory/SKILL.md",
+          "titleKo": "문서·슬라이드 테마 팩토리",
+          "descriptionKo": "슬라이드·문서·보고서·랜딩페이지에 적용할 10개 색상·폰트 테마와 새 테마 제작 절차.",
+          "url": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
+          "category": "생산성",
+          "tags": [
+            "테마",
+            "컬러팔레트",
+            "강의자료"
+          ],
+          "evidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
+          "licenseEvidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/LICENSE.txt"
+        },
+        {
+          "path": "skills/academy-guide/SKILL.md",
+          "titleKo": "Claude 교육 자료 추천 가이드",
+          "descriptionKo": "사용자의 학습 목적에 맞는 Claude Academy 강좌·튜토리얼·활용 사례를 찾고 추천하는 스킬.",
+          "url": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+          "category": "강의자료",
+          "tags": [
+            "AI교육",
+            "온보딩",
+            "Claude"
+          ],
+          "evidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+          "licenseEvidenceUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/LICENSE.txt"
+        }
+      ],
+      "kind": "github-tree",
+      "feed": "https://api.github.com/repos/anthropics/skills/git/trees/main?recursive=1",
+      "owner": "anthropics"
+    },
+    {
+      "id": "filatov",
+      "name": "다닐 필라토프 웹디자인",
+      "owner": "daniil-filatov",
+      "url": "https://filatov.design/sites",
+      "feed": "https://filatov.design/sites",
+      "kind": "filatov",
+      "evidenceUrl": "https://filatov.design/sites/then",
+      "thirdPartyNotes": "무료 표시가 있는 시스템만 수집합니다. 유료 전체 구독과 AI 코딩 도구의 이용료는 별도입니다."
+    }
+  ]
+}

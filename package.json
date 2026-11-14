@@ -1,0 +1,16 @@
+{
+  "name": "moa-design-shelf",
+  "version": "0.2.0",
+  "private": true,
+  "description": "AI 디자인 자료 공개 링크를 매일 모으는 개인 자료함",
+  "scripts": {
+    "start": "node scripts/server.cjs",
+    "collect": "node scripts/collect.cjs",
+    "test": "node scripts/test.cjs && node scripts/test-policy.cjs && node scripts/test-discovery.cjs && node scripts/test-extra.cjs",
+    "capture": "node scripts/capture-missing.cjs",
+    "preview": "node scripts/build-preview.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
