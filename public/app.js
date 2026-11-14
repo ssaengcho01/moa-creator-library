@@ -40,6 +40,7 @@
   function githubCategory(item){const c=item.category||'';if(['comfy-workflows','djz-workflows'].includes(item.sourceId)&&c!=='모션')return 'AI 생성·워크플로';if(item.sourceId==='rendercomp'||c==='모션'||(item.sourceId==='motion-prompt'&&c==='영상'))return '모션·영상 제작';if(/웹|UI|디자인·웹/.test(c))return '웹·UI 디자인';if(/강의|문서/.test(c))return '강의·문서';if(/생산성|자동화|코딩|개발/.test(c))return '생산성·자동화';if(/AI 이미지|AI 영상|Comfy|워크플로|3D/.test(c))return 'AI 생성·워크플로';if(/이미지|그래픽|사진/.test(c))return '이미지·그래픽';if(/영상|동영상/.test(c))return '모션·영상 제작';return '기타 도구';}
   function inLibraryView(item){return state.savedView||state.archivedView||(state.libraryView==='github'?isGitHubItem(item):!isGitHubItem(item));}
   function viewCategory(item){return !state.savedView&&!state.archivedView&&state.libraryView==='github'?githubCategory(item):item.category;}
+  function categoryIcon(value){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('width','21');svg.setAttribute('height','21');svg.setAttribute('aria-hidden','true');svg.setAttribute('class','chip-icon');let d='M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z';if(/모션|영상/.test(value))d='M4 5h16v14H4zM10 9l6 3-6 3z';else if(/3D/.test(value))d='M12 3l9 5-9 5-9-5zM3 8v9l9 5 9-5V8M12 13v9';else if(/이미지|그래픽|사진|배경/.test(value))d='M3 4h18v16H3zM3 16l6-6 5 5 3-3 4 5M16 8h.01';else if(/강의|문서/.test(value))d='M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h7';else if(/웹|UI|디자인|컴포넌트/.test(value))d='M3 4h18v16H3zM3 9h18M7 6.5h.01M10 6.5h.01M7 13h4v4H7zM14 13h4M14 17h4';else if(/생산성|자동화/.test(value))d='M13 2L4 14h7l-1 8 10-13h-8z';else if(/AI|워크플로/.test(value))d='M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z';const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',d);p.setAttribute('fill','none');p.setAttribute('stroke','currentColor');p.setAttribute('stroke-width','1.5');p.setAttribute('stroke-linecap','round');p.setAttribute('stroke-linejoin','round');svg.append(p);return svg;}
   function buildCategories() {
     const github=!state.savedView&&!state.archivedView&&state.libraryView==='github';
     const base=state.data.items.filter(inLibraryView).filter(item=>state.archivedView?isArchived(item):!isArchived(item)).filter(item=>!state.savedView||state.saved.has(item.id));
@@ -48,7 +49,7 @@
     $('category-context').textContent=github?'GitHub 도구 › 세부 카테고리':state.savedView?'즐겨찾기 분류':state.archivedView?'보관한 자료 분류':'일반 자료 분류';
     $('categories').setAttribute('aria-label',github?'GitHub 세부 카테고리':'자료 카테고리');
     const fragment=document.createDocumentFragment();
-    for(const value of ['all',...categories]){const count=value==='all'?base.length:base.filter(item=>viewCategory(item)===value).length;const label=(value==='all'?'전체':categoryLabel(value))+' '+count;const button=node('button','chip',label);button.type='button';button.setAttribute('aria-pressed',String(state.category===value));button.addEventListener('click',()=>{state.category=value;state.limit=PAGE_SIZE;buildCategories();render();});fragment.append(button);}
+    for(const value of ['all',...categories]){const count=value==='all'?base.length:base.filter(item=>viewCategory(item)===value).length;const label=(value==='all'?'전체':categoryLabel(value))+' '+count;const button=node('button','chip');button.append(categoryIcon(value),node('span','chip-label',(value==='all'?'전체':categoryLabel(value))+' '),node('span','chip-count',String(count)));button.type='button';button.setAttribute('aria-pressed',String(state.category===value));button.addEventListener('click',()=>{state.category=value;state.limit=PAGE_SIZE;buildCategories();render();});fragment.append(button);}
     $('categories').replaceChildren(fragment);
   }
   function sourceLabel(id) { return state.data?.sources.find(source => source.id === id)?.name || id; }
@@ -146,7 +147,7 @@
   function showState(title, message, retry = false) { const container = $('library-state'); container.hidden = false; container.replaceChildren(node('h3', '', title), node('p', '', message)); const button = node('button', 'outline-button', retry ? '다시 불러오기' : '필터 초기화'); button.type = 'button'; button.addEventListener('click', retry ? loadLibrary : resetFilters); container.append(button); }
   function render(focus) {
     if (!state.data) return;
-    const items = filteredItems();
+    const items = filteredItems();const compactFilterCount=Number(state.source!=='all')+Number(state.hideRead);$('mobile-filter-count').hidden=!compactFilterCount;$('mobile-filter-count').textContent=String(compactFilterCount);
     const activeCount=state.data.items.filter(item=>!isArchived(item)).length;const generalCount=state.data.items.filter(item=>!isArchived(item)&&!isGitHubItem(item)).length;const githubCount=activeCount-generalCount;$('github-count').textContent=githubCount;const archivedCount=state.data.items.length-activeCount;$('all-count').textContent=generalCount;$('archived-count').textContent=archivedCount;$('archive-note').hidden=!state.archivedView;
     const savedInLibrary = state.data.items.filter(item => state.saved.has(item.id)&&!isArchived(item)).length;
     $('saved-count').textContent = savedInLibrary;
@@ -225,5 +226,10 @@
   });
   function arrangeMobileIntro(){const hero=document.querySelector('.hero');const brand=document.querySelector('.brand');const main=$('main');if(!hero||!brand||!main)return;if(window.matchMedia('(max-width: 700px)').matches){brand.insertAdjacentElement('afterend',hero);}else{main.insertBefore(hero,main.querySelector('.collection'));}}
   const mobileIntroQuery=window.matchMedia('(max-width: 700px)');mobileIntroQuery.addEventListener('change',arrangeMobileIntro);arrangeMobileIntro();
+  const mobileControlSlots=new Map();
+  function moveMobileControl(element,target){if(!element||!target)return;if(!mobileControlSlots.has(element)){const marker=document.createComment('mobile-control-slot');element.before(marker);mobileControlSlots.set(element,marker);}target.append(element);}
+  function arrangeMobileControls(){const mobile=window.matchMedia('(max-width: 700px)').matches;const info=$('mobile-collection-info');const filters=$('mobile-filters');if(!info||!filters)return;if(mobile){for(const el of [document.querySelector('.collection-meta'),$('source-scope'),$('policy-summary')])moveMobileControl(el,info.querySelector('.mobile-info-panel'));for(const el of [document.querySelector('label[for="source-filter"]'),$('source-filter'),document.querySelector('label[for="sort"]'),$('sort'),document.querySelector('.hide-read')])moveMobileControl(el,filters.querySelector('.mobile-filter-panel'));}else{for(const [el,marker]of mobileControlSlots)if(marker.parentNode)marker.parentNode.insertBefore(el,marker.nextSibling);info.open=false;filters.open=false;}}
+  mobileIntroQuery.addEventListener('change',arrangeMobileControls);arrangeMobileControls();
+  for(const id of ['source-filter','sort'])$(id).addEventListener('change',()=>{if(mobileIntroQuery.matches)$('mobile-filters').open=false;});
   renderDeploymentState(); loadPreferences(); loadLibrary();
 })();
