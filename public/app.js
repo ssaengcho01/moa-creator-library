@@ -4,7 +4,7 @@
   const STORAGE_KEY = 'moa-design-shelf:preferences:v1';
   const PAGE_SIZE = 24;
   let embeddedImages={};try{embeddedImages=JSON.parse(document.getElementById('embedded-images')?.textContent||'{}');}catch{}
-  const state = { data: null, query: '', category: 'all', source: 'all', sort: 'discovered', savedView: false, archivedView: false, archived: new Map(), archivedURLs: new Set(), hideRead: false, limit: PAGE_SIZE, saved: new Set(), read: new Set(), loading: false, error: false };
+  const state = { data: null, query: '', category: 'all', source: 'all', sort: 'discovered', savedView: false, libraryView: 'general', archivedView: false, archived: new Map(), archivedURLs: new Set(), hideRead: false, limit: PAGE_SIZE, saved: new Set(), read: new Set(), loading: false, error: false };
   const dateFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'Asia/Seoul' });
   const timeFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Seoul' });
   function node(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
@@ -36,10 +36,19 @@
     });
     return { ...raw, items: items.filter(item => item.access === 'free' && item.pricingEvidence?.checkedAt), sources, runs: raw.runs.filter(run => run && timestamp(run.at)) };
   }
+  function isGitHubItem(item){return [item.url,item.sourceUrl].some(value=>{try{return ['github.com','raw.githubusercontent.com','gist.github.com'].includes(new URL(value).hostname);}catch{return false;}});}
+  function githubCategory(item){const c=item.category||'';if(['comfy-workflows','djz-workflows'].includes(item.sourceId)&&c!=='모션')return 'AI 생성·워크플로';if(item.sourceId==='rendercomp'||c==='모션'||(item.sourceId==='motion-prompt'&&c==='영상'))return '모션·영상 제작';if(/웹|UI|디자인·웹/.test(c))return '웹·UI 디자인';if(/강의|문서/.test(c))return '강의·문서';if(/생산성|자동화|코딩|개발/.test(c))return '생산성·자동화';if(/AI 이미지|AI 영상|Comfy|워크플로|3D/.test(c))return 'AI 생성·워크플로';if(/이미지|그래픽|사진/.test(c))return '이미지·그래픽';if(/영상|동영상/.test(c))return '모션·영상 제작';return '기타 도구';}
+  function inLibraryView(item){return state.savedView||state.archivedView||(state.libraryView==='github'?isGitHubItem(item):!isGitHubItem(item));}
+  function viewCategory(item){return !state.savedView&&!state.archivedView&&state.libraryView==='github'?githubCategory(item):item.category;}
   function buildCategories() {
-    const categories = [...new Set(state.data.items.map(item => item.category).filter(Boolean))].sort((a,b) => a.localeCompare(b, 'ko'));
-    const fragment = document.createDocumentFragment();
-    for (const value of ['all', ...categories]) { const button = node('button', 'chip', value === 'all' ? '전체' : categoryLabel(value)); button.type = 'button'; button.setAttribute('aria-pressed', String(state.category === value)); button.addEventListener('click', () => { state.category = value; state.limit = PAGE_SIZE; buildCategories(); render(); }); fragment.append(button); }
+    const github=!state.savedView&&!state.archivedView&&state.libraryView==='github';
+    const base=state.data.items.filter(inLibraryView).filter(item=>state.archivedView?isArchived(item):!isArchived(item)).filter(item=>!state.savedView||state.saved.has(item.id));
+    const categories=[...new Set(base.map(viewCategory).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ko'));
+    if(state.category!=='all'&&!categories.includes(state.category))state.category='all';
+    $('category-context').textContent=github?'GitHub 도구 › 세부 카테고리':state.savedView?'즐겨찾기 분류':state.archivedView?'보관한 자료 분류':'일반 자료 분류';
+    $('categories').setAttribute('aria-label',github?'GitHub 세부 카테고리':'자료 카테고리');
+    const fragment=document.createDocumentFragment();
+    for(const value of ['all',...categories]){const count=value==='all'?base.length:base.filter(item=>viewCategory(item)===value).length;const label=(value==='all'?'전체':categoryLabel(value))+' '+count;const button=node('button','chip',label);button.type='button';button.setAttribute('aria-pressed',String(state.category===value));button.addEventListener('click',()=>{state.category=value;state.limit=PAGE_SIZE;buildCategories();render();});fragment.append(button);}
     $('categories').replaceChildren(fragment);
   }
   function sourceLabel(id) { return state.data?.sources.find(source => source.id === id)?.name || id; }
@@ -52,10 +61,10 @@
     try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password ? url.href : null; } catch { return null; }
   }
   function buildSourceControls() {
-    const list = $('source-list'); const select = $('source-filter');
+    const list = $('source-list'); const select = $('source-filter');const menuSourceIds=new Set(state.data.items.filter(inLibraryView).map(item=>item.sourceId));const menuSources=state.data.sources.filter(s=>s.eligibleCount>0&&menuSourceIds.has(s.id));
     list.replaceChildren(); select.replaceChildren();
     const all = node('option', '', '모든 출처'); all.value = 'all'; select.append(all);
-    for (const source of state.data.sources.filter(s=>s.eligibleCount>0)) {
+    for (const source of menuSources) {
       const option = node('option', '', source.name); option.value = source.id; select.append(option);
       const url = safeURL(source.url); const link = node(url ? 'a' : 'span', 'source-link');
       const dot = node('span', 'source-dot'); dot.setAttribute('aria-hidden', 'true');
@@ -63,12 +72,12 @@
       if (url) { link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; const arrow = node('span', 'source-arrow', '↗'); arrow.setAttribute('aria-hidden', 'true'); link.append(arrow); }
       list.append(link);
     }
-    if (!state.data.sources.some(source => source.id === state.source)) state.source = 'all';
+    if (!menuSources.some(source => source.id === state.source)) state.source = 'all';
     select.value = state.source;
-    $('source-count').textContent = String(state.data.sources.filter(s=>s.eligibleCount>0).length);
+    $('source-count').textContent = String(menuSources.length);
     const names = state.data.sources.map(source => source.name).join(' · ');
     const withData=state.data.sources.filter(source => (source.eligibleCount || 0)>0).length;const discovery=state.data.discovery;
-    $('source-scope').textContent = '자료가 있는 출처 '+withData+'곳 · 이번 회차 무작위 수집 '+(discovery?.selectedCount || 0)+'곳 · 후보 '+(discovery?.totalSourceCount || state.data.sources.length)+'곳';
+    $('source-scope').textContent = '현재 메뉴 출처 '+menuSources.length+'곳 · 이번 회차 전체 수집 '+(discovery?.selectedCount || 0)+'곳 · 후보 '+(discovery?.totalSourceCount || state.data.sources.length)+'곳';
     $('dialog-scope').textContent = '현재 수집 범위: ' + (names || '등록된 출처 없음');
     $('footer-scope').textContent = '현재 ' + state.data.sources.length + '개 출처의 공개 자료를 수집합니다.';
   }
@@ -93,7 +102,7 @@
     const title = shownTitle(item);
     const saved = state.saved.has(item.id);
     const save = node('button', 'save-button'); save.append(heartIcon(saved)); save.type = 'button'; save.setAttribute('aria-label', title + (saved ? ' 즐겨찾기 해제' : ' 즐겨찾기 추가')); save.setAttribute('aria-pressed', String(saved));
-    save.addEventListener('click', () => { if (state.saved.has(item.id)) state.saved.delete(item.id); else state.saved.add(item.id); persist(); render({ id: item.id, control: 'save' }); }); save.dataset.control = 'save'; save.dataset.itemId = item.id;
+    save.addEventListener('click', () => { if (state.saved.has(item.id)) state.saved.delete(item.id); else state.saved.add(item.id); persist(); buildCategories();render({ id: item.id, control: 'save' }); }); save.dataset.control = 'save'; save.dataset.itemId = item.id;
     visual.append(save);
     const body = node('div', 'card-body'); const top = node('div', 'card-topline'); const source = node('span', 'card-source'); source.append(node('span', 'source-dot'), document.createTextNode(sourceLabel(item.sourceId)));
     const accessLabels = { 'public-link': '공개 링크', unknown: '조건 미확인', free: '자료 무료', paid: '유료 표시' };
@@ -105,7 +114,7 @@
     const read = node('button', 'read-button', state.read.has(item.id) ? '읽음 취소' : '읽음 표시'); read.type = 'button'; read.setAttribute('aria-pressed', String(state.read.has(item.id))); read.setAttribute('aria-label', title + (state.read.has(item.id) ? ' 읽음 취소' : ' 읽음 표시')); read.dataset.control = 'read'; read.dataset.itemId = item.id;
     read.addEventListener('click', () => { if (state.read.has(item.id)) state.read.delete(item.id); else state.read.add(item.id); persist(); render({ id: item.id, control: 'read' }); });
     const archive=node('button','archive-button',state.archivedView?'보관 해제':'보관');archive.type='button';archive.setAttribute('aria-label',title+(state.archivedView?' 보관 해제':' 보관'));archive.title=state.archivedView?'기본 목록으로 복원':'기본 목록과 즐겨찾기에서 숨기기';archive.dataset.control='archive';archive.dataset.itemId=item.id;
-    archive.addEventListener('click',()=>{if(state.archivedView){const url=archiveURL(item.url);for(const [id,stored]of state.archived)if(id===item.id||archiveURL(stored)===url)state.archived.delete(id);}else state.archived.set(item.id,archiveURL(item.url));refreshArchiveURLs();persist();render();$('result-count').textContent+=(state.archivedView?' · 보관 해제했어요':' · 보관함으로 옮겼어요');$('view-archived').focus({preventScroll:true});});
+    archive.addEventListener('click',()=>{if(state.archivedView){const url=archiveURL(item.url);for(const [id,stored]of state.archived)if(id===item.id||archiveURL(stored)===url)state.archived.delete(id);}else state.archived.set(item.id,archiveURL(item.url));refreshArchiveURLs();persist();buildCategories();render();$('result-count').textContent+=(state.archivedView?' · 보관 해제했어요':' · 보관함으로 옮겼어요');$('view-archived').focus({preventScroll:true});});
     const actions=node('div','card-actions');actions.append(read,archive);bottom.append(dates,actions); body.append(top, heading, description);
     if(item.usageKo){const use=node('section','card-usage');use.append(node('strong','','이렇게 활용하세요'),node('p','',item.usageKo));body.append(use);}
     if(Array.isArray(item.stepsKo)&&item.stepsKo.length){const guide=node('details','usage-details');guide.append(node('summary','','시작 방법·준비물·주의사항'));if(item.audienceKo)guide.append(node('p','', '추천 대상: '+item.audienceKo));const steps=node('ol');for(const step of item.stepsKo)steps.append(node('li','',step));guide.append(steps);if(item.requirementsKo)guide.append(node('p','', '준비물: '+item.requirementsKo));if(item.cautionsKo)guide.append(node('p','guide-caution','주의: '+item.cautionsKo));for(const [i,url] of (item.referenceUrls||[]).entries()){if(safeURL(url)){const ref=node('a','guide-reference','확인한 원문 '+(i+1)+' ↗');ref.href=safeURL(url);ref.target='_blank';ref.rel='noopener noreferrer';guide.append(ref);}}if(item.reviewedAt)guide.append(node('p','review-date','내용 확인: '+date(item.reviewedAt)));body.append(guide);}
@@ -117,7 +126,7 @@
   }
   function filteredItems() {
     const query = state.query.toLocaleLowerCase('ko');
-    const sorted = state.data.items.filter(item => (state.archivedView ? isArchived(item) : !isArchived(item)) && (!state.savedView || state.saved.has(item.id)) && (state.archivedView || !state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || item.category === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.usageKo || '', item.audienceKo || '', ...(item.stepsKo || []), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
+    const sorted = state.data.items.filter(item => inLibraryView(item) && (state.archivedView ? isArchived(item) : !isArchived(item)) && (!state.savedView || state.saved.has(item.id)) && (state.archivedView || !state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || viewCategory(item) === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.usageKo || '', item.audienceKo || '', ...(item.stepsKo || []), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
       if (state.sort === 'title') return shownTitle(a).localeCompare(shownTitle(b), 'ko') || a.id.localeCompare(b.id);
       const field = state.sort === 'published' ? 'publishedAt' : 'firstSeenAt'; return timestamp(b[field]) - timestamp(a[field]) || (state.sort === 'discovered' ? timestamp(b.publishedAt) - timestamp(a.publishedAt) : 0) || shownTitle(a).localeCompare(shownTitle(b), 'ko');
     });
@@ -138,12 +147,12 @@
   function render(focus) {
     if (!state.data) return;
     const items = filteredItems();
-    const activeCount=state.data.items.filter(item=>!isArchived(item)).length;const archivedCount=state.data.items.length-activeCount;$('all-count').textContent=activeCount;$('archived-count').textContent=archivedCount;$('archive-note').hidden=!state.archivedView;
+    const activeCount=state.data.items.filter(item=>!isArchived(item)).length;const generalCount=state.data.items.filter(item=>!isArchived(item)&&!isGitHubItem(item)).length;const githubCount=activeCount-generalCount;$('github-count').textContent=githubCount;const archivedCount=state.data.items.length-activeCount;$('all-count').textContent=generalCount;$('archived-count').textContent=archivedCount;$('archive-note').hidden=!state.archivedView;
     const savedInLibrary = state.data.items.filter(item => state.saved.has(item.id)&&!isArchived(item)).length;
     $('saved-count').textContent = savedInLibrary;
-    $('collection-title').firstChild.textContent = state.archivedView ? '보관함 ' : state.savedView ? '즐겨찾기 ' : '전체 자료함 ';
-    $('heading-count').textContent = state.archivedView ? archivedCount : state.savedView ? savedInLibrary : activeCount;
-    $('view-archived').classList.toggle('active',state.archivedView);$('view-archived').setAttribute('aria-pressed',String(state.archivedView));$('view-all').classList.toggle('active', !state.savedView&&!state.archivedView); $('view-saved').classList.toggle('active', state.savedView); $('view-all').setAttribute('aria-pressed', String(!state.savedView&&!state.archivedView)); $('view-saved').setAttribute('aria-pressed', String(state.savedView));
+    $('collection-title').firstChild.textContent = state.archivedView ? '보관함 ' : state.savedView ? '즐겨찾기 ' : state.libraryView==='github' ? 'GitHub 도구 ' : '일반 자료함 ';
+    $('heading-count').textContent = state.archivedView ? archivedCount : state.savedView ? savedInLibrary : state.libraryView==='github'?githubCount:generalCount;
+    $('view-archived').classList.toggle('active',state.archivedView);$('view-archived').setAttribute('aria-pressed',String(state.archivedView));$('view-github').classList.toggle('active',!state.savedView&&!state.archivedView&&state.libraryView==='github');$('view-github').setAttribute('aria-pressed',String(!state.savedView&&!state.archivedView&&state.libraryView==='github'));$('view-all').classList.toggle('active', !state.savedView&&!state.archivedView&&state.libraryView==='general'); $('view-saved').classList.toggle('active', state.savedView); $('view-all').setAttribute('aria-pressed', String(!state.savedView&&!state.archivedView&&state.libraryView==='general')); $('view-saved').setAttribute('aria-pressed', String(state.savedView));
     const visible = items.slice(0, state.limit);
     $('result-count').textContent = items.length + '개의 자료' + (items.length ? ' · ' + visible.length + '개 표시' : '') + (state.archivedView ? ' · 보관한 목록' : state.savedView ? ' · 즐겨찾기' : '');
     $('reset-filters').hidden = !(state.query || state.category !== 'all' || state.source !== 'all' || state.hideRead);
@@ -153,7 +162,7 @@
     $('load-more').hidden = visible.length >= items.length; $('remaining-count').textContent = '(' + (items.length - visible.length) + '개 남음)';
     if (focus) { const target = Array.from($('grid').querySelectorAll('button')).find(button => button.dataset.itemId === focus.id && button.dataset.control === focus.control); if (target) target.focus({ preventScroll: true }); else (state.savedView ? $('view-saved') : $('hide-read')).focus({ preventScroll: true }); }
   }
-  function resetFilters() { state.query = ''; state.category = 'all'; state.source = 'all'; state.hideRead = false; state.limit = PAGE_SIZE; $('search').value = ''; $('source-filter').value = 'all'; $('hide-read').checked = false; persist(); if (state.data) { buildCategories(); render(); } }
+  function resetFilters() { state.query = ''; state.category = 'all'; state.source = 'all'; state.hideRead = false; state.limit = PAGE_SIZE; $('search').value = ''; $('source-filter').value = 'all'; $('hide-read').checked = false; persist(); if (state.data) { buildSourceControls();buildCategories(); render(); } }
   function renderSources() {
     const container = $('source-details'); container.replaceChildren();
     container.append(node('p','small-note','새 출처 탐색과 수집은 자동으로 실행합니다. 새 GitHub 자료는 실제 내용·활용법을 확인한 한국어 설명이 있어야 공개하며, 검수 전 자료와 주제가 맞지 않거나 실습 파일이 없는 자료는 자료함에서 보류합니다.')); 
@@ -192,7 +201,9 @@
   function openGuide() { renderSources(); const dialog = $('info-dialog'); if (!dialog.open) dialog.showModal(); }
   $('collection-guide').addEventListener('click', openGuide); $('source-status').addEventListener('click', openGuide); $('close-dialog').addEventListener('click', () => $('info-dialog').close());
   $('info-dialog').addEventListener('click', event => { if (event.target === $('info-dialog')) { const rect = event.target.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) event.target.close(); } });
-  $('view-all').addEventListener('click', () => { state.archivedView=false;state.savedView = false; state.limit = PAGE_SIZE; render(); }); $('view-saved').addEventListener('click', () => { state.archivedView=false;state.savedView = true; state.limit = PAGE_SIZE; render(); });
+  $('view-all').addEventListener('click',()=>{state.archivedView=false;state.savedView=false;state.libraryView='general';resetFilters();});
+  $('view-github').addEventListener('click',()=>{state.archivedView=false;state.savedView=false;state.libraryView='github';resetFilters();});
+  $('view-saved').addEventListener('click',()=>{state.archivedView=false;state.savedView=true;resetFilters();});
   $('view-archived').addEventListener('click',()=>{state.archivedView=true;state.savedView=false;resetFilters();});
   $('search').addEventListener('input', event => { state.query = event.target.value.trim(); state.limit = PAGE_SIZE; render(); });
   $('source-filter').addEventListener('change', event => { state.source = event.target.value; state.limit = PAGE_SIZE; render(); }); $('sort').addEventListener('change', event => { state.sort = event.target.value; state.limit = PAGE_SIZE; render(); });
@@ -212,5 +223,7 @@
       $('backup-status').textContent = '저장 ' + (state.saved.size - previousSaved) + '개를 기존 목록에 합쳤어요. 보관 기록도 합치며 현재 목록에 없는 자료의 기록도 보존합니다.';
     } catch (error) { $('backup-status').textContent = error instanceof SyntaxError ? 'JSON 파일을 읽을 수 없어요. 파일 형식을 확인하세요.' : error.message || '백업을 가져오지 못했어요.'; } finally { event.target.value = ''; }
   });
+  function arrangeMobileIntro(){const hero=document.querySelector('.hero');const brand=document.querySelector('.brand');const main=$('main');if(!hero||!brand||!main)return;if(window.matchMedia('(max-width: 700px)').matches){brand.insertAdjacentElement('afterend',hero);}else{main.insertBefore(hero,main.querySelector('.collection'));}}
+  const mobileIntroQuery=window.matchMedia('(max-width: 700px)');mobileIntroQuery.addEventListener('change',arrangeMobileIntro);arrangeMobileIntro();
   renderDeploymentState(); loadPreferences(); loadLibrary();
 })();

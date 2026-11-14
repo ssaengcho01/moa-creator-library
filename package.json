@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node scripts/server.cjs",
     "collect": "node scripts/collect.cjs",
-    "test": "node scripts/test.cjs && node scripts/test-policy.cjs && node scripts/test-discovery.cjs && node scripts/test-extra.cjs && node scripts/test-editorial.cjs && node scripts/test-personal-library.cjs",
+    "test": "node scripts/test.cjs && node scripts/test-policy.cjs && node scripts/test-discovery.cjs && node scripts/test-extra.cjs && node scripts/test-editorial.cjs && node scripts/test-personal-library.cjs && node scripts/test-github-library.cjs",
     "capture": "node scripts/capture-missing.cjs",
     "preview": "node scripts/build-preview.cjs"
   },

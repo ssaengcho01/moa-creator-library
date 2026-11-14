@@ -14,3 +14,9 @@ main{margin-left:246px;padding:0 44px;max-width:1900px}.topbar{min-height:76px;b
 
 /* AI 디자인 꿀zip wordmark */
 .brand{gap:12px}.brand-symbol{font-size:17px;letter-spacing:-1px;padding-right:0;font-weight:750}.brand-wordmark{display:flex;flex-direction:column;gap:3px}.brand-kicker{font-size:12px;font-weight:500;letter-spacing:.1px;color:var(--muted);line-height:1.3}.brand-title{font-size:27px;font-weight:750;letter-spacing:-.6px;line-height:1.15}.edition{overflow-wrap:anywhere}footer strong{font-size:20px}@media(max-width:700px){.brand-title{font-size:25px}.brand-symbol{font-size:16px}.brand-kicker{font-size:11px}}
+
+/* GitHub tools live in their own library with nested purpose filters. */
+.github-nav-icon{font-size:11px;font-weight:750;letter-spacing:-.5px;display:inline-grid;place-items:center;background:#263225;color:#e9efdc;border-radius:4px;width:23px;height:23px}.category-context{font-size:12px;font-weight:650;color:#4e633e;margin:20px 0 -10px;line-height:1.7}#view-github.active{background:#d1ef69}@media(max-width:700px){.sidebar nav{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-item{justify-content:flex-start;padding:10px 12px;gap:8px}.nav-count{margin-left:auto}.category-context{margin-top:18px}}
+
+/* On mobile, introduction sits directly under the brand and above library navigation. */
+@media(max-width:700px){.sidebar>.brand{margin-bottom:0}.sidebar>.hero{padding:26px 0 28px}.sidebar>.hero .hero-copy>p{line-height:1.85}.topbar{display:none}.sidebar>nav{margin-top:0}}
