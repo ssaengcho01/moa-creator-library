@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T10:48:13.574Z",
+  "updatedAt": "2026-11-14T10:55:55.776Z",
   "items": [
     {
       "id": "e6bef2c6feb4ea2976a5",
@@ -165,7 +165,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -175,7 +175,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -208,7 +208,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:48:12.965Z",
+        "checkedAt": "2026-11-14T10:55:52.757Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -218,7 +218,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -357,7 +357,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/mjmirza/apple-design-system/blob/master/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-14T10:48:10.963Z",
+        "checkedAt": "2026-11-14T10:55:53.818Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -368,7 +368,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "titleKo": "애플 앱 화면 설계 자료 찾기 · UI 구성요소·공식 링크 카탈로그",
       "descriptionKo": "애플 앱의 버튼·탐색 구조 같은 UI 구성요소, 디자인 원칙, 폰트·아이콘·UI 키트의 공식 출처를 모은 비공식 카탈로그입니다. 무료 이미지 팩이 아니라 필요한 디자인 자료와 사용 맥락을 찾는 참고용 색인입니다.",
@@ -419,7 +419,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:48:12.965Z",
+        "checkedAt": "2026-11-14T10:55:52.757Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -429,7 +429,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -462,7 +462,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:48:12.965Z",
+        "checkedAt": "2026-11-14T10:55:52.757Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -472,7 +472,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -634,7 +634,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:48:12.965Z",
+        "checkedAt": "2026-11-14T10:55:52.757Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -644,7 +644,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -676,7 +676,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Roda-AudioReactive-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -686,7 +686,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -759,7 +759,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/JustUpscalingThings-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -769,7 +769,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -801,7 +801,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/DJZ-3D",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -811,7 +811,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -887,7 +887,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:48:12.965Z",
+        "checkedAt": "2026-11-14T10:55:52.757Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -897,7 +897,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:48:13.574Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -972,7 +972,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Foda_Flux",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -982,7 +982,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -1014,7 +1014,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Hoda-Hunyuan-Video",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:51.352Z",
+        "checkedAt": "2026-11-14T10:55:53.162Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -1024,7 +1024,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -1051,8 +1051,8 @@
       "access": "free",
       "accessNote": "가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.",
       "firstSeenAt": "2026-11-14T06:25:57.108Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
-      "updatedAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
+      "updatedAt": "2026-11-14T10:55:55.776Z",
       "sourceEntryUrl": "https://nifty-licorice-663.notion.site/26-11-13-417fd99f0e5f81059333ff88b7565310",
       "originalSocialUrl": "https://www.instagram.com/prompt_what/p/DfqqjWKI55G/",
       "collectionMethod": "공개 자료실의 목록 데이터",
@@ -1091,8 +1091,8 @@
       "access": "free",
       "accessNote": "가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.",
       "firstSeenAt": "2026-11-14T06:25:57.108Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
-      "updatedAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
+      "updatedAt": "2026-11-14T10:55:55.776Z",
       "sourceEntryUrl": "https://nifty-licorice-663.notion.site/26-11-10-GPT-414fd99f0e5f81c88c0de2457998b719",
       "originalSocialUrl": "https://www.instagram.com/prompt_what/reel/DfiwBVUSwzW/",
       "collectionMethod": "공개 자료실의 목록 데이터",
@@ -1131,8 +1131,8 @@
       "access": "free",
       "accessNote": "가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.",
       "firstSeenAt": "2026-11-14T06:25:57.108Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
-      "updatedAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
+      "updatedAt": "2026-11-14T10:55:55.776Z",
       "sourceEntryUrl": "https://nifty-licorice-663.notion.site/26-11-07-GPT-411fd99f0e5f8144abb6c9f05e9aba07",
       "originalSocialUrl": "https://www.instagram.com/prompt_what/reel/Dfbg_dPS-DA/",
       "collectionMethod": "공개 자료실의 목록 데이터",
@@ -1174,8 +1174,8 @@
       "access": "free",
       "accessNote": "가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.",
       "firstSeenAt": "2026-11-14T06:25:57.108Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
-      "updatedAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
+      "updatedAt": "2026-11-14T10:55:55.776Z",
       "sourceEntryUrl": "https://nifty-licorice-663.notion.site/26-11-07-3-411fd99f0e5f816e92ccd9e6c005f680",
       "originalSocialUrl": "https://www.instagram.com/prompt_what/reel/DfcBUkDSb0y/",
       "collectionMethod": "공개 자료실의 목록 데이터",
@@ -1216,8 +1216,8 @@
       "access": "free",
       "accessNote": "가이드 본문이 로그인·결제 없이 공개되어 있음을 확인했습니다. 소개 도구의 사용 요금과는 별개입니다.",
       "firstSeenAt": "2026-11-14T06:25:57.108Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
-      "updatedAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-14T10:55:55.776Z",
+      "updatedAt": "2026-11-14T10:55:55.776Z",
       "sourceEntryUrl": "https://app.notion.com/p/3c9fd99f0e5f8155acb3cb607913bee3",
       "originalSocialUrl": "https://www.instagram.com/prompt_what/p/DciaB-vkeV8/",
       "collectionMethod": "공개 자료실의 목록 데이터",
@@ -11166,13 +11166,13 @@
       "id": "promptwhat",
       "name": "프롬왓",
       "url": "https://promptwhat-ai-library.promptwhatt.chatgpt.site/",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T09:10:20.111Z",
-      "lastSuccessAt": "2026-11-14T09:10:20.111Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 205,
       "newCount": 0,
-      "changedCount": 0,
+      "changedCount": 5,
       "error": null,
       "eligibleCount": 5,
       "paidCount": 0,
@@ -11182,8 +11182,8 @@
       "id": "threeui",
       "name": "쓰리유아이",
       "url": "https://threeui.com/",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
       "itemCount": 845,
@@ -11214,10 +11214,10 @@
       "id": "djz-workflows",
       "name": "드리프트 존슨 워크플로",
       "url": "https://github.com/MushroomFleet/DJZ-Workflows",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T10:23:52.722Z",
-      "lastSuccessAt": "2026-11-14T10:23:52.722Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 6,
       "newCount": 0,
       "changedCount": 0,
@@ -11248,8 +11248,8 @@
       "url": "https://github.com/showheyohtaki/motion-prompt",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T10:48:13.574Z",
-      "lastSuccessAt": "2026-11-14T10:48:13.574Z",
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -11262,8 +11262,8 @@
       "id": "anthropic-skills",
       "name": "Anthropic 디자인·교육 생산성 스킬",
       "url": "https://github.com/anthropics/skills",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
       "itemCount": 5,
@@ -11312,8 +11312,8 @@
       "url": "https://github.com/mjmirza/apple-design-system",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T10:48:13.574Z",
-      "lastSuccessAt": "2026-11-14T10:48:13.574Z",
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11326,8 +11326,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
       "itemCount": 1,
@@ -11344,10 +11344,10 @@
       "url": "https://github.com/fkimmel25/claude-video-editing-kit",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T10:48:13.574Z",
-      "lastSuccessAt": "2026-11-14T10:48:13.574Z",
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 1,
-      "newCount": 1,
+      "newCount": 0,
       "changedCount": 0,
       "error": null,
       "eligibleCount": 0,
@@ -11358,8 +11358,8 @@
       "id": "discovered-vedhs9131ocmc-hyperframes-demos",
       "name": "모션·Remotion · vedhs9131ocMC",
       "url": "https://github.com/vedhs9131ocMC/hyperframes-demos",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
       "itemCount": 1,
@@ -11374,12 +11374,12 @@
       "id": "discovered-aemotionstudio-comfyui-cdn-link-examples",
       "name": "ComfyUI 워크플로 · AEmotionStudio",
       "url": "https://github.com/AEmotionStudio/ComfyUI-CDN-Link-Examples",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
       "itemCount": 1,
-      "newCount": 1,
+      "newCount": 0,
       "changedCount": 0,
       "error": null,
       "eligibleCount": 0,
@@ -11390,10 +11390,42 @@
       "id": "discovered-imran31415-sloppyjoes-video",
       "name": "ComfyUI 워크플로 · imran31415",
       "url": "https://github.com/imran31415/sloppyjoes-video",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T10:48:13.574Z",
       "lastSuccessAt": "2026-11-14T10:48:13.574Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-a719689614-comfyui-workflow",
+      "name": "ComfyUI 워크플로 · A719689614",
+      "url": "https://github.com/A719689614/ComfyUI-WorkFlow",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-ltdrdata-comfyui-workflow-component",
+      "name": "ComfyUI 워크플로 · ltdrdata",
+      "url": "https://github.com/ltdrdata/ComfyUI-Workflow-Component",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T10:55:55.776Z",
+      "lastSuccessAt": "2026-11-14T10:55:55.776Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -11436,6 +11468,56 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-14T10:55:55.776Z",
+      "newCount": 2,
+      "changedCount": 5,
+      "baseline": false,
+      "sourcesOk": 7,
+      "totalSources": 19,
+      "selectedSourceIds": [
+        "motion-prompt",
+        "djz-workflows",
+        "discovered-fkimmel25-claude-video-editing-kit",
+        "discovered-a719689614-comfyui-workflow",
+        "discovered-mjmirza-apple-design-system",
+        "discovered-ltdrdata-comfyui-workflow-component",
+        "promptwhat"
+      ],
+      "selectedCount": 7,
+      "sampledItemIds": [
+        "541fc75ac5bea3a3b047",
+        "a762e54dd05fea587d05",
+        "3dc16d546e8095e459ae",
+        "956d30ca5b6e6f3815fa",
+        "c69e5cb5e2ee7058bb2a",
+        "a4370041b0e5de65ce9b",
+        "fa72ee6e86503c55c697",
+        "55632c35b84be56bc785",
+        "e8bfd06512ca64cd733d",
+        "10f2fa1d7cbb9012bb7d",
+        "a1dd7c38d796daf01e8c",
+        "e45eddc0e66877bb1d4c"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "ComfyUI workflow fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "text-to-video tutorial fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "text-to-video tutorial fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-14T10:48:13.574Z",
       "newCount": 3,
@@ -11711,63 +11793,61 @@
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-14T10:48:07.744Z",
+    "at": "2026-11-14T10:55:49.607Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "ComfyUI video examples fork:false archived:false",
+        "query": "ComfyUI workflow fork:false archived:false",
         "page": 2,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "ComfyUI video examples fork:false archived:false",
-        "page": 1,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "query": "text-to-video tutorial fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "diffusion image tutorial fork:false archived:false",
+        "query": "text-to-video tutorial fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-aemotionstudio-comfyui-cdn-link-examples",
-      "discovered-imran31415-sloppyjoes-video"
+      "discovered-a719689614-comfyui-workflow",
+      "discovered-ltdrdata-comfyui-workflow-component"
     ],
     "errors": [],
-    "poolCount": 7,
+    "poolCount": 9,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 15,
+    "totalSourceCount": 17,
     "selectedSourceIds": [
-      "discovered-mjmirza-apple-design-system",
-      "threeui",
-      "discovered-vedhs9131ocmc-hyperframes-demos",
-      "discovered-aemotionstudio-comfyui-cdn-link-examples",
-      "discovered-bruce1986-vibe-to-prod-lab",
       "motion-prompt",
-      "discovered-imran31415-sloppyjoes-video",
-      "anthropic-skills",
-      "discovered-fkimmel25-claude-video-editing-kit"
+      "djz-workflows",
+      "discovered-fkimmel25-claude-video-editing-kit",
+      "discovered-a719689614-comfyui-workflow",
+      "discovered-mjmirza-apple-design-system",
+      "discovered-ltdrdata-comfyui-workflow-component",
+      "promptwhat"
     ],
-    "selectedCount": 9,
+    "selectedCount": 7,
     "sampledItemIds": [
-      "b62ac552a5e9aadebd13",
-      "a1bf569358c89ce02166",
-      "7738c7ee90c0919f1b6b",
-      "a1a36bd5996f28547c2e",
-      "20b15cadb6cdb7a3e4b8",
-      "47442fcec598b5eea7a6",
-      "aedbb5c4afd0e0bfb1a5",
-      "32e321a273520d9b6045",
-      "6bad488eedb4fd37dbf6",
-      "16d566b27cb3b6fb7640",
-      "b578e0d115571d429b95",
-      "5b8efd03cc52ad3ca58b"
+      "541fc75ac5bea3a3b047",
+      "a762e54dd05fea587d05",
+      "3dc16d546e8095e459ae",
+      "956d30ca5b6e6f3815fa",
+      "c69e5cb5e2ee7058bb2a",
+      "a4370041b0e5de65ce9b",
+      "fa72ee6e86503c55c697",
+      "55632c35b84be56bc785",
+      "e8bfd06512ca64cd733d",
+      "10f2fa1d7cbb9012bb7d",
+      "a1dd7c38d796daf01e8c",
+      "e45eddc0e66877bb1d4c"
     ],
     "sampledCount": 12,
-    "selectedAt": "2026-11-14T10:48:13.603Z"
+    "selectedAt": "2026-11-14T10:55:55.808Z"
   },
   "policy": {
     "freeOnly": true,
@@ -11779,14 +11859,14 @@
       "강의·콘텐츠 제작",
       "업무 자동화·생산성"
     ],
-    "checkedAt": "2026-11-14T10:48:13.619Z",
-    "originalItemCount": 1080,
+    "checkedAt": "2026-11-14T10:55:55.827Z",
+    "originalItemCount": 1082,
     "visibleItemCount": 276,
     "excludedCounts": {
       "paid": 597,
       "unverified": 200,
       "outOfScope": 2,
-      "translationPending": 5
+      "translationPending": 7
     },
     "notice": "자료 자체가 무료로 공개된 항목만 표시합니다. 유료 자료와 무료 여부 미확인 자료는 제외하며, 소개 도구의 비용은 별도입니다. 크리에이터·강사·디자이너를 위한 디자인·영상·모션·코딩·생산성 자료를 수집합니다."
   },
@@ -11798,6 +11878,6 @@
     "missing": 0,
     "errors": [],
     "storage": "cloud-build-assets",
-    "updatedAt": "2026-11-14T10:48:13.619Z"
+    "updatedAt": "2026-11-14T10:55:55.827Z"
   }
 }
