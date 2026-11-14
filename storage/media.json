@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T09:10:20.155Z",
+  "updatedAt": "2026-11-14T10:23:52.750Z",
   "entries": {
     "https://filatov.design/sites/then": {
       "path": "./thumbnails/filatov-then.webp",
@@ -40,40 +40,12 @@
       "bytes": 48302,
       "optimized": true
     },
-    "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/brush-stroke-reveal/BrushStrokeReveal.tsx": {
-      "path": "./thumbnails/frame-resource-5dedfa12ad476f78a993.webp",
-      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/brush-stroke-reveal.gif",
-      "type": "page-image",
-      "capturedAt": "2026-11-14T07:46:29.785Z",
-      "bytes": 118
-    },
-    "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx": {
-      "path": "./thumbnails/frame-resource-2c34be3f82ba7cf1d579.webp",
-      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bar-chart-anim.gif",
-      "type": "page-image",
-      "capturedAt": "2026-11-14T07:46:38.225Z",
-      "bytes": 118
-    },
-    "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/lower-third-glass-card/LowerThirdGlassCard.tsx": {
-      "path": "./thumbnails/frame-resource-f51d2ea5a08af89d46e3.webp",
-      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/lower-third-glass-card.gif",
-      "type": "page-image",
-      "capturedAt": "2026-11-14T07:46:47.057Z",
-      "bytes": 118
-    },
     "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md": {
       "path": "./thumbnails/frame-resource-a1dd7c38d796daf01e8c.webp",
       "sourceUrl": "https://raw.githubusercontent.com/showheyohtaki/motion-prompt/main/assets/preview-camera.gif",
       "type": "page-image",
       "capturedAt": "2026-11-14T07:46:56.540Z",
       "bytes": 598
-    },
-    "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx": {
-      "path": "./thumbnails/frame-resource-f2c396bfb07bef20e4ba.webp",
-      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/typewriter.gif",
-      "type": "page-image",
-      "capturedAt": "2026-11-14T07:47:05.017Z",
-      "bytes": 118
     },
     "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Foda_Flux": {
       "path": "./thumbnails/resource-0ce89a8a78d897f5ff64.webp",
@@ -90,13 +62,6 @@
       "capturedAt": "2026-11-14T07:45:00.332Z",
       "bytes": 25950,
       "optimized": true
-    },
-    "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx": {
-      "path": "./thumbnails/frame-resource-4726641eb67c0db2bd6e.webp",
-      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
-      "type": "page-image",
-      "capturedAt": "2026-11-14T07:47:13.768Z",
-      "bytes": 118
     },
     "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack": {
       "path": "./thumbnails/resource-e45eddc0e66877bb1d4c.webp",
@@ -1972,6 +1937,13 @@
       "type": "page-screenshot",
       "capturedAt": "2026-11-14T07:49:58.673Z",
       "bytes": 67726
+    },
+    "https://github.com/RenderComp/free-remotion-templates/tree/main": {
+      "path": "./thumbnails/frame-resource-5dedfa12ad476f78a993.webp",
+      "sourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/brush-stroke-reveal.gif",
+      "type": "page-image",
+      "capturedAt": "2026-11-14T07:46:29.785Z",
+      "bytes": 118
     }
   }
 }
