@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T08:40:18.538Z",
+  "updatedAt": "2026-11-14T09:10:20.155Z",
   "entries": {
     "https://filatov.design/sites/then": {
       "path": "./thumbnails/filatov-then.webp",
@@ -1972,20 +1972,6 @@
       "type": "page-screenshot",
       "capturedAt": "2026-11-14T07:49:58.673Z",
       "bytes": 67726
-    },
-    "https://github.com/jonhrafe/CEXI-public/blob/main/README.md": {
-      "path": "./thumbnails/capture-01bc465e2f125f82241ad90b.webp",
-      "sourceUrl": "https://github.com/jonhrafe/CEXI-public/blob/main/README.md",
-      "type": "page-screenshot",
-      "capturedAt": "2026-11-14T08:40:17.340Z",
-      "bytes": 48544
-    },
-    "https://github.com/sazio/TutorialDiffusionModels/blob/main/README.md": {
-      "path": "./thumbnails/capture-5e13c1d4a7b14f3b8a72acaa.webp",
-      "sourceUrl": "https://github.com/sazio/TutorialDiffusionModels/blob/main/README.md",
-      "type": "page-screenshot",
-      "capturedAt": "2026-11-14T08:40:18.493Z",
-      "bytes": 18124
     }
   }
 }
