@@ -84,7 +84,7 @@ function applyTranslations(library,cache={entries:{}}) {
   if(current&&typeof entry.titleKo==='string'&&/[가-힣]/.test(entry.titleKo)&&typeof entry.descriptionKo==='string'&&/[가-힣]/.test(entry.descriptionKo)){
    translated++;return {...base,titleKo:entry.titleKo,descriptionKo:entry.descriptionKo,translationStatus:'translated',...(entry.editorialStatus==='reviewed'?{editorialStatus:'reviewed',usageKo:entry.usageKo,stepsKo:entry.stepsKo,audienceKo:entry.audienceKo,requirementsKo:entry.requirementsKo,cautionsKo:entry.cautionsKo,referenceUrls:entry.referenceUrls,reviewedAt:entry.reviewedAt}:{})};
   }
-  if(item.sourceId!=='threeui'&&!item.sourceId.startsWith('discovered-'))return {...base,translationStatus:'native'};
+  if(item.sourceId!=='threeui'&&!item.sourceId.startsWith('discovered-'))return {...base,usageKo,stepsKo,audienceKo,requirementsKo,cautionsKo,referenceUrls,reviewedAt,translationStatus:'native'};
   pending++;return {...base,translationStatus:'pending',...(item.sourceId.startsWith('discovered-')?{editorialStatus:'pending'}:{})};
  });
  return {...library,items,sources:library.sources.map(s=>({...s,name:cache.sourceNames?.[s.id]||s.name})),localization:{language:'ko',translated,pending,updatedAt:cache.updatedAt||null}};

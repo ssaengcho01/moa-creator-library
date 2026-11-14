@@ -7,7 +7,8 @@ async function atomic(file,data){await fs.mkdir(path.dirname(file),{recursive:tr
 async function main(){
  const L=load('scripts/lib.cjs'),P=load('scripts/policy.cjs'),X=load('scripts/extra-sources.cjs'),D=load('scripts/discovery.cjs'),M=load('scripts/media.cjs');
  const output=path.resolve(root,process.env.LIBRARY_FILE||'public/data/library.json'),rawOutput=path.resolve(root,process.env.RAW_LIBRARY_FILE||'storage/index.json');
- const old=await jsonFile(rawOutput,null);if(old&&(old.version!==1||!Array.isArray(old.items)))throw new Error('Invalid previous dataset');
+ let old=await jsonFile(rawOutput,null);if(old&&(old.version!==1||!Array.isArray(old.items)))throw new Error('Invalid previous dataset');
+ old=X.consolidateCollections(old,L.SOURCES);
  const poolFile=path.join(root,'storage/source-pool.json'),discoveryFile=path.join(root,'storage/discovery-log.json');
  const agent='DesignShelf/2.0 (public creator resource index; once daily)';
  async function request(url){const u=new URL(url);if(u.protocol!=='https:')throw new Error('HTTPS only');const headers={'User-Agent':agent,'Accept':u.hostname==='api.github.com'?'application/vnd.github+json':'application/json,text/html,image/*,text/plain'};if(u.hostname==='api.github.com'){headers['X-GitHub-Api-Version']='2022-11-28';if(process.env.GITHUB_TOKEN)headers.Authorization='Bearer '+process.env.GITHUB_TOKEN;}return fetch(u,{headers,signal:AbortSignal.timeout(30000)});}
@@ -17,6 +18,7 @@ async function main(){
  await atomic(poolFile,discovered.pool);await atomic(discoveryFile,discovered.discovery);
  const active=[...L.SOURCES,...discovered.pool];const historical=(old?.sources||[]).filter(s=>!active.some(a=>a.id===s.id)).map(s=>({...s,activePool:false}));const allSources=[...active,...historical];
  const chosen=process.env.COLLECT_ALL==='1'?active:D.selectSources(active,{min:4,max:10,newIds:discovered.discovery.newSourceIds||[]});
+ for(const source of active.filter(s=>s.collectionMode==='single'&&!old?.items.some(x=>x.sourceId===s.id&&(s.items||[]).some(c=>c.url===x.url))))if(!chosen.some(s=>s.id===source.id)){if(chosen.length>=10){const removable=chosen.findLastIndex(s=>!(discovered.discovery.newSourceIds||[]).includes(s.id));chosen.splice(removable,1);}chosen.push(source);}
  const results=[],known=new Set((old?.items||[]).map(x=>L.canonical(x.url)));
  for(const source of chosen){try{
   if(!source.kind.startsWith('github')){const robot=await request(new URL('/robots.txt',source.url));if(robot.ok){const text=await robot.text();if(!L.robotsAllowed(text,source.feed))throw new Error('robots.txt가 목록 경로를 허용하지 않음');}else if(![404,410].includes(robot.status))throw new Error('robots 확인 실패 '+robot.status);await new Promise(r=>setTimeout(r,500));}

@@ -160,84 +160,36 @@
       ],
       "items": [
         {
-          "path": "src/components/brush-stroke-reveal/BrushStrokeReveal.tsx",
-          "titleKo": "붓터치 브랜드 리빌",
-          "descriptionKo": "붓으로 칠하듯 타이틀과 브랜드를 드러내는 4초 React 영상 템플릿.",
-          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/brush-stroke-reveal/BrushStrokeReveal.tsx",
+          "path": "README.md",
+          "url": "https://github.com/RenderComp/free-remotion-templates/tree/main",
+          "titleKo": "무료 Remotion 영상 템플릿 50개 모음",
+          "descriptionKo": "로고 인트로·움직이는 글자·화면 전환·차트·인물 소개 자막·배경 루프 등 50개 React 영상 템플릿을 한곳에서 볼 수 있는 저장소입니다. 각 템플릿의 문구와 색상·수치를 수정하고 MP4로 출력할 수 있습니다.",
+          "usageKo": "강의 영상의 인트로와 이름 자막, 제품 소개 영상의 전환, 성과 발표용 움직이는 차트를 만들 때 필요한 템플릿을 이 모음에서 골라 쓰세요.",
+          "stepsKo": [
+            "저장소 README의 카테고리별 미리보기에서 필요한 템플릿을 고릅니다.",
+            "사용하려면 Node.js LTS 환경에서 저장소를 복제한 뒤 npm install, npm run dev 순서로 Remotion Studio를 실행합니다.",
+            "오른쪽 패널에서 문구·속성을 바꾸고 README에 나온 템플릿별 render 명령으로 MP4를 출력합니다."
+          ],
+          "requirementsKo": "목록 열람은 브라우저만 있으면 됩니다. 수정·영상 출력은 Node.js·npm과 React/Remotion 개발환경이 필요하며 첫 출력 시 브라우저가 내려받아집니다.",
+          "cautionsKo": "템플릿은 MIT 고지를 유지해야 합니다. Remotion 엔진은 별도 라이선스로, 큰 팀은 유료 Company License가 필요할 수 있습니다. 추가하는 이미지·폰트·오디오의 권리는 별도로 확인하세요.",
+          "referenceUrls": [
+            "https://github.com/RenderComp/free-remotion-templates/tree/main"
+          ],
+          "reviewedAt": "2026-11-14T10:20:38.115Z",
           "category": "모션",
           "tags": [
             "Remotion",
-            "브랜드",
-            "인트로"
+            "영상 템플릿",
+            "모음"
           ],
           "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/brush-stroke-reveal.gif",
-          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
-        },
-        {
-          "path": "src/components/typewriter/Typewriter.tsx",
-          "titleKo": "타자기 텍스트 애니메이션",
-          "descriptionKo": "문구를 한 글자씩 입력하듯 보여주는 정사각형 타이틀 템플릿.",
-          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx",
-          "category": "모션",
-          "tags": [
-            "Remotion",
-            "텍스트",
-            "타자기"
-          ],
-          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/typewriter.gif",
-          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
-        },
-        {
-          "path": "src/components/bar-chart-anim/BarChartAnim.tsx",
-          "titleKo": "애니메이션 막대 차트",
-          "descriptionKo": "입력한 수치에 맞춰 막대가 순서대로 자라는 5초 데이터 시각화 템플릿.",
-          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx",
-          "category": "모션",
-          "tags": [
-            "Remotion",
-            "통계",
-            "차트"
-          ],
-          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/bar-chart-anim.gif",
-          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
-        },
-        {
-          "path": "src/components/kpi-counter/KpiCounter.tsx",
-          "titleKo": "KPI 숫자 카운터",
-          "descriptionKo": "이름표와 함께 지표 숫자가 목표값까지 올라가는 4초 성과 소개 템플릿.",
-          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
-          "category": "모션",
-          "tags": [
-            "Remotion",
-            "KPI",
-            "숫자"
-          ],
-          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
-          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
-        },
-        {
-          "path": "src/components/lower-third-glass-card/LowerThirdGlassCard.tsx",
-          "titleKo": "유리 효과 인물 소개 자막",
-          "descriptionKo": "반투명 유리 느낌의 이름·직함 카드가 모서리에서 들어오는 4초 템플릿.",
-          "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/lower-third-glass-card/LowerThirdGlassCard.tsx",
-          "category": "모션",
-          "tags": [
-            "Remotion",
-            "강사소개",
-            "로어써드"
-          ],
-          "thumbnailUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/lower-third-glass-card.gif",
-          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-          "thumbnailEvidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
+          "evidenceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md"
         }
       ],
       "kind": "github-tree",
       "feed": "https://api.github.com/repos/RenderComp/free-remotion-templates/git/trees/main?recursive=1",
-      "owner": "RenderComp"
+      "owner": "RenderComp",
+      "collectionMode": "single"
     },
     {
       "id": "motion-prompt",

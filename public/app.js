@@ -4,7 +4,7 @@
   const STORAGE_KEY = 'moa-design-shelf:preferences:v1';
   const PAGE_SIZE = 24;
   let embeddedImages={};try{embeddedImages=JSON.parse(document.getElementById('embedded-images')?.textContent||'{}');}catch{}
-  const state = { data: null, query: '', category: 'all', source: 'all', sort: 'discovered', savedView: false, hideRead: false, limit: PAGE_SIZE, saved: new Set(), read: new Set(), loading: false, error: false };
+  const state = { data: null, query: '', category: 'all', source: 'all', sort: 'discovered', savedView: false, archivedView: false, archived: new Map(), archivedURLs: new Set(), hideRead: false, limit: PAGE_SIZE, saved: new Set(), read: new Set(), loading: false, error: false };
   const dateFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'Asia/Seoul' });
   const timeFormatter = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Seoul' });
   function node(tag, className, text) { const el = document.createElement(tag); if (className) el.className = className; if (text !== undefined) el.textContent = text; return el; }
@@ -12,9 +12,14 @@
   function timestamp(value) { const time = typeof value === 'string' ? Date.parse(value) : NaN; return Number.isFinite(time) ? time : 0; }
   function date(value, detailed = false) { if (!timestamp(value)) return '정보 없음'; return (detailed ? timeFormatter : dateFormatter).format(new Date(value)) + (detailed ? ' 한국 시간' : ''); }
   function validIds(value) { return Array.isArray(value) && value.length <= 100000 && value.every(id => typeof id === 'string' && id.length > 0 && id.length <= 1000); }
+  function archiveURL(value){try{const u=new URL(value);u.hash='';for(const k of [...u.searchParams.keys()])if(/^utm_|^(fbclid|gclid)$/i.test(k))u.searchParams.delete(k);u.searchParams.sort();u.pathname=u.pathname.replace(/\/$/,'')||'/';return u.href;}catch{return '';}}
+  function validArchives(value){return Array.isArray(value)&&value.length<=100000&&value.every(x=>x&&typeof x.id==='string'&&x.id.length>0&&x.id.length<=1000&&safeURL(x.url));}
+  function refreshArchiveURLs(){state.archivedURLs=new Set([...state.archived.values()].map(archiveURL));}
+  function isArchived(item){return state.archived.has(item.id)||state.archivedURLs.has(archiveURL(item.url));}
+  function heartIcon(filled){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');svg.setAttribute('width','23');svg.setAttribute('height','23');const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d','M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z');p.setAttribute('fill',filled?'currentColor':'none');p.setAttribute('stroke','currentColor');p.setAttribute('stroke-width','1.8');p.setAttribute('stroke-linejoin','round');svg.append(p);return svg;}
   function storageWarning() { $('storage-warning').hidden = false; $('storage-warning').textContent = '브라우저 저장 공간을 사용할 수 없어요. 이번 화면에서는 저장과 읽음 표시가 유지되지만, 새로고침하면 사라질 수 있습니다. 목록 내보내기로 백업하세요.'; }
-  function loadPreferences() { try { const raw = localStorage.getItem(STORAGE_KEY); if (!raw) return; const value = JSON.parse(raw); if (value.version !== 1 || !validIds(value.savedIds) || !validIds(value.readIds)) throw new Error('invalid preferences'); state.saved = new Set(value.savedIds); state.read = new Set(value.readIds); state.hideRead = value.hideRead === true; } catch { storageWarning(); } $('hide-read').checked = state.hideRead; }
-  function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, savedIds: [...state.saved], readIds: [...state.read], hideRead: state.hideRead })); } catch { storageWarning(); } }
+  function loadPreferences() { try { const raw = localStorage.getItem(STORAGE_KEY); if (!raw) return; const value = JSON.parse(raw); if (value.version !== 1 || !validIds(value.savedIds) || !validIds(value.readIds)) throw new Error('invalid preferences'); state.saved = new Set(value.savedIds); state.read = new Set(value.readIds); if(value.archivedItems!==undefined&&!validArchives(value.archivedItems))throw new Error('invalid archives');state.archived=new Map((value.archivedItems||[]).map(x=>[x.id,archiveURL(x.url)]));refreshArchiveURLs();state.hideRead = value.hideRead === true; } catch { storageWarning(); } $('hide-read').checked = state.hideRead; }
+  function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, savedIds: [...state.saved], readIds: [...state.read], archivedItems:[...state.archived].map(([id,url])=>({id,url})), hideRead: state.hideRead })); } catch { storageWarning(); } }
   function validateLibrary(raw) {
     if (!raw || raw.version !== 1 || !Array.isArray(raw.items) || !Array.isArray(raw.sources) || !Array.isArray(raw.runs)) throw new Error('지원하지 않는 데이터 형식입니다.');
     const sourceIds = new Set();
@@ -87,7 +92,7 @@
     if (isNew(item)) visual.append(node('span', 'new-badge', '신규'));
     const title = shownTitle(item);
     const saved = state.saved.has(item.id);
-    const save = node('button', 'save-button', saved ? '◆' : '◇'); save.type = 'button'; save.setAttribute('aria-label', title + (saved ? ' 저장 취소' : ' 저장')); save.setAttribute('aria-pressed', String(saved));
+    const save = node('button', 'save-button'); save.append(heartIcon(saved)); save.type = 'button'; save.setAttribute('aria-label', title + (saved ? ' 즐겨찾기 해제' : ' 즐겨찾기 추가')); save.setAttribute('aria-pressed', String(saved));
     save.addEventListener('click', () => { if (state.saved.has(item.id)) state.saved.delete(item.id); else state.saved.add(item.id); persist(); render({ id: item.id, control: 'save' }); }); save.dataset.control = 'save'; save.dataset.itemId = item.id;
     visual.append(save);
     const body = node('div', 'card-body'); const top = node('div', 'card-topline'); const source = node('span', 'card-source'); source.append(node('span', 'source-dot'), document.createTextNode(sourceLabel(item.sourceId)));
@@ -99,7 +104,9 @@
     const bottom = node('div', 'card-bottom'); const dates = node('div', 'dates'); const firstSeen = node('span', '', '발견 ' + date(item.firstSeenAt)); firstSeen.title = '모아가 처음 확인한 시각: ' + date(item.firstSeenAt, true); const published = node('span', '', '게시 ' + (timestamp(item.publishedAt) ? date(item.publishedAt) : '날짜 미확인')); published.title = '원본의 게시 날짜'; dates.append(firstSeen, published);
     const read = node('button', 'read-button', state.read.has(item.id) ? '읽음 취소' : '읽음 표시'); read.type = 'button'; read.setAttribute('aria-pressed', String(state.read.has(item.id))); read.setAttribute('aria-label', title + (state.read.has(item.id) ? ' 읽음 취소' : ' 읽음 표시')); read.dataset.control = 'read'; read.dataset.itemId = item.id;
     read.addEventListener('click', () => { if (state.read.has(item.id)) state.read.delete(item.id); else state.read.add(item.id); persist(); render({ id: item.id, control: 'read' }); });
-    bottom.append(dates, read); body.append(top, heading, description);
+    const archive=node('button','archive-button',state.archivedView?'보관 해제':'보관');archive.type='button';archive.setAttribute('aria-label',title+(state.archivedView?' 보관 해제':' 보관'));archive.title=state.archivedView?'기본 목록으로 복원':'기본 목록과 즐겨찾기에서 숨기기';archive.dataset.control='archive';archive.dataset.itemId=item.id;
+    archive.addEventListener('click',()=>{if(state.archivedView){const url=archiveURL(item.url);for(const [id,stored]of state.archived)if(id===item.id||archiveURL(stored)===url)state.archived.delete(id);}else state.archived.set(item.id,archiveURL(item.url));refreshArchiveURLs();persist();render();$('result-count').textContent+=(state.archivedView?' · 보관 해제했어요':' · 보관함으로 옮겼어요');$('view-archived').focus({preventScroll:true});});
+    const actions=node('div','card-actions');actions.append(read,archive);bottom.append(dates,actions); body.append(top, heading, description);
     if(item.usageKo){const use=node('section','card-usage');use.append(node('strong','','이렇게 활용하세요'),node('p','',item.usageKo));body.append(use);}
     if(Array.isArray(item.stepsKo)&&item.stepsKo.length){const guide=node('details','usage-details');guide.append(node('summary','','시작 방법·준비물·주의사항'));if(item.audienceKo)guide.append(node('p','', '추천 대상: '+item.audienceKo));const steps=node('ol');for(const step of item.stepsKo)steps.append(node('li','',step));guide.append(steps);if(item.requirementsKo)guide.append(node('p','', '준비물: '+item.requirementsKo));if(item.cautionsKo)guide.append(node('p','guide-caution','주의: '+item.cautionsKo));for(const [i,url] of (item.referenceUrls||[]).entries()){if(safeURL(url)){const ref=node('a','guide-reference','확인한 원문 '+(i+1)+' ↗');ref.href=safeURL(url);ref.target='_blank';ref.rel='noopener noreferrer';guide.append(ref);}}if(item.reviewedAt)guide.append(node('p','review-date','내용 확인: '+date(item.reviewedAt)));body.append(guide);}
     if (item.titleKo || !/[가-힣]/.test(item.title)) { const original = node('details', 'original-details'); const summary = node('summary', '', '영어 원문 보기'); original.append(summary, node('strong', '', item.originalTitle || item.title), node('p', '', item.originalDescription || item.description), node('p', 'translation-note', item.titleKo ? '원문 내용을 바탕으로 정리한 한국어 안내입니다. 연결된 사이트 본문은 원문으로 열립니다.' : '새 자료이거나 원문이 바뀌어 번역을 기다리고 있습니다.')); body.append(original); }
@@ -110,7 +117,7 @@
   }
   function filteredItems() {
     const query = state.query.toLocaleLowerCase('ko');
-    const sorted = state.data.items.filter(item => (!state.savedView || state.saved.has(item.id)) && (!state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || item.category === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.usageKo || '', item.audienceKo || '', ...(item.stepsKo || []), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
+    const sorted = state.data.items.filter(item => (state.archivedView ? isArchived(item) : !isArchived(item)) && (!state.savedView || state.saved.has(item.id)) && (state.archivedView || !state.hideRead || !state.read.has(item.id)) && (state.category === 'all' || item.category === state.category) && (state.source === 'all' || item.sourceId === state.source) && (!query || [shownTitle(item), shownDescription(item), item.usageKo || '', item.audienceKo || '', ...(item.stepsKo || []), item.title, item.description, sourceLabel(item.sourceId), item.sourceName, item.category, categoryLabel(item.category), ...item.tags].join(' ').toLocaleLowerCase('ko').includes(query))).sort((a,b) => {
       if (state.sort === 'title') return shownTitle(a).localeCompare(shownTitle(b), 'ko') || a.id.localeCompare(b.id);
       const field = state.sort === 'published' ? 'publishedAt' : 'firstSeenAt'; return timestamp(b[field]) - timestamp(a[field]) || (state.sort === 'discovered' ? timestamp(b.publishedAt) - timestamp(a.publishedAt) : 0) || shownTitle(a).localeCompare(shownTitle(b), 'ko');
     });
@@ -131,18 +138,18 @@
   function render(focus) {
     if (!state.data) return;
     const items = filteredItems();
-    $('all-count').textContent = state.data.items.length;
-    const savedInLibrary = state.data.items.filter(item => state.saved.has(item.id)).length;
+    const activeCount=state.data.items.filter(item=>!isArchived(item)).length;const archivedCount=state.data.items.length-activeCount;$('all-count').textContent=activeCount;$('archived-count').textContent=archivedCount;$('archive-note').hidden=!state.archivedView;
+    const savedInLibrary = state.data.items.filter(item => state.saved.has(item.id)&&!isArchived(item)).length;
     $('saved-count').textContent = savedInLibrary;
-    $('collection-title').firstChild.textContent = state.savedView ? '저장한 자료 ' : '전체 자료함 ';
-    $('heading-count').textContent = state.savedView ? savedInLibrary : state.data.items.length;
-    $('view-all').classList.toggle('active', !state.savedView); $('view-saved').classList.toggle('active', state.savedView); $('view-all').setAttribute('aria-pressed', String(!state.savedView)); $('view-saved').setAttribute('aria-pressed', String(state.savedView));
+    $('collection-title').firstChild.textContent = state.archivedView ? '보관함 ' : state.savedView ? '즐겨찾기 ' : '전체 자료함 ';
+    $('heading-count').textContent = state.archivedView ? archivedCount : state.savedView ? savedInLibrary : activeCount;
+    $('view-archived').classList.toggle('active',state.archivedView);$('view-archived').setAttribute('aria-pressed',String(state.archivedView));$('view-all').classList.toggle('active', !state.savedView&&!state.archivedView); $('view-saved').classList.toggle('active', state.savedView); $('view-all').setAttribute('aria-pressed', String(!state.savedView&&!state.archivedView)); $('view-saved').setAttribute('aria-pressed', String(state.savedView));
     const visible = items.slice(0, state.limit);
-    $('result-count').textContent = items.length + '개의 자료' + (items.length ? ' · ' + visible.length + '개 표시' : '') + (state.savedView ? ' · 저장한 목록' : '');
+    $('result-count').textContent = items.length + '개의 자료' + (items.length ? ' · ' + visible.length + '개 표시' : '') + (state.archivedView ? ' · 보관한 목록' : state.savedView ? ' · 즐겨찾기' : '');
     $('reset-filters').hidden = !(state.query || state.category !== 'all' || state.source !== 'all' || state.hideRead);
     const fragment = document.createDocumentFragment(); visible.forEach((item,index) => fragment.append(resourceCard(item,index))); $('grid').replaceChildren(fragment);
     $('library-state').hidden = true;
-    if (!items.length) { if (!state.data.items.length) showState('아직 채워지지 않은 선반', '첫 수집이 완료되면 공개 자료가 여기에 나타나요. 수집 안내에서 상태를 확인하세요.'); else if (state.savedView && !savedInLibrary) showState('마음에 드는 발견을 저장하세요', '카드 오른쪽 위 저장 버튼을 누르면 나만의 선반에 모아둘 수 있어요.'); else showState('찾으시는 자료가 없어요', '다른 검색어를 입력하거나 필터를 바꿔보세요.'); }
+    if (!items.length) { if (!state.data.items.length) showState('아직 채워지지 않은 선반', '첫 수집이 완료되면 공개 자료가 여기에 나타나요. 수집 안내에서 상태를 확인하세요.'); else if(state.archivedView&&!archivedCount)showState('보관함이 비어 있어요','카드의 보관 버튼을 누르면 기본 목록에서 숨겨집니다. 이전에 보관했지만 현재 공개 목록에 없는 자료의 기록도 유지합니다.'); else if (state.savedView && !savedInLibrary) showState('마음에 드는 발견을 저장하세요', '카드 오른쪽 위 하트를 누르면 즐겨찾기에 모아둘 수 있어요.'); else showState('찾으시는 자료가 없어요', '다른 검색어를 입력하거나 필터를 바꿔보세요.'); }
     $('load-more').hidden = visible.length >= items.length; $('remaining-count').textContent = '(' + (items.length - visible.length) + '개 남음)';
     if (focus) { const target = Array.from($('grid').querySelectorAll('button')).find(button => button.dataset.itemId === focus.id && button.dataset.control === focus.control); if (target) target.focus({ preventScroll: true }); else (state.savedView ? $('view-saved') : $('hide-read')).focus({ preventScroll: true }); }
   }
@@ -185,23 +192,24 @@
   function openGuide() { renderSources(); const dialog = $('info-dialog'); if (!dialog.open) dialog.showModal(); }
   $('collection-guide').addEventListener('click', openGuide); $('source-status').addEventListener('click', openGuide); $('close-dialog').addEventListener('click', () => $('info-dialog').close());
   $('info-dialog').addEventListener('click', event => { if (event.target === $('info-dialog')) { const rect = event.target.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) event.target.close(); } });
-  $('view-all').addEventListener('click', () => { state.savedView = false; state.limit = PAGE_SIZE; render(); }); $('view-saved').addEventListener('click', () => { state.savedView = true; state.limit = PAGE_SIZE; render(); });
+  $('view-all').addEventListener('click', () => { state.archivedView=false;state.savedView = false; state.limit = PAGE_SIZE; render(); }); $('view-saved').addEventListener('click', () => { state.archivedView=false;state.savedView = true; state.limit = PAGE_SIZE; render(); });
+  $('view-archived').addEventListener('click',()=>{state.archivedView=true;state.savedView=false;resetFilters();});
   $('search').addEventListener('input', event => { state.query = event.target.value.trim(); state.limit = PAGE_SIZE; render(); });
   $('source-filter').addEventListener('change', event => { state.source = event.target.value; state.limit = PAGE_SIZE; render(); }); $('sort').addEventListener('change', event => { state.sort = event.target.value; state.limit = PAGE_SIZE; render(); });
   $('hide-read').addEventListener('change', event => { state.hideRead = event.target.checked; state.limit = PAGE_SIZE; persist(); render(); }); $('reset-filters').addEventListener('click', resetFilters);
   $('load-more').addEventListener('click', () => { const previous = Math.min(state.limit, filteredItems().length); state.limit += PAGE_SIZE; render(); const nextLink = $('grid').children[previous]?.querySelector('.title-link'); if (nextLink) nextLink.focus({ preventScroll: true }); });
   document.addEventListener('keydown', event => { const target = event.target; if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !['INPUT','TEXTAREA','SELECT'].includes(target.tagName) && !target.isContentEditable && !$('info-dialog').open) { event.preventDefault(); $('search').focus(); } });
   $('export-backup').addEventListener('click', () => {
-    try { const backup = { version: 1, exportedAt: new Date().toISOString(), savedIds: [...state.saved], readIds: [...state.read] }; const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const link = node('a'); link.href = url; link.download = 'moa-bookmarks-' + new Date().toISOString().slice(0,10) + '.json'; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); $('backup-status').textContent = '저장 ID와 읽음 ID를 내보냈어요.'; } catch { $('backup-status').textContent = '내보내지 못했어요. 다시 시도하세요.'; }
+    try { const backup = { version: 1, exportedAt: new Date().toISOString(), savedIds: [...state.saved], readIds: [...state.read], archivedItems:[...state.archived].map(([id,url])=>({id,url})) }; const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const link = node('a'); link.href = url; link.download = 'moa-bookmarks-' + new Date().toISOString().slice(0,10) + '.json'; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); $('backup-status').textContent = '저장 ID와 읽음 ID를 내보냈어요.'; } catch { $('backup-status').textContent = '내보내지 못했어요. 다시 시도하세요.'; }
   });
   $('import-backup').addEventListener('click', () => $('backup-file').click());
   $('backup-file').addEventListener('change', async event => {
     const file = event.target.files[0]; if (!file) return;
     try {
       if (file.size > 5 * 1024 * 1024) throw new Error('백업은 5MB 이하만 가져올 수 있어요.');
-      const value = JSON.parse(await file.text()); if (!value || value.version !== 1 || !validIds(value.savedIds) || (value.readIds !== undefined && !validIds(value.readIds))) throw new Error('올바른 MOA 버전 1 백업 파일이 아니에요.');
-      const previousSaved = state.saved.size; value.savedIds.forEach(id => state.saved.add(id)); (value.readIds || []).forEach(id => state.read.add(id)); persist(); render();
-      $('backup-status').textContent = '저장 ' + (state.saved.size - previousSaved) + '개를 기존 목록에 합쳤어요. 현재 없는 자료 ID도 보존합니다.';
+      const value = JSON.parse(await file.text()); if (!value || value.version !== 1 || !validIds(value.savedIds) || (value.readIds !== undefined && !validIds(value.readIds)) || (value.archivedItems !== undefined && !validArchives(value.archivedItems))) throw new Error('올바른 MOA 버전 1 백업 파일이 아니에요.');
+      const previousSaved = state.saved.size; value.savedIds.forEach(id => state.saved.add(id)); (value.readIds || []).forEach(id => state.read.add(id));(value.archivedItems||[]).forEach(x=>state.archived.set(x.id,archiveURL(x.url)));refreshArchiveURLs(); persist(); render();
+      $('backup-status').textContent = '저장 ' + (state.saved.size - previousSaved) + '개를 기존 목록에 합쳤어요. 보관 기록도 합치며 현재 목록에 없는 자료의 기록도 보존합니다.';
     } catch (error) { $('backup-status').textContent = error instanceof SyntaxError ? 'JSON 파일을 읽을 수 없어요. 파일 형식을 확인하세요.' : error.message || '백업을 가져오지 못했어요.'; } finally { event.target.value = ''; }
   });
   renderDeploymentState(); loadPreferences(); loadLibrary();
