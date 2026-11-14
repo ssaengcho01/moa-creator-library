@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T08:03:41.411Z",
+  "updatedAt": "2026-11-14T08:38:24.334Z",
   "items": [
+    {
+      "id": "01bc465e2f125f82241a",
+      "url": "https://github.com/jonhrafe/CEXI-public/blob/main/README.md",
+      "title": "AI 이미지 제작 · CEXI-public",
+      "description": "AI 이미지 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "CEXI-public",
+      "originalDescription": "Cellular EXchange Imaging (CEXI) Model - Tutorial implementing the CEXI model for diffusion MRI signal modeling with membrane permeability effects. ",
+      "sourceId": "discovered-jonhrafe-cexi-public",
+      "sourceName": "AI 이미지 제작 · jonhrafe",
+      "sourceUrl": "https://github.com/jonhrafe/CEXI-public",
+      "sourceEntryUrl": "https://github.com/jonhrafe/CEXI-public",
+      "sourceRevision": "8e771cb793402f5ae6110d4342394831da916dbb",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "AI 이미지 제작",
+      "tags": [
+        "AI 이미지 제작",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/jonhrafe/CEXI-public/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-14T08:38:23.680Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": "https://github.com/jonhrafe/CEXI-public/blob/main/README.md",
+      "thumbnailAlt": "AI 이미지 제작 · CEXI-public 원본 페이지 미리보기",
+      "thumbnailType": "page-screenshot",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-14T08:38:24.334Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
+      "updatedAt": "2026-11-14T08:38:24.334Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/capture-01bc465e2f125f82241ad90b.webp",
+      "thumbnailCapturedAt": "2026-11-14T08:40:17.340Z"
+    },
+    {
+      "id": "5e13c1d4a7b14f3b8a72",
+      "url": "https://github.com/sazio/TutorialDiffusionModels/blob/main/README.md",
+      "title": "AI 이미지 제작 · TutorialDiffusionModels",
+      "description": "AI 이미지 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "TutorialDiffusionModels",
+      "originalDescription": "Replicating Stanley Chan's \"Tutorial on Diffusion Models for Imaging and Vision\" with some Python Code",
+      "sourceId": "discovered-sazio-tutorialdiffusionmodels",
+      "sourceName": "AI 이미지 제작 · sazio",
+      "sourceUrl": "https://github.com/sazio/TutorialDiffusionModels",
+      "sourceEntryUrl": "https://github.com/sazio/TutorialDiffusionModels",
+      "sourceRevision": "67ad7f4637fb07900cf17bbef0911fbe5ba82349",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "AI 이미지 제작",
+      "tags": [
+        "AI 이미지 제작",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/sazio/TutorialDiffusionModels/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-14T08:38:24.119Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": "https://github.com/sazio/TutorialDiffusionModels/blob/main/README.md",
+      "thumbnailAlt": "AI 이미지 제작 · TutorialDiffusionModels 원본 페이지 미리보기",
+      "thumbnailType": "page-screenshot",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-14T08:38:24.334Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
+      "updatedAt": "2026-11-14T08:38:24.334Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/capture-5e13c1d4a7b14f3b8a72acaa.webp",
+      "thumbnailCapturedAt": "2026-11-14T08:40:18.493Z"
+    },
     {
       "id": "e179b86bccc1cb616bf5",
       "url": "https://github.com/Comfy-Org/workflows/tree/main/shared/haunted-subway",
@@ -46,6 +136,177 @@
       "thumbnailCapturedAt": "2026-11-14T07:44:58.620Z"
     },
     {
+      "id": "6e62cbde5f14a01e36da",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+      "title": "Claude 교육 자료 추천 가이드",
+      "description": "사용자의 학습 목적에 맞는 Claude Academy 강좌·튜토리얼·활용 사례를 찾고 추천하는 스킬.",
+      "sourceId": "anthropic-skills",
+      "sourceName": "Anthropic 디자인·교육 생산성 스킬",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "sourceEntryUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
+      "sourceRevision": "cefeaeb20cc29a803af0335d7c7155b066d8770f",
+      "category": "강의자료",
+      "tags": [
+        "AI교육",
+        "온보딩",
+        "Claude"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
+        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
+        "checkedAt": "2026-11-14T08:38:24.329Z",
+        "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "무료 공개 자료와 Claude 실행 요금은 별개. README는 Claude.ai의 예제 스킬 사용을 유료 플랜 기능으로 설명하며 API·Claude Code 등 실행 환경의 요금과 요구사항은 따로 확인해야 함. Academy Guide는 교육 추천용 스킬이며 연결된 강좌 전체의 무료 이용을 보증하지 않음.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "Claude 교육 자료 추천 가이드 원본 페이지 미리보기",
+      "thumbnailType": "page-screenshot",
+      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
+      "firstSeenAt": "2026-11-14T07:43:36.914Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
+      "updatedAt": "2026-11-14T07:43:36.914Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/capture-6e62cbde5f14a01e36da.webp",
+      "thumbnailCapturedAt": "2026-11-14T07:49:53.699Z"
+    },
+    {
+      "id": "4726641eb67c0db2bd6e",
+      "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
+      "title": "KPI 숫자 카운터",
+      "description": "이름표와 함께 지표 숫자가 목표값까지 올라가는 4초 성과 소개 템플릿.",
+      "sourceId": "rendercomp",
+      "sourceName": "RenderComp 무료 Remotion 템플릿",
+      "sourceUrl": "https://github.com/RenderComp/free-remotion-templates",
+      "sourceEntryUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
+      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
+      "sourceRevision": "bcc40a2f42b21730d26a6fdf7ce4a734aaa04407",
+      "category": "모션",
+      "tags": [
+        "Remotion",
+        "KPI",
+        "숫자"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
+        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
+        "checkedAt": "2026-11-14T08:38:23.896Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "템플릿 자체는 MIT. Remotion 엔진은 별도 라이선스이며 큰 팀은 Company License가 필요할 수 있음. RenderComp 유료 전체 카탈로그와 별개. 추가하는 폰트·이미지·오디오는 별도 권리 확인.",
+      "thumbnailSourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
+      "thumbnailAlt": "KPI 숫자 카운터 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
+      "firstSeenAt": "2026-11-14T07:43:36.914Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
+      "updatedAt": "2026-11-14T07:43:36.914Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/frame-resource-4726641eb67c0db2bd6e.webp",
+      "thumbnailCapturedAt": "2026-11-14T07:47:13.768Z"
+    },
+    {
+      "id": "e45eddc0e66877bb1d4c",
+      "url": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
+      "title": "LTX 영상 생성 워크플로 팩",
+      "description": "LTX 계열 영상 제작 워크플로와 공개 사용 안내를 모은 자료.",
+      "sourceId": "djz-workflows",
+      "sourceName": "드리프트 존슨 워크플로",
+      "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows",
+      "sourceEntryUrl": "https://github.com/MushroomFleet/DJZ-Workflows/blob/main/README.md",
+      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
+      "sourceRevision": "14fce7896053d47d25e0e62b7514b5b628712b4c",
+      "category": "영상",
+      "tags": [
+        "ComfyUI",
+        "영상"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
+        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
+        "checkedAt": "2026-11-14T08:03:40.902Z",
+        "license": "원문 확인"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "공개 워크플로 자료 열람·다운로드는 무료입니다. GPU, 모델·노드 라이선스와 외부 API 사용료는 별도입니다.",
+      "thumbnailSourceUrl": "https://raw.githubusercontent.com/MushroomFleet/DJZ-Workflows/main/XODA-LTXV-Video-Pack/ltxv-13B-097/XODA-13B-097-img2vid-Extendo-v12.png",
+      "thumbnailAlt": "LTX 영상 생성 워크플로 팩 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
+      "firstSeenAt": "2026-11-14T07:43:36.914Z",
+      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "updatedAt": "2026-11-14T07:43:36.914Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/resource-e45eddc0e66877bb1d4c.webp",
+      "thumbnailCapturedAt": "2026-11-14T07:44:59.647Z"
+    },
+    {
+      "id": "3dc16d546e8095e459ae",
+      "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
+      "title": "UI 컴포넌트 이름 24선",
+      "description": "모달·드로어·바텀시트·아코디언 등 UI 요소를 AI에게 정확히 설명하는 용어와 예문.",
+      "sourceId": "motion-prompt",
+      "sourceName": "Motion Prompt AI 표현 사전",
+      "sourceUrl": "https://github.com/showheyohtaki/motion-prompt",
+      "sourceEntryUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
+      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
+      "sourceRevision": "07ffa4cf5ce348897ee09cfdbc99fbc665644f6d",
+      "category": "웹사이트",
+      "tags": [
+        "UI",
+        "컴포넌트",
+        "프로토타입"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
+        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
+        "checkedAt": "2026-11-14T08:03:40.904Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "저장소는 코드·영상·이미지의 상업적 사용을 허용하며 저작권 고지 보존 필요. 프롬프트를 실행하는 외부 AI·영상 생성 도구 사용료는 별도.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "UI 컴포넌트 이름 24선 원본 페이지 미리보기",
+      "thumbnailType": "page-screenshot",
+      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
+      "firstSeenAt": "2026-11-14T07:43:36.914Z",
+      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "updatedAt": "2026-11-14T07:43:36.914Z",
+      "translationStatus": "native",
+      "topicLabels": [
+        "강의·콘텐츠 제작",
+        "업무 자동화·생산성"
+      ],
+      "thumbnail": "./thumbnails/capture-3dc16d546e8095e459ae.webp",
+      "thumbnailCapturedAt": "2026-11-14T07:49:58.673Z"
+    },
+    {
       "id": "d1765fb058859072454f",
       "url": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
       "title": "강의·발표 슬라이드 제작 스킬",
@@ -68,7 +329,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:41.409Z",
+        "checkedAt": "2026-11-14T08:38:24.329Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -78,7 +339,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -287,7 +548,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:41.409Z",
+        "checkedAt": "2026-11-14T08:38:24.329Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -297,7 +558,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -416,7 +677,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/brush-stroke-reveal/BrushStrokeReveal.tsx",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.901Z",
+        "checkedAt": "2026-11-14T08:38:23.896Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -426,7 +687,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -585,7 +846,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/bar-chart-anim/BarChartAnim.tsx",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.901Z",
+        "checkedAt": "2026-11-14T08:38:23.896Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -595,7 +856,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -628,7 +889,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/lower-third-glass-card/LowerThirdGlassCard.tsx",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.901Z",
+        "checkedAt": "2026-11-14T08:38:23.896Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -638,7 +899,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -755,7 +1016,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:41.409Z",
+        "checkedAt": "2026-11-14T08:38:24.329Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -765,7 +1026,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -841,7 +1102,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/typewriter/Typewriter.tsx",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.901Z",
+        "checkedAt": "2026-11-14T08:38:23.896Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -851,7 +1112,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -884,7 +1145,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:41.409Z",
+        "checkedAt": "2026-11-14T08:38:24.329Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -894,7 +1155,7 @@
       "thumbnailType": "page-screenshot",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
+      "lastSeenAt": "2026-11-14T08:38:24.334Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native",
       "topicLabels": [
@@ -987,177 +1248,6 @@
       ],
       "thumbnail": "./thumbnails/resource-bb9d5a8a0935dce6a3f3.webp",
       "thumbnailCapturedAt": "2026-11-14T07:45:00.332Z"
-    },
-    {
-      "id": "6e62cbde5f14a01e36da",
-      "url": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
-      "title": "Claude 교육 자료 추천 가이드",
-      "description": "사용자의 학습 목적에 맞는 Claude Academy 강좌·튜토리얼·활용 사례를 찾고 추천하는 스킬.",
-      "sourceId": "anthropic-skills",
-      "sourceName": "Anthropic 디자인·교육 생산성 스킬",
-      "sourceUrl": "https://github.com/anthropics/skills",
-      "sourceEntryUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
-      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
-      "sourceRevision": "cefeaeb20cc29a803af0335d7c7155b066d8770f",
-      "category": "강의자료",
-      "tags": [
-        "AI교육",
-        "온보딩",
-        "Claude"
-      ],
-      "publishedAt": null,
-      "access": "free",
-      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
-      "pricingEvidence": {
-        "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
-        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:41.409Z",
-        "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
-      },
-      "toolCost": "unverified",
-      "toolCostNote": "무료 공개 자료와 Claude 실행 요금은 별개. README는 Claude.ai의 예제 스킬 사용을 유료 플랜 기능으로 설명하며 API·Claude Code 등 실행 환경의 요금과 요구사항은 따로 확인해야 함. Academy Guide는 교육 추천용 스킬이며 연결된 강좌 전체의 무료 이용을 보증하지 않음.",
-      "thumbnailSourceUrl": null,
-      "thumbnailAlt": "Claude 교육 자료 추천 가이드 원본 페이지 미리보기",
-      "thumbnailType": "page-screenshot",
-      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
-      "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
-      "updatedAt": "2026-11-14T07:43:36.914Z",
-      "translationStatus": "native",
-      "topicLabels": [
-        "강의·콘텐츠 제작",
-        "업무 자동화·생산성"
-      ],
-      "thumbnail": "./thumbnails/capture-6e62cbde5f14a01e36da.webp",
-      "thumbnailCapturedAt": "2026-11-14T07:49:53.699Z"
-    },
-    {
-      "id": "4726641eb67c0db2bd6e",
-      "url": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
-      "title": "KPI 숫자 카운터",
-      "description": "이름표와 함께 지표 숫자가 목표값까지 올라가는 4초 성과 소개 템플릿.",
-      "sourceId": "rendercomp",
-      "sourceName": "RenderComp 무료 Remotion 템플릿",
-      "sourceUrl": "https://github.com/RenderComp/free-remotion-templates",
-      "sourceEntryUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/README.md",
-      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
-      "sourceRevision": "bcc40a2f42b21730d26a6fdf7ce4a734aaa04407",
-      "category": "모션",
-      "tags": [
-        "Remotion",
-        "KPI",
-        "숫자"
-      ],
-      "publishedAt": null,
-      "access": "free",
-      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
-      "pricingEvidence": {
-        "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/blob/main/src/components/kpi-counter/KpiCounter.tsx",
-        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.901Z",
-        "license": "MIT"
-      },
-      "toolCost": "unverified",
-      "toolCostNote": "템플릿 자체는 MIT. Remotion 엔진은 별도 라이선스이며 큰 팀은 Company License가 필요할 수 있음. RenderComp 유료 전체 카탈로그와 별개. 추가하는 폰트·이미지·오디오는 별도 권리 확인.",
-      "thumbnailSourceUrl": "https://raw.githubusercontent.com/RenderComp/free-remotion-templates/main/docs/thumbs/kpi-counter.gif",
-      "thumbnailAlt": "KPI 숫자 카운터 원본 페이지 미리보기",
-      "thumbnailType": "page-image",
-      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
-      "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
-      "updatedAt": "2026-11-14T07:43:36.914Z",
-      "translationStatus": "native",
-      "topicLabels": [
-        "강의·콘텐츠 제작",
-        "업무 자동화·생산성"
-      ],
-      "thumbnail": "./thumbnails/frame-resource-4726641eb67c0db2bd6e.webp",
-      "thumbnailCapturedAt": "2026-11-14T07:47:13.768Z"
-    },
-    {
-      "id": "e45eddc0e66877bb1d4c",
-      "url": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
-      "title": "LTX 영상 생성 워크플로 팩",
-      "description": "LTX 계열 영상 제작 워크플로와 공개 사용 안내를 모은 자료.",
-      "sourceId": "djz-workflows",
-      "sourceName": "드리프트 존슨 워크플로",
-      "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows",
-      "sourceEntryUrl": "https://github.com/MushroomFleet/DJZ-Workflows/blob/main/README.md",
-      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
-      "sourceRevision": "14fce7896053d47d25e0e62b7514b5b628712b4c",
-      "category": "영상",
-      "tags": [
-        "ComfyUI",
-        "영상"
-      ],
-      "publishedAt": null,
-      "access": "free",
-      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
-      "pricingEvidence": {
-        "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
-        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.902Z",
-        "license": "원문 확인"
-      },
-      "toolCost": "unverified",
-      "toolCostNote": "공개 워크플로 자료 열람·다운로드는 무료입니다. GPU, 모델·노드 라이선스와 외부 API 사용료는 별도입니다.",
-      "thumbnailSourceUrl": "https://raw.githubusercontent.com/MushroomFleet/DJZ-Workflows/main/XODA-LTXV-Video-Pack/ltxv-13B-097/XODA-13B-097-img2vid-Extendo-v12.png",
-      "thumbnailAlt": "LTX 영상 생성 워크플로 팩 원본 페이지 미리보기",
-      "thumbnailType": "page-image",
-      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
-      "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
-      "updatedAt": "2026-11-14T07:43:36.914Z",
-      "translationStatus": "native",
-      "topicLabels": [
-        "강의·콘텐츠 제작",
-        "업무 자동화·생산성"
-      ],
-      "thumbnail": "./thumbnails/resource-e45eddc0e66877bb1d4c.webp",
-      "thumbnailCapturedAt": "2026-11-14T07:44:59.647Z"
-    },
-    {
-      "id": "3dc16d546e8095e459ae",
-      "url": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
-      "title": "UI 컴포넌트 이름 24선",
-      "description": "모달·드로어·바텀시트·아코디언 등 UI 요소를 AI에게 정확히 설명하는 용어와 예문.",
-      "sourceId": "motion-prompt",
-      "sourceName": "Motion Prompt AI 표현 사전",
-      "sourceUrl": "https://github.com/showheyohtaki/motion-prompt",
-      "sourceEntryUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
-      "collectionMethod": "제작자 공개 저장소의 실제 파일·폴더 목록과 대조",
-      "sourceRevision": "07ffa4cf5ce348897ee09cfdbc99fbc665644f6d",
-      "category": "웹사이트",
-      "tags": [
-        "UI",
-        "컴포넌트",
-        "프로토타입"
-      ],
-      "publishedAt": null,
-      "access": "free",
-      "accessNote": "공개 저장소의 설명과 파일은 결제 없이 열람·다운로드할 수 있습니다. 실행 환경·모델·API·상업적 이용 조건은 별도입니다.",
-      "pricingEvidence": {
-        "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
-        "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T08:03:40.904Z",
-        "license": "MIT"
-      },
-      "toolCost": "unverified",
-      "toolCostNote": "저장소는 코드·영상·이미지의 상업적 사용을 허용하며 저작권 고지 보존 필요. 프롬프트를 실행하는 외부 AI·영상 생성 도구 사용료는 별도.",
-      "thumbnailSourceUrl": null,
-      "thumbnailAlt": "UI 컴포넌트 이름 24선 원본 페이지 미리보기",
-      "thumbnailType": "page-screenshot",
-      "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
-      "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T08:03:41.411Z",
-      "updatedAt": "2026-11-14T07:43:36.914Z",
-      "translationStatus": "native",
-      "topicLabels": [
-        "강의·콘텐츠 제작",
-        "업무 자동화·생산성"
-      ],
-      "thumbnail": "./thumbnails/capture-3dc16d546e8095e459ae.webp",
-      "thumbnailCapturedAt": "2026-11-14T07:49:58.673Z"
     },
     {
       "id": "fa72ee6e86503c55c697",
@@ -11291,13 +11381,13 @@
       "id": "promptwhat",
       "name": "프롬왓",
       "url": "https://promptwhat-ai-library.promptwhatt.chatgpt.site/",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 205,
       "newCount": 0,
-      "changedCount": 5,
+      "changedCount": 0,
       "error": null,
       "eligibleCount": 5,
       "paidCount": 0,
@@ -11307,8 +11397,8 @@
       "id": "threeui",
       "name": "쓰리유아이",
       "url": "https://threeui.com/",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 845,
@@ -11323,8 +11413,8 @@
       "id": "comfy-workflows",
       "name": "Comfy 공식 워크플로",
       "url": "https://github.com/Comfy-Org/workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 3,
@@ -11339,8 +11429,8 @@
       "id": "djz-workflows",
       "name": "드리프트 존슨 워크플로",
       "url": "https://github.com/MushroomFleet/DJZ-Workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 6,
@@ -11357,8 +11447,8 @@
       "url": "https://github.com/RenderComp/free-remotion-templates",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T08:03:41.411Z",
-      "lastSuccessAt": "2026-11-14T08:03:41.411Z",
+      "lastAttemptAt": "2026-11-14T08:38:24.334Z",
+      "lastSuccessAt": "2026-11-14T08:38:24.334Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -11371,8 +11461,8 @@
       "id": "motion-prompt",
       "name": "Motion Prompt AI 표현 사전",
       "url": "https://github.com/showheyohtaki/motion-prompt",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 5,
@@ -11389,8 +11479,8 @@
       "url": "https://github.com/anthropics/skills",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T08:03:41.411Z",
-      "lastSuccessAt": "2026-11-14T08:03:41.411Z",
+      "lastAttemptAt": "2026-11-14T08:38:24.334Z",
+      "lastSuccessAt": "2026-11-14T08:38:24.334Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -11403,8 +11493,8 @@
       "id": "filatov",
       "name": "다닐 필라토프 웹디자인",
       "url": "https://filatov.design/sites",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 1,
@@ -11419,8 +11509,8 @@
       "id": "discovered-ant-design-ant-design-landing",
       "name": "디자인·웹 제작 · ant-design",
       "url": "https://github.com/ant-design/ant-design-landing",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 1,
@@ -11435,8 +11525,8 @@
       "id": "discovered-mjmirza-apple-design-system",
       "name": "디자인·웹 제작 · mjmirza",
       "url": "https://github.com/mjmirza/apple-design-system",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T08:03:41.411Z",
       "lastSuccessAt": "2026-11-14T08:03:41.411Z",
       "itemCount": 1,
@@ -11446,9 +11536,88 @@
       "eligibleCount": 1,
       "paidCount": 0,
       "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-jonhrafe-cexi-public",
+      "name": "AI 이미지 제작 · jonhrafe",
+      "url": "https://github.com/jonhrafe/CEXI-public",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T08:38:24.334Z",
+      "lastSuccessAt": "2026-11-14T08:38:24.334Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 1,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-sazio-tutorialdiffusionmodels",
+      "name": "AI 이미지 제작 · sazio",
+      "url": "https://github.com/sazio/TutorialDiffusionModels",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-14T08:38:24.334Z",
+      "lastSuccessAt": "2026-11-14T08:38:24.334Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 1,
+      "paidCount": 0,
+      "unverifiedCount": 0
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-14T08:38:24.334Z",
+      "newCount": 2,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 4,
+      "totalSources": 12,
+      "selectedSourceIds": [
+        "discovered-jonhrafe-cexi-public",
+        "rendercomp",
+        "discovered-sazio-tutorialdiffusionmodels",
+        "anthropic-skills"
+      ],
+      "selectedCount": 4,
+      "sampledItemIds": [
+        "5e13c1d4a7b14f3b8a72",
+        "4726641eb67c0db2bd6e",
+        "01bc465e2f125f82241a",
+        "5815c69699958fcb003a",
+        "2c34be3f82ba7cf1d579",
+        "59d2f8309325f5dc2c49",
+        "d1765fb058859072454f",
+        "9f5148fb71ffb5836aae",
+        "f2c396bfb07bef20e4ba",
+        "6e62cbde5f14a01e36da",
+        "5dedfa12ad476f78a993",
+        "f51d2ea5a08af89d46e3"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "diffusion image tutorial fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "diffusion image tutorial fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        },
+        {
+          "query": "presentation automation fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-14T08:03:41.411Z",
       "newCount": 0,
@@ -11529,60 +11698,58 @@
     "updatedAt": "2026-11-14T06:47:59.414Z"
   },
   "discovery": {
-    "at": "2026-11-14T07:41:43.295Z",
+    "at": "2026-11-14T08:38:19.386Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "design system templates fork:false archived:false",
-        "page": 1,
-        "url": "https://api.github.com/search/repositories?q=design%20system%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "query": "diffusion image tutorial fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "ComfyUI workflow fork:false archived:false",
+        "query": "diffusion image tutorial fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      },
+      {
+        "query": "presentation automation fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       }
     ],
     "newSourceIds": [
-      "discovered-ant-design-ant-design-landing",
-      "discovered-mjmirza-apple-design-system"
+      "discovered-jonhrafe-cexi-public",
+      "discovered-sazio-tutorialdiffusionmodels"
     ],
     "errors": [],
-    "poolCount": 2,
-    "discoverySkipped": true,
+    "poolCount": 4,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 10,
+    "totalSourceCount": 12,
     "selectedSourceIds": [
-      "threeui",
-      "promptwhat",
-      "comfy-workflows",
+      "discovered-jonhrafe-cexi-public",
       "rendercomp",
-      "djz-workflows",
-      "discovered-mjmirza-apple-design-system",
-      "motion-prompt",
-      "discovered-ant-design-ant-design-landing",
-      "filatov",
+      "discovered-sazio-tutorialdiffusionmodels",
       "anthropic-skills"
     ],
-    "selectedCount": 10,
+    "selectedCount": 4,
     "sampledItemIds": [
-      "3dc16d546e8095e459ae",
-      "e66ab67bab4eaf2271b3",
-      "7a8590b4695439717f78",
-      "956d30ca5b6e6f3815fa",
-      "ed6111548061d8a27ce0",
-      "9176fe09f35d2eab7f95",
-      "63b8db7b492c07c80bcc",
-      "9d6499f3bbf24dddc050",
-      "489ee8a14c2eece88856",
-      "712410e0ab215110380c",
-      "afbb61d4deee953552e2",
-      "2cc8fef19f37d6bb9b98"
+      "5e13c1d4a7b14f3b8a72",
+      "4726641eb67c0db2bd6e",
+      "01bc465e2f125f82241a",
+      "5815c69699958fcb003a",
+      "2c34be3f82ba7cf1d579",
+      "59d2f8309325f5dc2c49",
+      "d1765fb058859072454f",
+      "9f5148fb71ffb5836aae",
+      "f2c396bfb07bef20e4ba",
+      "6e62cbde5f14a01e36da",
+      "5dedfa12ad476f78a993",
+      "f51d2ea5a08af89d46e3"
     ],
     "sampledCount": 12,
-    "selectedAt": "2026-11-14T08:03:41.428Z"
+    "selectedAt": "2026-11-14T08:38:24.360Z"
   },
   "policy": {
     "freeOnly": true,
@@ -11594,9 +11761,9 @@
       "강의·콘텐츠 제작",
       "업무 자동화·생산성"
     ],
-    "checkedAt": "2026-11-14T08:03:41.440Z",
-    "originalItemCount": 1077,
-    "visibleItemCount": 280,
+    "checkedAt": "2026-11-14T08:38:24.376Z",
+    "originalItemCount": 1079,
+    "visibleItemCount": 282,
     "excludedCounts": {
       "paid": 597,
       "unverified": 200,
@@ -11605,13 +11772,13 @@
     "notice": "자료 자체가 무료로 공개된 항목만 표시합니다. 유료 자료와 무료 여부 미확인 자료는 제외하며, 소개 도구의 비용은 별도입니다. 크리에이터·강사·디자이너를 위한 디자인·영상·모션·코딩·생산성 자료를 수집합니다."
   },
   "media": {
-    "files": 97,
-    "bytes": 4619857,
+    "files": 99,
+    "bytes": 4686525,
     "maxFiles": 500,
     "maxBytes": 209715200,
     "missing": 0,
     "errors": [],
     "storage": "cloud-build-assets",
-    "updatedAt": "2026-11-14T08:03:41.440Z"
+    "updatedAt": "2026-11-14T08:40:18.538Z"
   }
 }
