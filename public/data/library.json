@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T12:11:53.273Z",
+  "updatedAt": "2026-11-15T06:20:33.387Z",
   "items": [
     {
       "id": "e6bef2c6feb4ea2976a5",
@@ -357,7 +357,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/mjmirza/apple-design-system/blob/master/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-14T11:00:23.155Z",
+        "checkedAt": "2026-11-15T06:20:33.093Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -368,7 +368,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T11:00:24.306Z",
+      "lastSeenAt": "2026-11-15T06:20:33.387Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "titleKo": "애플 앱 화면 설계 자료 찾기 · UI 구성요소·공식 링크 카탈로그",
       "descriptionKo": "애플 앱의 버튼·탐색 구조 같은 UI 구성요소, 디자인 원칙, 폰트·아이콘·UI 키트의 공식 출처를 모은 비공식 카탈로그입니다. 무료 이미지 팩이 아니라 필요한 디자인 자료와 사용 맥락을 찾는 참고용 색인입니다.",
@@ -11182,8 +11182,8 @@
       "id": "threeui",
       "name": "쓰리유아이",
       "url": "https://threeui.com/",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T12:11:53.273Z",
       "lastSuccessAt": "2026-11-14T12:11:53.273Z",
       "itemCount": 845,
@@ -11246,8 +11246,8 @@
       "id": "motion-prompt",
       "name": "Motion Prompt AI 표현 사전",
       "url": "https://github.com/showheyohtaki/motion-prompt",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T12:11:53.273Z",
       "lastSuccessAt": "2026-11-14T12:11:53.273Z",
       "itemCount": 5,
@@ -11310,10 +11310,10 @@
       "id": "discovered-mjmirza-apple-design-system",
       "name": "애플 앱 디자인 자료 색인",
       "url": "https://github.com/mjmirza/apple-design-system",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T11:00:24.306Z",
-      "lastSuccessAt": "2026-11-14T11:00:24.306Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-15T06:20:33.387Z",
+      "lastSuccessAt": "2026-11-15T06:20:33.387Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11326,8 +11326,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T12:11:53.273Z",
       "lastSuccessAt": "2026-11-14T12:11:53.273Z",
       "itemCount": 1,
@@ -11342,8 +11342,8 @@
       "id": "discovered-fkimmel25-claude-video-editing-kit",
       "name": "모션·Remotion · fkimmel25",
       "url": "https://github.com/fkimmel25/claude-video-editing-kit",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T12:11:53.273Z",
       "lastSuccessAt": "2026-11-14T12:11:53.273Z",
       "itemCount": 1,
@@ -11440,8 +11440,8 @@
       "url": "https://github.com/touzanisaeed-ux/AI-Prompts-Collection",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-14T12:11:53.273Z",
-      "lastSuccessAt": "2026-11-14T12:11:53.273Z",
+      "lastAttemptAt": "2026-11-15T06:20:33.387Z",
+      "lastSuccessAt": "2026-11-15T06:20:33.387Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11454,14 +11454,14 @@
       "id": "discovered-hrudayvikas0203-symposium-v2-0",
       "name": "AI 영상 제작 · HrudayVikas0203",
       "url": "https://github.com/HrudayVikas0203/Symposium_v2.0",
-      "status": "not-run",
-      "lastAttemptAt": null,
-      "lastSuccessAt": null,
-      "itemCount": 0,
-      "newCount": 0,
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-15T06:20:33.387Z",
+      "lastSuccessAt": "2026-11-15T06:20:33.387Z",
+      "itemCount": 1,
+      "newCount": 1,
       "changedCount": 0,
       "error": null,
-      "selectedThisRun": false,
       "eligibleCount": 0,
       "paidCount": 0,
       "unverifiedCount": 0
@@ -11470,10 +11470,26 @@
       "id": "discovered-cydiz-freevideoai-h3-tools",
       "name": "AI 영상 제작 · cydiz",
       "url": "https://github.com/cydiz/freevideoai-h3-tools",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-14T12:11:53.273Z",
       "lastSuccessAt": "2026-11-14T12:11:53.273Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-zz41354899-swiftclip",
+      "name": "모션·Remotion · zz41354899",
+      "url": "https://github.com/zz41354899/SwiftClip",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-15T06:20:33.387Z",
+      "lastSuccessAt": "2026-11-15T06:20:33.387Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -11516,6 +11532,45 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-15T06:20:33.387Z",
+      "newCount": 2,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 4,
+      "totalSources": 23,
+      "selectedSourceIds": [
+        "discovered-touzanisaeed-ux-ai-prompts-collection",
+        "discovered-hrudayvikas0203-symposium-v2-0",
+        "discovered-mjmirza-apple-design-system",
+        "discovered-zz41354899-swiftclip"
+      ],
+      "selectedCount": 4,
+      "sampledItemIds": [
+        "b511b038241ef20e4a56",
+        "fe2c06aa3792e52f51d7",
+        "84c14f03c0c1d4b4ece0",
+        "a4370041b0e5de65ce9b"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "remotion templates fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "diffusion image tutorial fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "diffusion image tutorial fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-14T12:11:53.273Z",
       "newCount": 1,
@@ -11930,55 +11985,49 @@
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-14T12:11:48.829Z",
+    "at": "2026-11-15T06:20:26.270Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "text-to-video tutorial fork:false archived:false",
-        "page": 1,
-        "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "query": "remotion templates fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "motion graphics examples fork:false archived:false",
+        "query": "diffusion image tutorial fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      },
+      {
+        "query": "diffusion image tutorial fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=motion%20graphics%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-hrudayvikas0203-symposium-v2-0",
-      "discovered-cydiz-freevideoai-h3-tools"
+      "discovered-zz41354899-swiftclip"
     ],
     "errors": [],
-    "poolCount": 12,
+    "poolCount": 13,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 20,
+    "totalSourceCount": 21,
     "selectedSourceIds": [
-      "discovered-fkimmel25-claude-video-editing-kit",
-      "discovered-bruce1986-vibe-to-prod-lab",
-      "threeui",
-      "discovered-cydiz-freevideoai-h3-tools",
-      "motion-prompt",
-      "discovered-touzanisaeed-ux-ai-prompts-collection"
+      "discovered-touzanisaeed-ux-ai-prompts-collection",
+      "discovered-hrudayvikas0203-symposium-v2-0",
+      "discovered-mjmirza-apple-design-system",
+      "discovered-zz41354899-swiftclip"
     ],
-    "selectedCount": 6,
+    "selectedCount": 4,
     "sampledItemIds": [
-      "61f9bac10004e18c9406",
-      "972c739a000e5c2b0995",
-      "20a6099e68a75b1942b0",
-      "ed6111548061d8a27ce0",
-      "f50a24faf8bed3be98cd",
-      "fef183323fd8cfeef482",
-      "73ea6711de4df3b7286f",
-      "7a84c85c4b1eaa040595",
-      "b102db3b4419c016e722",
-      "a1bf569358c89ce02166",
-      "d52114263ea9b00b521e",
-      "b13b4a2ca9340ecb93e1"
+      "b511b038241ef20e4a56",
+      "fe2c06aa3792e52f51d7",
+      "84c14f03c0c1d4b4ece0",
+      "a4370041b0e5de65ce9b"
     ],
-    "sampledCount": 12,
-    "selectedAt": "2026-11-14T12:11:53.297Z"
+    "sampledCount": 4,
+    "selectedAt": "2026-11-15T06:20:33.405Z"
   },
   "policy": {
     "freeOnly": true,
@@ -11990,14 +12039,14 @@
       "강의·콘텐츠 제작",
       "업무 자동화·생산성"
     ],
-    "checkedAt": "2026-11-14T12:11:53.310Z",
-    "originalItemCount": 1084,
+    "checkedAt": "2026-11-15T06:20:33.416Z",
+    "originalItemCount": 1086,
     "visibleItemCount": 276,
     "excludedCounts": {
       "paid": 597,
       "unverified": 200,
       "outOfScope": 2,
-      "translationPending": 9
+      "translationPending": 11
     },
     "notice": "자료 자체가 무료로 공개된 항목만 표시합니다. 유료 자료와 무료 여부 미확인 자료는 제외하며, 소개 도구의 비용은 별도입니다. 크리에이터·강사·디자이너를 위한 디자인·영상·모션·코딩·생산성 자료를 수집합니다."
   },
@@ -12009,6 +12058,6 @@
     "missing": 0,
     "errors": [],
     "storage": "cloud-build-assets",
-    "updatedAt": "2026-11-14T12:11:53.310Z"
+    "updatedAt": "2026-11-15T06:20:33.416Z"
   }
 }

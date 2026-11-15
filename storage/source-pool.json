@@ -238,5 +238,25 @@
     "readmeUrl": "https://github.com/cydiz/freevideoai-h3-tools/blob/main/README.md",
     "readmeSha": "1ba3d339c80faaeba0685c57dd65b996e46a1991",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-zz41354899-swiftclip",
+    "name": "모션·Remotion · zz41354899",
+    "owner": "zz41354899",
+    "repo": "zz41354899/SwiftClip",
+    "branch": "main",
+    "url": "https://github.com/zz41354899/SwiftClip",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/zz41354899/SwiftClip",
+    "seed": false,
+    "discoveredAt": "2026-11-15T06:20:26.270Z",
+    "discoveryQuery": "remotion templates fork:false archived:false",
+    "topicLabel": "모션·Remotion",
+    "displayTitle": "모션·Remotion · SwiftClip",
+    "displayDescription": "모션·Remotion 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Production-ready Remotion templates and Claude Code workflow for storyboard-driven video generation.",
+    "readmeUrl": "https://github.com/zz41354899/SwiftClip/blob/main/README.md",
+    "readmeSha": "63624e60156599f54c3a89749849113fb910ef59",
+    "thumbnailUrl": null
   }
 ]
