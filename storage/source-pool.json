@@ -298,5 +298,25 @@
     "readmeUrl": "https://github.com/sandbase-lab/awesome-gemini-4-carbon/blob/main/README.md",
     "readmeSha": "3e7786b588fd05a4c5d57f4a95682a5fd3c4ea55",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-davidcarayon-inraethemes",
+    "name": "디자인·웹 제작 · davidcarayon",
+    "owner": "davidcarayon",
+    "repo": "davidcarayon/InraeThemes",
+    "branch": "master",
+    "url": "https://github.com/davidcarayon/InraeThemes",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/davidcarayon/InraeThemes",
+    "seed": false,
+    "discoveredAt": "2026-11-18T07:18:35.440Z",
+    "discoveryQuery": "design system templates fork:false archived:false",
+    "topicLabel": "디자인·웹 제작",
+    "displayTitle": "디자인·웹 제작 · InraeThemes",
+    "displayDescription": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Unofficial collection of templates and themes in line with INRAE's design system",
+    "readmeUrl": "https://github.com/davidcarayon/InraeThemes/blob/master/README.md",
+    "readmeSha": "786000e3f5712e7f8129d66ce82cdbb19f4e706d",
+    "thumbnailUrl": null
   }
 ]
