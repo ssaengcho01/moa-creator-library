@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T07:18:42.279Z",
+  "updatedAt": "2026-11-19T07:16:37.887Z",
   "items": [
     {
       "id": "e6bef2c6feb4ea2976a5",
@@ -357,7 +357,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/mjmirza/apple-design-system/blob/master/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-18T07:18:41.782Z",
+        "checkedAt": "2026-11-19T07:16:37.323Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -368,7 +368,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-19T07:16:37.887Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "titleKo": "애플 앱 화면 설계 자료 찾기 · UI 구성요소·공식 링크 카탈로그",
       "descriptionKo": "애플 앱의 버튼·탐색 구조 같은 UI 구성요소, 디자인 원칙, 폰트·아이콘·UI 키트의 공식 출처를 모은 비공식 카탈로그입니다. 무료 이미지 팩이 아니라 필요한 디자인 자료와 사용 맥락을 찾는 참고용 색인입니다.",
@@ -11182,12 +11182,12 @@
       "id": "threeui",
       "name": "쓰리유아이",
       "url": "https://threeui.com/",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 854,
-      "newCount": 9,
+      "newCount": 0,
       "changedCount": 0,
       "error": null,
       "eligibleCount": 248,
@@ -11198,8 +11198,8 @@
       "id": "comfy-workflows",
       "name": "Comfy 공식 워크플로",
       "url": "https://github.com/Comfy-Org/workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 3,
@@ -11214,8 +11214,8 @@
       "id": "djz-workflows",
       "name": "드리프트 존슨 워크플로",
       "url": "https://github.com/MushroomFleet/DJZ-Workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 6,
@@ -11262,13 +11262,13 @@
       "id": "anthropic-skills",
       "name": "Anthropic 디자인·교육 생산성 스킬",
       "url": "https://github.com/anthropics/skills",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 5,
       "newCount": 0,
-      "changedCount": 1,
+      "changedCount": 0,
       "error": null,
       "eligibleCount": 5,
       "paidCount": 0,
@@ -11312,8 +11312,8 @@
       "url": "https://github.com/mjmirza/apple-design-system",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11326,8 +11326,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 1,
@@ -11374,10 +11374,10 @@
       "id": "discovered-aemotionstudio-comfyui-cdn-link-examples",
       "name": "ComfyUI 워크플로 · AEmotionStudio",
       "url": "https://github.com/AEmotionStudio/ComfyUI-CDN-Link-Examples",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-17T07:48:28.526Z",
-      "lastSuccessAt": "2026-11-17T07:48:28.526Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11406,8 +11406,8 @@
       "id": "discovered-a719689614-comfyui-workflow",
       "name": "ComfyUI 워크플로 · A719689614",
       "url": "https://github.com/A719689614/ComfyUI-WorkFlow",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 1,
@@ -11454,8 +11454,8 @@
       "id": "discovered-hrudayvikas0203-symposium-v2-0",
       "name": "AI 영상 제작 · HrudayVikas0203",
       "url": "https://github.com/HrudayVikas0203/Symposium_v2.0",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
       "itemCount": 1,
@@ -11470,10 +11470,10 @@
       "id": "discovered-cydiz-freevideoai-h3-tools",
       "name": "AI 영상 제작 · cydiz",
       "url": "https://github.com/cydiz/freevideoai-h3-tools",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T12:11:53.273Z",
-      "lastSuccessAt": "2026-11-14T12:11:53.273Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11486,10 +11486,10 @@
       "id": "discovered-zz41354899-swiftclip",
       "name": "모션·Remotion · zz41354899",
       "url": "https://github.com/zz41354899/SwiftClip",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-16T06:18:48.266Z",
-      "lastSuccessAt": "2026-11-16T06:18:48.266Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11520,8 +11520,8 @@
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11534,10 +11534,26 @@
       "id": "discovered-davidcarayon-inraethemes",
       "name": "디자인·웹 제작 · davidcarayon",
       "url": "https://github.com/davidcarayon/InraeThemes",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-18T07:18:42.279Z",
       "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-rudy2steiner-open-prompts",
+      "name": "AI 이미지 제작 · rudy2steiner",
+      "url": "https://github.com/rudy2steiner/open-prompts",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
+      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -11580,6 +11596,44 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-19T07:16:37.887Z",
+      "newCount": 1,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 6,
+      "totalSources": 27,
+      "selectedSourceIds": [
+        "discovered-aemotionstudio-comfyui-cdn-link-examples",
+        "discovered-zz41354899-swiftclip",
+        "discovered-sandbase-lab-awesome-gemini-4-carbon",
+        "discovered-mjmirza-apple-design-system",
+        "discovered-rudy2steiner-open-prompts",
+        "discovered-cydiz-freevideoai-h3-tools"
+      ],
+      "selectedCount": 6,
+      "sampledItemIds": [
+        "f3b102f922103e0df421",
+        "1a6e655f3aef36b13c33",
+        "b511b038241ef20e4a56",
+        "b578e0d115571d429b95",
+        "a4370041b0e5de65ce9b",
+        "0c1364938e36d8b560fa"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "image generation workflow fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=image%20generation%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "AI coding workflow fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-18T07:18:42.279Z",
       "newCount": 10,
@@ -12176,58 +12230,48 @@
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-18T07:18:35.440Z",
+    "at": "2026-11-19T07:16:33.557Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "design system templates fork:false archived:false",
-        "page": 1,
-        "url": "https://api.github.com/search/repositories?q=design%20system%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "query": "image generation workflow fork:false archived:false",
+        "page": 2,
+        "url": "https://api.github.com/search/repositories?q=image%20generation%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "presentation automation fork:false archived:false",
+        "query": "AI coding workflow fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-davidcarayon-inraethemes"
+      "discovered-rudy2steiner-open-prompts"
     ],
     "errors": [],
-    "poolCount": 16,
+    "poolCount": 17,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 24,
+    "totalSourceCount": 25,
     "selectedSourceIds": [
-      "discovered-davidcarayon-inraethemes",
-      "threeui",
-      "djz-workflows",
-      "discovered-hrudayvikas0203-symposium-v2-0",
-      "discovered-a719689614-comfyui-workflow",
-      "discovered-bruce1986-vibe-to-prod-lab",
-      "comfy-workflows",
-      "discovered-mjmirza-apple-design-system",
+      "discovered-aemotionstudio-comfyui-cdn-link-examples",
+      "discovered-zz41354899-swiftclip",
       "discovered-sandbase-lab-awesome-gemini-4-carbon",
-      "anthropic-skills"
+      "discovered-mjmirza-apple-design-system",
+      "discovered-rudy2steiner-open-prompts",
+      "discovered-cydiz-freevideoai-h3-tools"
     ],
-    "selectedCount": 10,
+    "selectedCount": 6,
     "sampledItemIds": [
-      "b461236ac84b8db3af36",
-      "1de6f7c89d2c0a888b3d",
-      "84c14f03c0c1d4b4ece0",
-      "b62ac552a5e9aadebd13",
-      "77c0a7e87817f2924f00",
-      "e036ac2ac7d8cd7cc5ea",
-      "50155402c417c4c99040",
-      "63b8db7b492c07c80bcc",
-      "06f1d55adbd297bf99a9",
-      "8311762f096d7b9cdbaa",
-      "de8f02dcee5b879f74b6",
-      "ac13ad83c4606e89acfd"
+      "f3b102f922103e0df421",
+      "1a6e655f3aef36b13c33",
+      "b511b038241ef20e4a56",
+      "b578e0d115571d429b95",
+      "a4370041b0e5de65ce9b",
+      "0c1364938e36d8b560fa"
     ],
-    "sampledCount": 12,
-    "selectedAt": "2026-11-18T07:18:42.308Z"
+    "sampledCount": 6,
+    "selectedAt": "2026-11-19T07:16:37.901Z"
   },
   "policy": {
     "freeOnly": true,
@@ -12239,14 +12283,14 @@
       "강의·콘텐츠 제작",
       "업무 자동화·생산성"
     ],
-    "checkedAt": "2026-11-18T07:18:42.324Z",
-    "originalItemCount": 1098,
+    "checkedAt": "2026-11-19T07:16:37.911Z",
+    "originalItemCount": 1099,
     "visibleItemCount": 276,
     "excludedCounts": {
       "paid": 606,
       "unverified": 200,
       "outOfScope": 2,
-      "translationPending": 14
+      "translationPending": 15
     },
     "notice": "자료 자체가 무료로 공개된 항목만 표시합니다. 유료 자료와 무료 여부 미확인 자료는 제외하며, 소개 도구의 비용은 별도입니다. 크리에이터·강사·디자이너를 위한 디자인·영상·모션·코딩·생산성 자료를 수집합니다."
   },
@@ -12258,6 +12302,6 @@
     "missing": 0,
     "errors": [],
     "storage": "cloud-build-assets",
-    "updatedAt": "2026-11-18T07:18:42.324Z"
+    "updatedAt": "2026-11-19T07:16:37.911Z"
   }
 }

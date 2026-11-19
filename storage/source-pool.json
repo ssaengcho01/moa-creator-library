@@ -318,5 +318,25 @@
     "readmeUrl": "https://github.com/davidcarayon/InraeThemes/blob/master/README.md",
     "readmeSha": "786000e3f5712e7f8129d66ce82cdbb19f4e706d",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-rudy2steiner-open-prompts",
+    "name": "AI 이미지 제작 · rudy2steiner",
+    "owner": "rudy2steiner",
+    "repo": "rudy2steiner/open-prompts",
+    "branch": "main",
+    "url": "https://github.com/rudy2steiner/open-prompts",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/rudy2steiner/open-prompts",
+    "seed": false,
+    "discoveredAt": "2026-11-19T07:16:33.557Z",
+    "discoveryQuery": "image generation workflow fork:false archived:false",
+    "topicLabel": "AI 이미지 제작",
+    "displayTitle": "AI 이미지 제작 · open-prompts",
+    "displayDescription": "AI 이미지 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "an open-source platform for discovering, sharing, and reusing AI image prompt templates. Browse a curated gallery, open any template in a focused generation studio, and produce images with pluggable providers—without leaving one workflow",
+    "readmeUrl": "https://github.com/rudy2steiner/open-prompts/blob/main/README.md",
+    "readmeSha": "8cec0d9561cc5130e692affe873eb7443de87c7e",
+    "thumbnailUrl": null
   }
 ]
