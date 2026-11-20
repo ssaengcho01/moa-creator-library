@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T07:16:37.887Z",
+  "updatedAt": "2026-11-20T07:05:33.419Z",
   "items": [
+    {
+      "id": "275d65bd764a28895621",
+      "url": "https://github.com/vernetau/automation-for-amateurs/blob/master/readme.md",
+      "title": "크리에이터·강사 생산성 · automation-for-amateurs",
+      "description": "크리에이터·강사 생산성 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "automation-for-amateurs",
+      "originalDescription": "Automation for Amateurs lab example from VERNet's AusNOG 2026 presentation",
+      "sourceId": "discovered-vernetau-automation-for-amateurs",
+      "sourceName": "크리에이터·강사 생산성 · vernetau",
+      "sourceUrl": "https://github.com/vernetau/automation-for-amateurs",
+      "sourceEntryUrl": "https://github.com/vernetau/automation-for-amateurs",
+      "sourceRevision": "400f7813f6d6632104a42a2c50036528509b21e1",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "크리에이터·강사 생산성",
+      "tags": [
+        "크리에이터·강사 생산성",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/vernetau/automation-for-amateurs/blob/master/readme.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-20T07:05:32.815Z",
+        "license": "Apache-2.0"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "크리에이터·강사 생산성 · automation-for-amateurs 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-20T07:05:33.419Z",
+      "lastSeenAt": "2026-11-20T07:05:33.419Z",
+      "updatedAt": "2026-11-20T07:05:33.419Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
     {
       "id": "f3b102f922103e0df421",
       "url": "https://github.com/rudy2steiner/open-prompts/blob/main/README.md",
@@ -465,7 +505,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/HrudayVikas0203/Symposium_v2.0/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-18T07:18:40.826Z",
+        "checkedAt": "2026-11-20T07:05:33.415Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -476,7 +516,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-15T06:20:33.387Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-20T07:05:33.419Z",
       "updatedAt": "2026-11-15T06:20:33.387Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -665,7 +705,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/ltdrdata/ComfyUI-Workflow-Component/blob/Main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-14T11:00:23.991Z",
+        "checkedAt": "2026-11-20T07:05:33.118Z",
         "license": "GPL-3.0"
       },
       "toolCost": "unverified",
@@ -676,7 +716,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T10:55:55.776Z",
-      "lastSeenAt": "2026-11-14T11:00:24.306Z",
+      "lastSeenAt": "2026-11-20T07:05:33.419Z",
       "updatedAt": "2026-11-14T10:55:55.776Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -745,7 +785,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/imran31415/sloppyjoes-video/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-16T06:18:46.633Z",
+        "checkedAt": "2026-11-20T07:05:32.454Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -756,7 +796,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T10:48:13.574Z",
-      "lastSeenAt": "2026-11-16T06:18:48.266Z",
+      "lastSeenAt": "2026-11-20T07:05:33.419Z",
       "updatedAt": "2026-11-14T10:48:13.574Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -1598,7 +1638,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://filatov.design/sites",
         "method": "제작자 자료 목록의 해당 카드 Free 표시 확인",
-        "checkedAt": "2026-11-14T09:10:19.617Z"
+        "checkedAt": "2026-11-20T07:05:32.186Z"
       },
       "toolCost": "unverified",
       "toolCostNote": "무료 표시가 있는 시스템만 수집합니다. 유료 전체 구독과 AI 코딩 도구의 이용료는 별도입니다.",
@@ -1606,7 +1646,7 @@
       "thumbnailAlt": "THEN 실제 데모 페이지 캡처",
       "thumbnailType": "page-screenshot",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T09:10:20.111Z",
+      "lastSeenAt": "2026-11-20T07:05:33.419Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -35383,10 +35423,10 @@
       "id": "filatov",
       "name": "다닐 필라토프 웹디자인",
       "url": "https://filatov.design/sites",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T09:10:20.111Z",
-      "lastSuccessAt": "2026-11-14T09:10:20.111Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
+      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35409,8 +35449,8 @@
       "id": "discovered-mjmirza-apple-design-system",
       "name": "애플 앱 디자인 자료 색인",
       "url": "https://github.com/mjmirza/apple-design-system",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
@@ -35461,8 +35501,8 @@
       "id": "discovered-aemotionstudio-comfyui-cdn-link-examples",
       "name": "ComfyUI 워크플로 · AEmotionStudio",
       "url": "https://github.com/AEmotionStudio/ComfyUI-CDN-Link-Examples",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
@@ -35474,10 +35514,10 @@
       "id": "discovered-imran31415-sloppyjoes-video",
       "name": "ComfyUI 워크플로 · imran31415",
       "url": "https://github.com/imran31415/sloppyjoes-video",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-16T06:18:48.266Z",
-      "lastSuccessAt": "2026-11-16T06:18:48.266Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
+      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35500,10 +35540,10 @@
       "id": "discovered-ltdrdata-comfyui-workflow-component",
       "name": "ComfyUI 워크플로 · ltdrdata",
       "url": "https://github.com/ltdrdata/ComfyUI-Workflow-Component",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T11:00:24.306Z",
-      "lastSuccessAt": "2026-11-14T11:00:24.306Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
+      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35526,10 +35566,10 @@
       "id": "discovered-hrudayvikas0203-symposium-v2-0",
       "name": "AI 영상 제작 · HrudayVikas0203",
       "url": "https://github.com/HrudayVikas0203/Symposium_v2.0",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
+      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35539,8 +35579,8 @@
       "id": "discovered-cydiz-freevideoai-h3-tools",
       "name": "AI 영상 제작 · cydiz",
       "url": "https://github.com/cydiz/freevideoai-h3-tools",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
@@ -35552,8 +35592,8 @@
       "id": "discovered-zz41354899-swiftclip",
       "name": "모션·Remotion · zz41354899",
       "url": "https://github.com/zz41354899/SwiftClip",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
@@ -35578,8 +35618,8 @@
       "id": "discovered-sandbase-lab-awesome-gemini-4-carbon",
       "name": "모션·Remotion · sandbase-lab",
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
       "itemCount": 1,
@@ -35604,10 +35644,23 @@
       "id": "discovered-rudy2steiner-open-prompts",
       "name": "AI 이미지 제작 · rudy2steiner",
       "url": "https://github.com/rudy2steiner/open-prompts",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-19T07:16:37.887Z",
       "lastSuccessAt": "2026-11-19T07:16:37.887Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null
+    },
+    {
+      "id": "discovered-vernetau-automation-for-amateurs",
+      "name": "크리에이터·강사 생산성 · vernetau",
+      "url": "https://github.com/vernetau/automation-for-amateurs",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
+      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -35641,6 +35694,42 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-20T07:05:33.419Z",
+      "newCount": 1,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 5,
+      "totalSources": 28,
+      "selectedSourceIds": [
+        "filatov",
+        "discovered-imran31415-sloppyjoes-video",
+        "discovered-vernetau-automation-for-amateurs",
+        "discovered-ltdrdata-comfyui-workflow-component",
+        "discovered-hrudayvikas0203-symposium-v2-0"
+      ],
+      "selectedCount": 5,
+      "sampledItemIds": [
+        "84c14f03c0c1d4b4ece0",
+        "51ef8dd814d61cdfb383",
+        "541fc75ac5bea3a3b047",
+        "275d65bd764a28895621",
+        "0ec7f1e280c9e5c41968"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "presentation automation fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        },
+        {
+          "query": "diffusion image tutorial fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-19T07:16:37.887Z",
       "newCount": 1,
@@ -36271,51 +36360,49 @@
   "localization": {
     "language": "ko",
     "translated": 847,
-    "pending": 24,
+    "pending": 25,
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-19T07:16:33.557Z",
+    "at": "2026-11-20T07:05:27.561Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "image generation workflow fork:false archived:false",
-        "page": 2,
-        "url": "https://api.github.com/search/repositories?q=image%20generation%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "query": "presentation automation fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       },
       {
-        "query": "AI coding workflow fork:false archived:false",
+        "query": "diffusion image tutorial fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-rudy2steiner-open-prompts"
+      "discovered-vernetau-automation-for-amateurs"
     ],
     "errors": [],
-    "poolCount": 17,
+    "poolCount": 18,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 25,
+    "totalSourceCount": 26,
     "selectedSourceIds": [
-      "discovered-aemotionstudio-comfyui-cdn-link-examples",
-      "discovered-zz41354899-swiftclip",
-      "discovered-sandbase-lab-awesome-gemini-4-carbon",
-      "discovered-mjmirza-apple-design-system",
-      "discovered-rudy2steiner-open-prompts",
-      "discovered-cydiz-freevideoai-h3-tools"
+      "filatov",
+      "discovered-imran31415-sloppyjoes-video",
+      "discovered-vernetau-automation-for-amateurs",
+      "discovered-ltdrdata-comfyui-workflow-component",
+      "discovered-hrudayvikas0203-symposium-v2-0"
     ],
-    "selectedCount": 6,
+    "selectedCount": 5,
     "sampledItemIds": [
-      "f3b102f922103e0df421",
-      "1a6e655f3aef36b13c33",
-      "b511b038241ef20e4a56",
-      "b578e0d115571d429b95",
-      "a4370041b0e5de65ce9b",
-      "0c1364938e36d8b560fa"
+      "84c14f03c0c1d4b4ece0",
+      "51ef8dd814d61cdfb383",
+      "541fc75ac5bea3a3b047",
+      "275d65bd764a28895621",
+      "0ec7f1e280c9e5c41968"
     ],
-    "sampledCount": 6,
-    "selectedAt": "2026-11-19T07:16:37.901Z"
+    "sampledCount": 5,
+    "selectedAt": "2026-11-20T07:05:33.445Z"
   }
 }

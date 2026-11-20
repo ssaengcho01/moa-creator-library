@@ -338,5 +338,25 @@
     "readmeUrl": "https://github.com/rudy2steiner/open-prompts/blob/main/README.md",
     "readmeSha": "8cec0d9561cc5130e692affe873eb7443de87c7e",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-vernetau-automation-for-amateurs",
+    "name": "크리에이터·강사 생산성 · vernetau",
+    "owner": "vernetau",
+    "repo": "vernetau/automation-for-amateurs",
+    "branch": "master",
+    "url": "https://github.com/vernetau/automation-for-amateurs",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/vernetau/automation-for-amateurs",
+    "seed": false,
+    "discoveredAt": "2026-11-20T07:05:27.561Z",
+    "discoveryQuery": "presentation automation fork:false archived:false",
+    "topicLabel": "크리에이터·강사 생산성",
+    "displayTitle": "크리에이터·강사 생산성 · automation-for-amateurs",
+    "displayDescription": "크리에이터·강사 생산성 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Automation for Amateurs lab example from VERNet's AusNOG 2026 presentation",
+    "readmeUrl": "https://github.com/vernetau/automation-for-amateurs/blob/master/readme.md",
+    "readmeSha": "400f7813f6d6632104a42a2c50036528509b21e1",
+    "thumbnailUrl": null
   }
 ]

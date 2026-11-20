@@ -1,22 +1,22 @@
 {
-  "at": "2026-11-19T07:16:33.557Z",
+  "at": "2026-11-20T07:05:27.561Z",
   "provider": "github-public-search",
   "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
   "queries": [
     {
-      "query": "image generation workflow fork:false archived:false",
-      "page": 2,
-      "url": "https://api.github.com/search/repositories?q=image%20generation%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      "query": "presentation automation fork:false archived:false",
+      "page": 1,
+      "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
     },
     {
-      "query": "AI coding workflow fork:false archived:false",
+      "query": "diffusion image tutorial fork:false archived:false",
       "page": 1,
-      "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
     }
   ],
   "newSourceIds": [
-    "discovered-rudy2steiner-open-prompts"
+    "discovered-vernetau-automation-for-amateurs"
   ],
   "errors": [],
-  "poolCount": 17
+  "poolCount": 18
 }
