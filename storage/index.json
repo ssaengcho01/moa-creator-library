@@ -1,7 +1,87 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T07:05:33.419Z",
+  "updatedAt": "2026-11-21T06:58:35.139Z",
   "items": [
+    {
+      "id": "0e9233bd09f0785d6d0c",
+      "url": "https://github.com/thelumiereguy/CreativeCodingExamples/blob/master/README.md",
+      "title": "디자인·웹 제작 · CreativeCodingExamples",
+      "description": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "CreativeCodingExamples",
+      "originalDescription": "A collection of Creative Coding examples by me & other artists. We've used Jetpack Compose and Processing (Java Edition) to create these.",
+      "sourceId": "discovered-thelumiereguy-creativecodingexamples",
+      "sourceName": "디자인·웹 제작 · thelumiereguy",
+      "sourceUrl": "https://github.com/thelumiereguy/CreativeCodingExamples",
+      "sourceEntryUrl": "https://github.com/thelumiereguy/CreativeCodingExamples",
+      "sourceRevision": "bceaec8b8ac1358bdd5a8f75b48a96e3f72e6570",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "디자인·웹 제작",
+      "tags": [
+        "디자인·웹 제작",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/thelumiereguy/CreativeCodingExamples/blob/master/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-21T06:58:34.584Z",
+        "license": "Apache-2.0"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "디자인·웹 제작 · CreativeCodingExamples 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "updatedAt": "2026-11-21T06:58:35.139Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
+    {
+      "id": "605755844170720046aa",
+      "url": "https://github.com/juansrx/Monash-University-Creative-Coding-Examples-p5.js/blob/master/README.md",
+      "title": "디자인·웹 제작 · Monash-University-Creative-Coding-Examples-p5.js",
+      "description": "디자인·웹 제작 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "Monash-University-Creative-Coding-Examples-p5.js",
+      "originalDescription": "Sketches ported to p5 from the Monash University Creative Coding Course found at FutureLearn given by Jon McCormack from Monash University. Separated by weeks.",
+      "sourceId": "discovered-juansrx-monash-university-creative-coding-examples-p5-js",
+      "sourceName": "디자인·웹 제작 · juansrx",
+      "sourceUrl": "https://github.com/juansrx/Monash-University-Creative-Coding-Examples-p5.js",
+      "sourceEntryUrl": "https://github.com/juansrx/Monash-University-Creative-Coding-Examples-p5.js",
+      "sourceRevision": "ecb4c5315258a01867106895fb383cc5ed166db9",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "디자인·웹 제작",
+      "tags": [
+        "디자인·웹 제작",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/juansrx/Monash-University-Creative-Coding-Examples-p5.js/blob/master/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-21T06:58:33.740Z",
+        "license": "GPL-3.0"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "디자인·웹 제작 · Monash-University-Creative-Coding-Examples-p5.js 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "updatedAt": "2026-11-21T06:58:35.139Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
     {
       "id": "275d65bd764a28895621",
       "url": "https://github.com/vernetau/automation-for-amateurs/blob/master/readme.md",
@@ -425,7 +505,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/arielaizn/aftercode-plugin/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-16T06:18:48.263Z",
+        "checkedAt": "2026-11-21T06:58:35.136Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -436,7 +516,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-16T06:18:48.266Z",
-      "lastSeenAt": "2026-11-16T06:18:48.266Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-16T06:18:48.266Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -465,7 +545,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/sandbase-lab/awesome-gemini-4-carbon/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-19T07:16:37.079Z",
+        "checkedAt": "2026-11-21T06:58:34.885Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -476,7 +556,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-16T06:18:48.266Z",
-      "lastSeenAt": "2026-11-19T07:16:37.887Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-16T06:18:48.266Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -505,7 +585,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/HrudayVikas0203/Symposium_v2.0/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-20T07:05:33.415Z",
+        "checkedAt": "2026-11-21T06:58:33.977Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -516,7 +596,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-15T06:20:33.387Z",
-      "lastSeenAt": "2026-11-20T07:05:33.419Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-15T06:20:33.387Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -904,7 +984,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/RenderComp/free-remotion-templates/tree/main",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T10:23:50.764Z",
+        "checkedAt": "2026-11-21T06:58:33.552Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -914,7 +994,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T10:23:52.722Z",
-      "lastSeenAt": "2026-11-14T10:23:52.722Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T10:23:52.722Z",
       "usageKo": "강의 영상의 인트로와 이름 자막, 제품 소개 영상의 전환, 성과 발표용 움직이는 차트를 만들 때 필요한 템플릿을 이 모음에서 골라 쓰세요.",
       "stepsKo": [
@@ -954,7 +1034,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/Bruce1986/vibe-to-prod-lab/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-18T07:18:41.331Z",
+        "checkedAt": "2026-11-21T06:58:33.403Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -965,7 +1045,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T09:10:20.111Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T09:10:20.111Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -1120,7 +1200,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/academy-guide/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-18T07:18:42.275Z",
+        "checkedAt": "2026-11-21T06:58:34.344Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -1130,7 +1210,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1193,7 +1273,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T12:11:53.052Z",
+        "checkedAt": "2026-11-21T06:58:34.155Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1203,7 +1283,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T12:11:53.273Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1230,7 +1310,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-18T07:18:42.275Z",
+        "checkedAt": "2026-11-21T06:58:34.344Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -1240,7 +1320,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-18T07:18:42.279Z",
       "translationStatus": "native"
     },
@@ -1380,7 +1460,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T12:11:53.052Z",
+        "checkedAt": "2026-11-21T06:58:34.155Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1390,7 +1470,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T12:11:53.273Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1417,7 +1497,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T12:11:53.052Z",
+        "checkedAt": "2026-11-21T06:58:34.155Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1427,7 +1507,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T12:11:53.273Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1454,7 +1534,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/theme-factory/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-18T07:18:42.275Z",
+        "checkedAt": "2026-11-21T06:58:34.344Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -1464,7 +1544,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1565,7 +1645,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T12:11:53.052Z",
+        "checkedAt": "2026-11-21T06:58:34.155Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1575,7 +1655,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T12:11:53.273Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1745,7 +1825,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-18T07:18:42.275Z",
+        "checkedAt": "2026-11-21T06:58:34.344Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -1755,7 +1835,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1782,7 +1862,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-14T12:11:53.052Z",
+        "checkedAt": "2026-11-21T06:58:34.155Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1792,7 +1872,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-14T12:11:53.273Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1819,7 +1899,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/anthropics/skills/blob/main/skills/canvas-design/SKILL.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-18T07:18:42.275Z",
+        "checkedAt": "2026-11-21T06:58:34.344Z",
         "license": "선정한 5개 스킬의 LICENSE.txt에서 Apache-2.0 확인"
       },
       "toolCost": "unverified",
@@ -1829,7 +1909,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-21T06:58:35.139Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -35384,10 +35464,10 @@
       "id": "rendercomp",
       "name": "RenderComp 무료 Remotion 템플릿",
       "url": "https://github.com/RenderComp/free-remotion-templates",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T10:23:52.722Z",
-      "lastSuccessAt": "2026-11-14T10:23:52.722Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35397,10 +35477,10 @@
       "id": "motion-prompt",
       "name": "Motion Prompt AI 표현 사전",
       "url": "https://github.com/showheyohtaki/motion-prompt",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-14T12:11:53.273Z",
-      "lastSuccessAt": "2026-11-14T12:11:53.273Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -35410,10 +35490,10 @@
       "id": "anthropic-skills",
       "name": "Anthropic 디자인·교육 생산성 스킬",
       "url": "https://github.com/anthropics/skills",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -35423,8 +35503,8 @@
       "id": "filatov",
       "name": "다닐 필라토프 웹디자인",
       "url": "https://filatov.design/sites",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-20T07:05:33.419Z",
       "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
@@ -35462,10 +35542,10 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35514,8 +35594,8 @@
       "id": "discovered-imran31415-sloppyjoes-video",
       "name": "ComfyUI 워크플로 · imran31415",
       "url": "https://github.com/imran31415/sloppyjoes-video",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-20T07:05:33.419Z",
       "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
@@ -35540,8 +35620,8 @@
       "id": "discovered-ltdrdata-comfyui-workflow-component",
       "name": "ComfyUI 워크플로 · ltdrdata",
       "url": "https://github.com/ltdrdata/ComfyUI-Workflow-Component",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-20T07:05:33.419Z",
       "lastSuccessAt": "2026-11-20T07:05:33.419Z",
       "itemCount": 1,
@@ -35568,8 +35648,8 @@
       "url": "https://github.com/HrudayVikas0203/Symposium_v2.0",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-20T07:05:33.419Z",
-      "lastSuccessAt": "2026-11-20T07:05:33.419Z",
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35605,10 +35685,10 @@
       "id": "discovered-arielaizn-aftercode-plugin",
       "name": "모션·Remotion · arielaizn",
       "url": "https://github.com/arielaizn/aftercode-plugin",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-16T06:18:48.266Z",
-      "lastSuccessAt": "2026-11-16T06:18:48.266Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35618,10 +35698,10 @@
       "id": "discovered-sandbase-lab-awesome-gemini-4-carbon",
       "name": "모션·Remotion · sandbase-lab",
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-19T07:16:37.887Z",
-      "lastSuccessAt": "2026-11-19T07:16:37.887Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35657,10 +35737,36 @@
       "id": "discovered-vernetau-automation-for-amateurs",
       "name": "크리에이터·강사 생산성 · vernetau",
       "url": "https://github.com/vernetau/automation-for-amateurs",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-20T07:05:33.419Z",
       "lastSuccessAt": "2026-11-20T07:05:33.419Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null
+    },
+    {
+      "id": "discovered-juansrx-monash-university-creative-coding-examples-p5-js",
+      "name": "디자인·웹 제작 · juansrx",
+      "url": "https://github.com/juansrx/Monash-University-Creative-Coding-Examples-p5.js",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null
+    },
+    {
+      "id": "discovered-thelumiereguy-creativecodingexamples",
+      "name": "디자인·웹 제작 · thelumiereguy",
+      "url": "https://github.com/thelumiereguy/CreativeCodingExamples",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
+      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -35694,6 +35800,53 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-21T06:58:35.139Z",
+      "newCount": 2,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 9,
+      "totalSources": 30,
+      "selectedSourceIds": [
+        "discovered-bruce1986-vibe-to-prod-lab",
+        "rendercomp",
+        "discovered-juansrx-monash-university-creative-coding-examples-p5-js",
+        "discovered-hrudayvikas0203-symposium-v2-0",
+        "motion-prompt",
+        "anthropic-skills",
+        "discovered-thelumiereguy-creativecodingexamples",
+        "discovered-sandbase-lab-awesome-gemini-4-carbon",
+        "discovered-arielaizn-aftercode-plugin"
+      ],
+      "selectedCount": 9,
+      "sampledItemIds": [
+        "9f5148fb71ffb5836aae",
+        "55632c35b84be56bc785",
+        "5815c69699958fcb003a",
+        "20a6099e68a75b1942b0",
+        "05f6161d527c70faaeed",
+        "0e9233bd09f0785d6d0c",
+        "1a6e655f3aef36b13c33",
+        "605755844170720046aa",
+        "27df39823e6235fd36c8",
+        "d1765fb058859072454f",
+        "6e62cbde5f14a01e36da",
+        "e6bef2c6feb4ea2976a5"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "creative coding examples fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=creative%20coding%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        },
+        {
+          "query": "AI coding workflow fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-20T07:05:33.419Z",
       "newCount": 1,
@@ -36360,49 +36513,61 @@
   "localization": {
     "language": "ko",
     "translated": 847,
-    "pending": 25,
+    "pending": 27,
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-20T07:05:27.561Z",
+    "at": "2026-11-21T06:58:30.453Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "presentation automation fork:false archived:false",
+        "query": "creative coding examples fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=presentation%20automation%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=creative%20coding%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       },
       {
-        "query": "diffusion image tutorial fork:false archived:false",
+        "query": "AI coding workflow fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=diffusion%20image%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-vernetau-automation-for-amateurs"
+      "discovered-juansrx-monash-university-creative-coding-examples-p5-js",
+      "discovered-thelumiereguy-creativecodingexamples"
     ],
     "errors": [],
-    "poolCount": 18,
+    "poolCount": 20,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 26,
+    "totalSourceCount": 28,
     "selectedSourceIds": [
-      "filatov",
-      "discovered-imran31415-sloppyjoes-video",
-      "discovered-vernetau-automation-for-amateurs",
-      "discovered-ltdrdata-comfyui-workflow-component",
-      "discovered-hrudayvikas0203-symposium-v2-0"
+      "discovered-bruce1986-vibe-to-prod-lab",
+      "rendercomp",
+      "discovered-juansrx-monash-university-creative-coding-examples-p5-js",
+      "discovered-hrudayvikas0203-symposium-v2-0",
+      "motion-prompt",
+      "anthropic-skills",
+      "discovered-thelumiereguy-creativecodingexamples",
+      "discovered-sandbase-lab-awesome-gemini-4-carbon",
+      "discovered-arielaizn-aftercode-plugin"
     ],
-    "selectedCount": 5,
+    "selectedCount": 9,
     "sampledItemIds": [
-      "84c14f03c0c1d4b4ece0",
-      "51ef8dd814d61cdfb383",
-      "541fc75ac5bea3a3b047",
-      "275d65bd764a28895621",
-      "0ec7f1e280c9e5c41968"
+      "9f5148fb71ffb5836aae",
+      "55632c35b84be56bc785",
+      "5815c69699958fcb003a",
+      "20a6099e68a75b1942b0",
+      "05f6161d527c70faaeed",
+      "0e9233bd09f0785d6d0c",
+      "1a6e655f3aef36b13c33",
+      "605755844170720046aa",
+      "27df39823e6235fd36c8",
+      "d1765fb058859072454f",
+      "6e62cbde5f14a01e36da",
+      "e6bef2c6feb4ea2976a5"
     ],
-    "sampledCount": 5,
-    "selectedAt": "2026-11-20T07:05:33.445Z"
+    "sampledCount": 12,
+    "selectedAt": "2026-11-21T06:58:35.156Z"
   }
 }
