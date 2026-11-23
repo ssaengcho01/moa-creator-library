@@ -438,5 +438,25 @@
     "readmeUrl": "https://github.com/eddyrexton-a11y/creatorops/blob/main/README.md",
     "readmeSha": "4ea440e23b9582b6ecc5b0bcaaed208f025a9001",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-google-labs-code-jules-action",
+    "name": "바이브 코딩 · google-labs-code",
+    "owner": "google-labs-code",
+    "repo": "google-labs-code/jules-action",
+    "branch": "main",
+    "url": "https://github.com/google-labs-code/jules-action",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/google-labs-code/jules-action",
+    "seed": false,
+    "discoveredAt": "2026-11-23T07:27:33.875Z",
+    "discoveryQuery": "AI coding workflow fork:false archived:false",
+    "topicLabel": "바이브 코딩",
+    "displayTitle": "바이브 코딩 · jules-action",
+    "displayDescription": "바이브 코딩 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Add a powerful cloud coding agent to your GitHub workflows",
+    "readmeUrl": "https://github.com/google-labs-code/jules-action/blob/main/README.md",
+    "readmeSha": "5e3990e46eb76b1c720c6a1c49983e16ee1f4506",
+    "thumbnailUrl": null
   }
 ]
