@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T07:27:39.326Z",
+  "updatedAt": "2026-11-24T09:47:07.750Z",
   "items": [
+    {
+      "id": "0278dd5ab85e1f9e911e",
+      "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset/blob/main/README.md",
+      "title": "ComfyUI 워크플로 · ComfyUI-Apt_Preset",
+      "description": "ComfyUI 워크플로 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "ComfyUI-Apt_Preset",
+      "originalDescription": "make workflow easy",
+      "sourceId": "discovered-cardenluo-comfyui-apt-preset",
+      "sourceName": "ComfyUI 워크플로 · cardenluo",
+      "sourceUrl": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
+      "sourceEntryUrl": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
+      "sourceRevision": "6e94b905f9226834cb3e884254d1c9719c793c06",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "ComfyUI 워크플로",
+      "tags": [
+        "ComfyUI 워크플로",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/cardenluo/ComfyUI-Apt_Preset/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-24T09:47:07.135Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "ComfyUI 워크플로 · ComfyUI-Apt_Preset 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "updatedAt": "2026-11-24T09:47:07.750Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
     {
       "id": "8b19e2e5c4fe28b1d4ed",
       "url": "https://github.com/google-labs-code/jules-action/blob/main/README.md",
@@ -21,14 +61,9 @@
         "새 출처"
       ],
       "publishedAt": null,
-      "access": "free",
+      "access": "unknown",
       "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
-      "pricingEvidence": {
-        "sourceUrl": "https://github.com/google-labs-code/jules-action/blob/main/README.md",
-        "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-23T07:27:37.548Z",
-        "license": "MIT"
-      },
+      "pricingEvidence": null,
       "toolCost": "unverified",
       "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
       "thumbnailSourceUrl": null,
@@ -625,7 +660,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/sandbase-lab/awesome-gemini-4-carbon/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-23T07:27:37.835Z",
+        "checkedAt": "2026-11-24T09:47:06.716Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -636,7 +671,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-16T06:18:48.266Z",
-      "lastSeenAt": "2026-11-23T07:27:39.326Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-16T06:18:48.266Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -785,7 +820,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/touzanisaeed-ux/AI-Prompts-Collection/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-23T07:27:39.322Z",
+        "checkedAt": "2026-11-24T09:47:07.494Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -796,7 +831,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T11:00:24.306Z",
-      "lastSeenAt": "2026-11-23T07:27:39.326Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T11:00:24.306Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -1025,7 +1060,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/vedhs9131ocMC/hyperframes-demos/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-16T06:18:46.130Z",
+        "checkedAt": "2026-11-24T09:47:06.412Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1036,7 +1071,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T10:23:52.722Z",
-      "lastSeenAt": "2026-11-16T06:18:48.266Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T10:23:52.722Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -1353,7 +1388,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-21T06:58:34.155Z",
+        "checkedAt": "2026-11-24T09:47:05.999Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1363,7 +1398,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1540,7 +1575,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-21T06:58:34.155Z",
+        "checkedAt": "2026-11-24T09:47:05.999Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1550,7 +1585,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1577,7 +1612,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-21T06:58:34.155Z",
+        "checkedAt": "2026-11-24T09:47:05.999Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1587,7 +1622,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1725,7 +1760,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-21T06:58:34.155Z",
+        "checkedAt": "2026-11-24T09:47:05.999Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1735,7 +1770,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1942,7 +1977,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-21T06:58:34.155Z",
+        "checkedAt": "2026-11-24T09:47:05.999Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1952,7 +1987,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-21T06:58:35.139Z",
+      "lastSeenAt": "2026-11-24T09:47:07.750Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -35557,10 +35592,10 @@
       "id": "motion-prompt",
       "name": "Motion Prompt AI 표현 사전",
       "url": "https://github.com/showheyohtaki/motion-prompt",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-21T06:58:35.139Z",
-      "lastSuccessAt": "2026-11-21T06:58:35.139Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -35609,8 +35644,8 @@
       "id": "discovered-mjmirza-apple-design-system",
       "name": "애플 앱 디자인 자료 색인",
       "url": "https://github.com/mjmirza/apple-design-system",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35622,8 +35657,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35648,10 +35683,10 @@
       "id": "discovered-vedhs9131ocmc-hyperframes-demos",
       "name": "모션·Remotion · vedhs9131ocMC",
       "url": "https://github.com/vedhs9131ocMC/hyperframes-demos",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-16T06:18:48.266Z",
-      "lastSuccessAt": "2026-11-16T06:18:48.266Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35715,8 +35750,8 @@
       "url": "https://github.com/touzanisaeed-ux/AI-Prompts-Collection",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-23T07:27:39.326Z",
-      "lastSuccessAt": "2026-11-23T07:27:39.326Z",
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35739,8 +35774,8 @@
       "id": "discovered-cydiz-freevideoai-h3-tools",
       "name": "AI 영상 제작 · cydiz",
       "url": "https://github.com/cydiz/freevideoai-h3-tools",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35780,8 +35815,8 @@
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-23T07:27:39.326Z",
-      "lastSuccessAt": "2026-11-23T07:27:39.326Z",
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35791,8 +35826,8 @@
       "id": "discovered-davidcarayon-inraethemes",
       "name": "디자인·웹 제작 · davidcarayon",
       "url": "https://github.com/davidcarayon/InraeThemes",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35804,8 +35839,8 @@
       "id": "discovered-rudy2steiner-open-prompts",
       "name": "AI 이미지 제작 · rudy2steiner",
       "url": "https://github.com/rudy2steiner/open-prompts",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35856,8 +35891,8 @@
       "id": "discovered-conorbronsdon-ai-tools-for-creators",
       "name": "크리에이터·강사 생산성 · conorbronsdon",
       "url": "https://github.com/conorbronsdon/ai-tools-for-creators",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-23T07:27:39.326Z",
       "lastSuccessAt": "2026-11-23T07:27:39.326Z",
       "itemCount": 1,
@@ -35882,10 +35917,36 @@
       "id": "discovered-google-labs-code-jules-action",
       "name": "바이브 코딩 · google-labs-code",
       "url": "https://github.com/google-labs-code/jules-action",
+      "status": "error",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-23T07:27:39.326Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": "목록 HTTP 404"
+    },
+    {
+      "id": "discovered-ahekot-comfyui-vnccs-utils",
+      "name": "ComfyUI 워크플로 · AHEKOT",
+      "url": "https://github.com/AHEKOT/ComfyUI_VNCCS_Utils",
+      "status": "not-run",
+      "lastAttemptAt": null,
+      "lastSuccessAt": null,
+      "itemCount": 0,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null,
+      "selectedThisRun": false
+    },
+    {
+      "id": "discovered-cardenluo-comfyui-apt-preset",
+      "name": "ComfyUI 워크플로 · cardenluo",
+      "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
       "status": "ok",
       "selectedThisRun": true,
-      "lastAttemptAt": "2026-11-23T07:27:39.326Z",
-      "lastSuccessAt": "2026-11-23T07:27:39.326Z",
+      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
+      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -35919,6 +35980,47 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-24T09:47:07.750Z",
+      "newCount": 1,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 5,
+      "totalSources": 35,
+      "selectedSourceIds": [
+        "motion-prompt",
+        "discovered-vedhs9131ocmc-hyperframes-demos",
+        "discovered-sandbase-lab-awesome-gemini-4-carbon",
+        "discovered-cardenluo-comfyui-apt-preset",
+        "discovered-touzanisaeed-ux-ai-prompts-collection",
+        "discovered-google-labs-code-jules-action"
+      ],
+      "selectedCount": 6,
+      "sampledItemIds": [
+        "1a6e655f3aef36b13c33",
+        "fe2c06aa3792e52f51d7",
+        "55632c35b84be56bc785",
+        "3dc16d546e8095e459ae",
+        "f5bf4e4bf6ac8ac89821",
+        "a1dd7c38d796daf01e8c",
+        "20a6099e68a75b1942b0",
+        "0278dd5ab85e1f9e911e",
+        "05f6161d527c70faaeed"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "ComfyUI workflow fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "motion graphics examples fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=motion%20graphics%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-23T07:27:39.326Z",
       "newCount": 1,
@@ -36722,57 +36824,55 @@
   "localization": {
     "language": "ko",
     "translated": 847,
-    "pending": 29,
+    "pending": 30,
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-23T07:27:33.875Z",
+    "at": "2026-11-24T09:47:02.762Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "AI coding workflow fork:false archived:false",
-        "page": 2,
-        "url": "https://api.github.com/search/repositories?q=AI%20coding%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
-      },
-      {
         "query": "ComfyUI workflow fork:false archived:false",
         "page": 2,
         "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      },
+      {
+        "query": "motion graphics examples fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=motion%20graphics%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-google-labs-code-jules-action"
+      "discovered-ahekot-comfyui-vnccs-utils",
+      "discovered-cardenluo-comfyui-apt-preset"
     ],
     "errors": [],
-    "poolCount": 23,
+    "poolCount": 25,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 31,
+    "totalSourceCount": 33,
     "selectedSourceIds": [
-      "discovered-bruce1986-vibe-to-prod-lab",
-      "discovered-rudy2steiner-open-prompts",
-      "discovered-google-labs-code-jules-action",
+      "motion-prompt",
+      "discovered-vedhs9131ocmc-hyperframes-demos",
       "discovered-sandbase-lab-awesome-gemini-4-carbon",
-      "discovered-conorbronsdon-ai-tools-for-creators",
-      "discovered-mjmirza-apple-design-system",
-      "discovered-cydiz-freevideoai-h3-tools",
-      "discovered-davidcarayon-inraethemes",
-      "discovered-touzanisaeed-ux-ai-prompts-collection"
+      "discovered-cardenluo-comfyui-apt-preset",
+      "discovered-touzanisaeed-ux-ai-prompts-collection",
+      "discovered-google-labs-code-jules-action"
     ],
-    "selectedCount": 9,
+    "selectedCount": 6,
     "sampledItemIds": [
-      "a4370041b0e5de65ce9b",
-      "28bf5337062ac23071b7",
-      "f3b102f922103e0df421",
-      "0c1364938e36d8b560fa",
       "1a6e655f3aef36b13c33",
-      "8b19e2e5c4fe28b1d4ed",
-      "9833b2dbed5f2275ea4f",
       "fe2c06aa3792e52f51d7",
-      "27df39823e6235fd36c8"
+      "55632c35b84be56bc785",
+      "3dc16d546e8095e459ae",
+      "f5bf4e4bf6ac8ac89821",
+      "a1dd7c38d796daf01e8c",
+      "20a6099e68a75b1942b0",
+      "0278dd5ab85e1f9e911e",
+      "05f6161d527c70faaeed"
     ],
     "sampledCount": 9,
-    "selectedAt": "2026-11-23T07:27:39.355Z"
+    "selectedAt": "2026-11-24T09:47:07.774Z"
   }
 }
