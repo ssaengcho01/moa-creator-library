@@ -1,23 +1,23 @@
 {
-  "at": "2026-11-25T08:22:53.072Z",
+  "at": "2026-11-26T08:07:53.591Z",
   "provider": "github-public-search",
   "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
   "queries": [
     {
-      "query": "vibe coding templates fork:false archived:false",
+      "query": "creative coding examples fork:false archived:false",
       "page": 2,
-      "url": "https://api.github.com/search/repositories?q=vibe%20coding%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      "url": "https://api.github.com/search/repositories?q=creative%20coding%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
     },
     {
-      "query": "design system templates fork:false archived:false",
+      "query": "ComfyUI workflow fork:false archived:false",
       "page": 2,
-      "url": "https://api.github.com/search/repositories?q=design%20system%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
     }
   ],
   "newSourceIds": [
-    "discovered-ianwieds-awesome-vibe-coding",
-    "discovered-bfibrianto-vas-vibe"
+    "discovered-create-with-swift-creative-coding-pragma-2025",
+    "discovered-marcduiker-collab-creative-coding"
   ],
   "errors": [],
-  "poolCount": 27
+  "poolCount": 29
 }
