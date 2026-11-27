@@ -1,7 +1,87 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T08:07:58.421Z",
+  "updatedAt": "2026-11-27T08:17:49.011Z",
   "items": [
+    {
+      "id": "c7c8daafdee894a4a2d3",
+      "url": "https://github.com/Anil-matcha/flux-3-comfyui/blob/main/README.md",
+      "title": "ComfyUI 워크플로 · flux-3-comfyui",
+      "description": "ComfyUI 워크플로 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "flux-3-comfyui",
+      "originalDescription": "ComfyUI custom nodes for Muapi's FLUX 3 API: text-to-image, Dev, image editing, text/image-to-video, native audio, media savers, and example workflows.",
+      "sourceId": "discovered-anil-matcha-flux-3-comfyui",
+      "sourceName": "ComfyUI 워크플로 · Anil-matcha",
+      "sourceUrl": "https://github.com/Anil-matcha/flux-3-comfyui",
+      "sourceEntryUrl": "https://github.com/Anil-matcha/flux-3-comfyui",
+      "sourceRevision": "0eb6d850ba2608fa4b81629c3e29ab3996f3421b",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "ComfyUI 워크플로",
+      "tags": [
+        "ComfyUI 워크플로",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/Anil-matcha/flux-3-comfyui/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-27T08:17:49.006Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "ComfyUI 워크플로 · flux-3-comfyui 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-27T08:17:49.011Z",
+      "lastSeenAt": "2026-11-27T08:17:49.011Z",
+      "updatedAt": "2026-11-27T08:17:49.011Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
+    {
+      "id": "e1f5a1681674dc384106",
+      "url": "https://github.com/treza-labs/treza-examples/blob/main/README.md",
+      "title": "ComfyUI 워크플로 · treza-examples",
+      "description": "ComfyUI 워크플로 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "treza-examples",
+      "originalDescription": "Small runnable recipes for making AI video with Treza from curl, Python, TypeScript, LangChain, n8n, ComfyUI and x402. Every render is quoted first, with a price cap.",
+      "sourceId": "discovered-treza-labs-treza-examples",
+      "sourceName": "ComfyUI 워크플로 · treza-labs",
+      "sourceUrl": "https://github.com/treza-labs/treza-examples",
+      "sourceEntryUrl": "https://github.com/treza-labs/treza-examples",
+      "sourceRevision": "cc561e346baf10e557fc53a39d491c888cdd9df0",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "ComfyUI 워크플로",
+      "tags": [
+        "ComfyUI 워크플로",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/treza-labs/treza-examples/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-27T08:17:48.577Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": "https://raw.githubusercontent.com/treza-labs/treza-labs/main/assets/treza-demo.gif",
+      "thumbnailAlt": "ComfyUI 워크플로 · treza-examples 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-27T08:17:49.011Z",
+      "lastSeenAt": "2026-11-27T08:17:49.011Z",
+      "updatedAt": "2026-11-27T08:17:49.011Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
     {
       "id": "91545715ab7d03c87c35",
       "url": "https://github.com/create-with-swift/creative-coding-pragma-2025/blob/main/README.md",
@@ -106,7 +186,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/cardenluo/ComfyUI-Apt_Preset/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-24T09:47:07.135Z",
+        "checkedAt": "2026-11-27T08:17:48.770Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -117,7 +197,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-24T09:47:07.750Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-27T08:17:49.011Z",
       "updatedAt": "2026-11-24T09:47:07.750Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -740,7 +820,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/sandbase-lab/awesome-gemini-4-carbon/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-24T09:47:06.716Z",
+        "checkedAt": "2026-11-27T08:17:48.360Z",
         "license": "NOASSERTION"
       },
       "toolCost": "unverified",
@@ -751,7 +831,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-16T06:18:48.266Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-27T08:17:49.011Z",
       "updatedAt": "2026-11-16T06:18:48.266Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -35633,8 +35713,8 @@
       "id": "comfy-workflows",
       "name": "Comfy 공식 워크플로",
       "url": "https://github.com/Comfy-Org/workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 3,
@@ -35737,8 +35817,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
@@ -35893,10 +35973,10 @@
       "id": "discovered-sandbase-lab-awesome-gemini-4-carbon",
       "name": "모션·Remotion · sandbase-lab",
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
-      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35958,8 +36038,8 @@
       "id": "discovered-thelumiereguy-creativecodingexamples",
       "name": "디자인·웹 제작 · thelumiereguy",
       "url": "https://github.com/thelumiereguy/CreativeCodingExamples",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
@@ -36023,10 +36103,10 @@
       "id": "discovered-cardenluo-comfyui-apt-preset",
       "name": "ComfyUI 워크플로 · cardenluo",
       "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
-      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -36062,12 +36142,12 @@
       "id": "discovered-create-with-swift-creative-coding-pragma-2025",
       "name": "디자인·웹 제작 · create-with-swift",
       "url": "https://github.com/create-with-swift/creative-coding-pragma-2025",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
-      "newCount": 1,
+      "newCount": 0,
       "changedCount": 0,
       "error": null
     },
@@ -36083,6 +36163,32 @@
       "changedCount": 0,
       "error": null,
       "selectedThisRun": false
+    },
+    {
+      "id": "discovered-treza-labs-treza-examples",
+      "name": "ComfyUI 워크플로 · treza-labs",
+      "url": "https://github.com/treza-labs/treza-examples",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null
+    },
+    {
+      "id": "discovered-anil-matcha-flux-3-comfyui",
+      "name": "ComfyUI 워크플로 · Anil-matcha",
+      "url": "https://github.com/Anil-matcha/flux-3-comfyui",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null
     },
     {
       "id": "discovered-jonhrafe-cexi-public",
@@ -36112,6 +36218,45 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-27T08:17:49.011Z",
+      "newCount": 2,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 4,
+      "totalSources": 41,
+      "selectedSourceIds": [
+        "discovered-sandbase-lab-awesome-gemini-4-carbon",
+        "discovered-treza-labs-treza-examples",
+        "discovered-cardenluo-comfyui-apt-preset",
+        "discovered-anil-matcha-flux-3-comfyui"
+      ],
+      "selectedCount": 4,
+      "sampledItemIds": [
+        "1a6e655f3aef36b13c33",
+        "c7c8daafdee894a4a2d3",
+        "e1f5a1681674dc384106",
+        "0278dd5ab85e1f9e911e"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "ComfyUI video examples fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "ComfyUI video examples fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        },
+        {
+          "query": "remotion templates fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-26T08:07:58.421Z",
       "newCount": 1,
@@ -37037,50 +37182,53 @@
   "localization": {
     "language": "ko",
     "translated": 847,
-    "pending": 32,
+    "pending": 34,
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-26T08:07:53.591Z",
+    "at": "2026-11-27T08:17:45.337Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "creative coding examples fork:false archived:false",
+        "query": "ComfyUI video examples fork:false archived:false",
         "page": 2,
-        "url": "https://api.github.com/search/repositories?q=creative%20coding%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "ComfyUI workflow fork:false archived:false",
-        "page": 2,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "query": "ComfyUI video examples fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      },
+      {
+        "query": "remotion templates fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-create-with-swift-creative-coding-pragma-2025",
-      "discovered-marcduiker-collab-creative-coding"
+      "discovered-treza-labs-treza-examples",
+      "discovered-anil-matcha-flux-3-comfyui"
     ],
     "errors": [],
-    "poolCount": 29,
+    "poolCount": 31,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 37,
+    "totalSourceCount": 39,
     "selectedSourceIds": [
-      "discovered-thelumiereguy-creativecodingexamples",
-      "comfy-workflows",
-      "discovered-bruce1986-vibe-to-prod-lab",
-      "discovered-create-with-swift-creative-coding-pragma-2025"
+      "discovered-sandbase-lab-awesome-gemini-4-carbon",
+      "discovered-treza-labs-treza-examples",
+      "discovered-cardenluo-comfyui-apt-preset",
+      "discovered-anil-matcha-flux-3-comfyui"
     ],
     "selectedCount": 4,
     "sampledItemIds": [
-      "0e9233bd09f0785d6d0c",
-      "27df39823e6235fd36c8",
-      "91545715ab7d03c87c35",
-      "7a11611d78bd7f32b9e6",
-      "32de5c9a7f5d15530bef",
-      "e179b86bccc1cb616bf5"
+      "1a6e655f3aef36b13c33",
+      "c7c8daafdee894a4a2d3",
+      "e1f5a1681674dc384106",
+      "0278dd5ab85e1f9e911e"
     ],
-    "sampledCount": 6,
-    "selectedAt": "2026-11-26T08:07:58.442Z"
+    "sampledCount": 4,
+    "selectedAt": "2026-11-27T08:17:49.038Z"
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T08:07:58.421Z",
+  "updatedAt": "2026-11-27T08:17:49.011Z",
   "items": [
     {
       "id": "e6bef2c6feb4ea2976a5",
@@ -11198,8 +11198,8 @@
       "id": "comfy-workflows",
       "name": "Comfy 공식 워크플로",
       "url": "https://github.com/Comfy-Org/workflows",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 3,
@@ -11326,8 +11326,8 @@
       "id": "discovered-bruce1986-vibe-to-prod-lab",
       "name": "바이브 코딩 · Bruce1986",
       "url": "https://github.com/Bruce1986/vibe-to-prod-lab",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
@@ -11518,10 +11518,10 @@
       "id": "discovered-sandbase-lab-awesome-gemini-4-carbon",
       "name": "모션·Remotion · sandbase-lab",
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
-      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11598,8 +11598,8 @@
       "id": "discovered-thelumiereguy-creativecodingexamples",
       "name": "디자인·웹 제작 · thelumiereguy",
       "url": "https://github.com/thelumiereguy/CreativeCodingExamples",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
@@ -11678,10 +11678,10 @@
       "id": "discovered-cardenluo-comfyui-apt-preset",
       "name": "ComfyUI 워크플로 · cardenluo",
       "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
-      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -11726,12 +11726,12 @@
       "id": "discovered-create-with-swift-creative-coding-pragma-2025",
       "name": "디자인·웹 제작 · create-with-swift",
       "url": "https://github.com/create-with-swift/creative-coding-pragma-2025",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-26T08:07:58.421Z",
       "lastSuccessAt": "2026-11-26T08:07:58.421Z",
       "itemCount": 1,
-      "newCount": 1,
+      "newCount": 0,
       "changedCount": 0,
       "error": null,
       "eligibleCount": 0,
@@ -11750,6 +11750,38 @@
       "changedCount": 0,
       "error": null,
       "selectedThisRun": false,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-treza-labs-treza-examples",
+      "name": "ComfyUI 워크플로 · treza-labs",
+      "url": "https://github.com/treza-labs/treza-examples",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null,
+      "eligibleCount": 0,
+      "paidCount": 0,
+      "unverifiedCount": 0
+    },
+    {
+      "id": "discovered-anil-matcha-flux-3-comfyui",
+      "name": "ComfyUI 워크플로 · Anil-matcha",
+      "url": "https://github.com/Anil-matcha/flux-3-comfyui",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-27T08:17:49.011Z",
+      "lastSuccessAt": "2026-11-27T08:17:49.011Z",
+      "itemCount": 1,
+      "newCount": 1,
+      "changedCount": 0,
+      "error": null,
       "eligibleCount": 0,
       "paidCount": 0,
       "unverifiedCount": 0
@@ -11788,6 +11820,45 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-27T08:17:49.011Z",
+      "newCount": 2,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 4,
+      "totalSources": 41,
+      "selectedSourceIds": [
+        "discovered-sandbase-lab-awesome-gemini-4-carbon",
+        "discovered-treza-labs-treza-examples",
+        "discovered-cardenluo-comfyui-apt-preset",
+        "discovered-anil-matcha-flux-3-comfyui"
+      ],
+      "selectedCount": 4,
+      "sampledItemIds": [
+        "1a6e655f3aef36b13c33",
+        "c7c8daafdee894a4a2d3",
+        "e1f5a1681674dc384106",
+        "0278dd5ab85e1f9e911e"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "ComfyUI video examples fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "ComfyUI video examples fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        },
+        {
+          "query": "remotion templates fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-26T08:07:58.421Z",
       "newCount": 1,
@@ -12717,47 +12788,50 @@
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-26T08:07:53.591Z",
+    "at": "2026-11-27T08:17:45.337Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "creative coding examples fork:false archived:false",
+        "query": "ComfyUI video examples fork:false archived:false",
         "page": 2,
-        "url": "https://api.github.com/search/repositories?q=creative%20coding%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "ComfyUI workflow fork:false archived:false",
-        "page": 2,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "query": "ComfyUI video examples fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      },
+      {
+        "query": "remotion templates fork:false archived:false",
+        "page": 1,
+        "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-create-with-swift-creative-coding-pragma-2025",
-      "discovered-marcduiker-collab-creative-coding"
+      "discovered-treza-labs-treza-examples",
+      "discovered-anil-matcha-flux-3-comfyui"
     ],
     "errors": [],
-    "poolCount": 29,
+    "poolCount": 31,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 37,
+    "totalSourceCount": 39,
     "selectedSourceIds": [
-      "discovered-thelumiereguy-creativecodingexamples",
-      "comfy-workflows",
-      "discovered-bruce1986-vibe-to-prod-lab",
-      "discovered-create-with-swift-creative-coding-pragma-2025"
+      "discovered-sandbase-lab-awesome-gemini-4-carbon",
+      "discovered-treza-labs-treza-examples",
+      "discovered-cardenluo-comfyui-apt-preset",
+      "discovered-anil-matcha-flux-3-comfyui"
     ],
     "selectedCount": 4,
     "sampledItemIds": [
-      "0e9233bd09f0785d6d0c",
-      "27df39823e6235fd36c8",
-      "91545715ab7d03c87c35",
-      "7a11611d78bd7f32b9e6",
-      "32de5c9a7f5d15530bef",
-      "e179b86bccc1cb616bf5"
+      "1a6e655f3aef36b13c33",
+      "c7c8daafdee894a4a2d3",
+      "e1f5a1681674dc384106",
+      "0278dd5ab85e1f9e911e"
     ],
-    "sampledCount": 6,
-    "selectedAt": "2026-11-26T08:07:58.442Z"
+    "sampledCount": 4,
+    "selectedAt": "2026-11-27T08:17:49.038Z"
   },
   "policy": {
     "freeOnly": true,
@@ -12769,14 +12843,14 @@
       "강의·콘텐츠 제작",
       "업무 자동화·생산성"
     ],
-    "checkedAt": "2026-11-26T08:07:58.457Z",
-    "originalItemCount": 1107,
+    "checkedAt": "2026-11-27T08:17:49.058Z",
+    "originalItemCount": 1109,
     "visibleItemCount": 276,
     "excludedCounts": {
       "paid": 606,
       "unverified": 201,
       "outOfScope": 2,
-      "translationPending": 22
+      "translationPending": 24
     },
     "notice": "자료 자체가 무료로 공개된 항목만 표시합니다. 유료 자료와 무료 여부 미확인 자료는 제외하며, 소개 도구의 비용은 별도입니다. 크리에이터·강사·디자이너를 위한 디자인·영상·모션·코딩·생산성 자료를 수집합니다."
   },
@@ -12788,6 +12862,6 @@
     "missing": 0,
     "errors": [],
     "storage": "cloud-build-assets",
-    "updatedAt": "2026-11-26T08:07:58.457Z"
+    "updatedAt": "2026-11-27T08:17:49.058Z"
   }
 }
