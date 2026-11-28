@@ -618,5 +618,25 @@
     "readmeUrl": "https://github.com/Anil-matcha/flux-3-comfyui/blob/main/README.md",
     "readmeSha": "0eb6d850ba2608fa4b81629c3e29ab3996f3421b",
     "thumbnailUrl": null
+  },
+  {
+    "id": "discovered-webvrdev-webvrdev-labs",
+    "name": "크리에이터·강사 생산성 · webvrdev",
+    "owner": "webvrdev",
+    "repo": "webvrdev/webvrdev-labs",
+    "branch": "main",
+    "url": "https://github.com/webvrdev/webvrdev-labs",
+    "kind": "github-repository",
+    "feed": "https://api.github.com/repos/webvrdev/webvrdev-labs",
+    "seed": false,
+    "discoveredAt": "2026-11-28T07:39:29.059Z",
+    "discoveryQuery": "creator productivity workflow fork:false archived:false",
+    "topicLabel": "크리에이터·강사 생산성",
+    "displayTitle": "크리에이터·강사 생산성 · webvrdev-labs",
+    "displayDescription": "크리에이터·강사 생산성 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+    "originalDescription": "Collection of lightweight helper tools and experimental utilities for 3D creators, game developers and WebXR workflows. Includes texture tools, editors, generators and productivity apps developed by webvrdev.",
+    "readmeUrl": "https://github.com/webvrdev/webvrdev-labs/blob/main/README.md",
+    "readmeSha": "7e0161f9e7b46b84cefb952f8aff2aed30ddbfd4",
+    "thumbnailUrl": null
   }
 ]

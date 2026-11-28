@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T08:17:49.011Z",
+  "updatedAt": "2026-11-28T07:39:33.136Z",
   "items": [
+    {
+      "id": "c4ce1712ac69c553c094",
+      "url": "https://github.com/webvrdev/webvrdev-labs/blob/main/README.md",
+      "title": "크리에이터·강사 생산성 · webvrdev-labs",
+      "description": "크리에이터·강사 생산성 주제로 검색해 공개 README 열람을 확인한 자료입니다. 실행 도구·외부 서비스의 비용과 개별 라이선스는 별도 확인이 필요합니다.",
+      "originalTitle": "webvrdev-labs",
+      "originalDescription": "Collection of lightweight helper tools and experimental utilities for 3D creators, game developers and WebXR workflows. Includes texture tools, editors, generators and productivity apps developed by webvrdev.",
+      "sourceId": "discovered-webvrdev-webvrdev-labs",
+      "sourceName": "크리에이터·강사 생산성 · webvrdev",
+      "sourceUrl": "https://github.com/webvrdev/webvrdev-labs",
+      "sourceEntryUrl": "https://github.com/webvrdev/webvrdev-labs",
+      "sourceRevision": "7e0161f9e7b46b84cefb952f8aff2aed30ddbfd4",
+      "collectionMethod": "무작위 관심 주제 검색 후 공개 저장소·README 검증",
+      "category": "크리에이터·강사 생산성",
+      "tags": [
+        "크리에이터·강사 생산성",
+        "새 출처"
+      ],
+      "publishedAt": null,
+      "access": "free",
+      "accessNote": "공개 README와 저장소 파일은 무료로 읽을 수 있습니다. 연결된 서비스와 실행 비용·라이선스는 별도입니다.",
+      "pricingEvidence": {
+        "sourceUrl": "https://github.com/webvrdev/webvrdev-labs/blob/main/README.md",
+        "method": "공개 저장소와 README 접근 확인",
+        "checkedAt": "2026-11-28T07:39:32.522Z",
+        "license": "MIT"
+      },
+      "toolCost": "unverified",
+      "toolCostNote": "새로 발견한 출처입니다. 외부 도구 사용료와 모델·코드의 이용 조건을 원문에서 확인하세요.",
+      "thumbnailSourceUrl": null,
+      "thumbnailAlt": "크리에이터·강사 생산성 · webvrdev-labs 원본 페이지 미리보기",
+      "thumbnailType": "page-image",
+      "selectionMethod": "관심 주제 기반 무작위 신규 출처",
+      "reviewStatus": "공개 접근·주제 자동 확인",
+      "firstSeenAt": "2026-11-28T07:39:33.136Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
+      "updatedAt": "2026-11-28T07:39:33.136Z",
+      "translationStatus": "pending",
+      "editorialStatus": "pending"
+    },
     {
       "id": "c7c8daafdee894a4a2d3",
       "url": "https://github.com/Anil-matcha/flux-3-comfyui/blob/main/README.md",
@@ -1020,7 +1060,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/A719689614/ComfyUI-WorkFlow/blob/main/README.md",
         "method": "공개 저장소와 README 접근 확인",
-        "checkedAt": "2026-11-18T07:18:41.074Z",
+        "checkedAt": "2026-11-28T07:39:32.335Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1031,7 +1071,7 @@
       "selectionMethod": "관심 주제 기반 무작위 신규 출처",
       "reviewStatus": "공개 접근·주제 자동 확인",
       "firstSeenAt": "2026-11-14T10:55:55.776Z",
-      "lastSeenAt": "2026-11-18T07:18:42.279Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T10:55:55.776Z",
       "translationStatus": "pending",
       "editorialStatus": "pending"
@@ -1511,7 +1551,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/XODA-LTXV-Video-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -1521,7 +1561,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1548,7 +1588,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/ui/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-24T09:47:05.999Z",
+        "checkedAt": "2026-11-28T07:39:32.782Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1558,7 +1598,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1735,7 +1775,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/lp/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-24T09:47:05.999Z",
+        "checkedAt": "2026-11-28T07:39:32.782Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1745,7 +1785,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1772,7 +1812,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/motion/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-24T09:47:05.999Z",
+        "checkedAt": "2026-11-28T07:39:32.782Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1782,7 +1822,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1920,7 +1960,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/photo/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-24T09:47:05.999Z",
+        "checkedAt": "2026-11-28T07:39:32.782Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -1930,7 +1970,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -1956,7 +1996,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Roda-AudioReactive-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -1966,7 +2006,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -2027,7 +2067,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/JustUpscalingThings-Pack",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -2037,7 +2077,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -2063,7 +2103,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/DJZ-3D",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -2073,7 +2113,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -2137,7 +2177,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/showheyohtaki/motion-prompt/blob/main/packs/camera/README.md",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-24T09:47:05.999Z",
+        "checkedAt": "2026-11-28T07:39:32.782Z",
         "license": "MIT"
       },
       "toolCost": "unverified",
@@ -2147,7 +2187,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-24T09:47:07.750Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -2210,7 +2250,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Foda_Flux",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -2220,7 +2260,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -2246,7 +2286,7 @@
       "pricingEvidence": {
         "sourceUrl": "https://github.com/MushroomFleet/DJZ-Workflows/tree/main/Hoda-Hunyuan-Video",
         "method": "공개 저장소에서 해당 파일·폴더 존재 및 무료 열람 확인",
-        "checkedAt": "2026-11-25T08:22:57.075Z",
+        "checkedAt": "2026-11-28T07:39:33.131Z",
         "license": "원문 확인"
       },
       "toolCost": "unverified",
@@ -2256,7 +2296,7 @@
       "thumbnailType": "page-image",
       "selectionMethod": "검증한 제작자 자료 중 선별한 컬렉션",
       "firstSeenAt": "2026-11-14T07:43:36.914Z",
-      "lastSeenAt": "2026-11-25T08:22:58.819Z",
+      "lastSeenAt": "2026-11-28T07:39:33.136Z",
       "updatedAt": "2026-11-14T07:43:36.914Z",
       "translationStatus": "native"
     },
@@ -35726,10 +35766,10 @@
       "id": "djz-workflows",
       "name": "드리프트 존슨 워크플로",
       "url": "https://github.com/MushroomFleet/DJZ-Workflows",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-25T08:22:58.819Z",
-      "lastSuccessAt": "2026-11-25T08:22:58.819Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-28T07:39:33.136Z",
+      "lastSuccessAt": "2026-11-28T07:39:33.136Z",
       "itemCount": 6,
       "newCount": 0,
       "changedCount": 0,
@@ -35752,10 +35792,10 @@
       "id": "motion-prompt",
       "name": "Motion Prompt AI 표현 사전",
       "url": "https://github.com/showheyohtaki/motion-prompt",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-24T09:47:07.750Z",
-      "lastSuccessAt": "2026-11-24T09:47:07.750Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-28T07:39:33.136Z",
+      "lastSuccessAt": "2026-11-28T07:39:33.136Z",
       "itemCount": 5,
       "newCount": 0,
       "changedCount": 0,
@@ -35882,10 +35922,10 @@
       "id": "discovered-a719689614-comfyui-workflow",
       "name": "ComfyUI 워크플로 · A719689614",
       "url": "https://github.com/A719689614/ComfyUI-WorkFlow",
-      "status": "not-run",
-      "selectedThisRun": false,
-      "lastAttemptAt": "2026-11-18T07:18:42.279Z",
-      "lastSuccessAt": "2026-11-18T07:18:42.279Z",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-28T07:39:33.136Z",
+      "lastSuccessAt": "2026-11-28T07:39:33.136Z",
       "itemCount": 1,
       "newCount": 0,
       "changedCount": 0,
@@ -35973,8 +36013,8 @@
       "id": "discovered-sandbase-lab-awesome-gemini-4-carbon",
       "name": "모션·Remotion · sandbase-lab",
       "url": "https://github.com/sandbase-lab/awesome-gemini-4-carbon",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-27T08:17:49.011Z",
       "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
@@ -36103,8 +36143,8 @@
       "id": "discovered-cardenluo-comfyui-apt-preset",
       "name": "ComfyUI 워크플로 · cardenluo",
       "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-27T08:17:49.011Z",
       "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
@@ -36168,12 +36208,12 @@
       "id": "discovered-treza-labs-treza-examples",
       "name": "ComfyUI 워크플로 · treza-labs",
       "url": "https://github.com/treza-labs/treza-examples",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-27T08:17:49.011Z",
       "lastSuccessAt": "2026-11-27T08:17:49.011Z",
       "itemCount": 1,
-      "newCount": 1,
+      "newCount": 0,
       "changedCount": 0,
       "error": null
     },
@@ -36181,10 +36221,23 @@
       "id": "discovered-anil-matcha-flux-3-comfyui",
       "name": "ComfyUI 워크플로 · Anil-matcha",
       "url": "https://github.com/Anil-matcha/flux-3-comfyui",
-      "status": "ok",
-      "selectedThisRun": true,
+      "status": "not-run",
+      "selectedThisRun": false,
       "lastAttemptAt": "2026-11-27T08:17:49.011Z",
       "lastSuccessAt": "2026-11-27T08:17:49.011Z",
+      "itemCount": 1,
+      "newCount": 0,
+      "changedCount": 0,
+      "error": null
+    },
+    {
+      "id": "discovered-webvrdev-webvrdev-labs",
+      "name": "크리에이터·강사 생산성 · webvrdev",
+      "url": "https://github.com/webvrdev/webvrdev-labs",
+      "status": "ok",
+      "selectedThisRun": true,
+      "lastAttemptAt": "2026-11-28T07:39:33.136Z",
+      "lastSuccessAt": "2026-11-28T07:39:33.136Z",
       "itemCount": 1,
       "newCount": 1,
       "changedCount": 0,
@@ -36218,6 +36271,48 @@
     }
   ],
   "runs": [
+    {
+      "at": "2026-11-28T07:39:33.136Z",
+      "newCount": 1,
+      "changedCount": 0,
+      "baseline": false,
+      "sourcesOk": 4,
+      "totalSources": 42,
+      "selectedSourceIds": [
+        "discovered-a719689614-comfyui-workflow",
+        "discovered-webvrdev-webvrdev-labs",
+        "motion-prompt",
+        "djz-workflows"
+      ],
+      "selectedCount": 4,
+      "sampledItemIds": [
+        "20a6099e68a75b1942b0",
+        "0ce89a8a78d897f5ff64",
+        "e8bfd06512ca64cd733d",
+        "3dc16d546e8095e459ae",
+        "55632c35b84be56bc785",
+        "a762e54dd05fea587d05",
+        "e45eddc0e66877bb1d4c",
+        "10f2fa1d7cbb9012bb7d",
+        "216ead7cce5e6a1d03a7",
+        "05f6161d527c70faaeed",
+        "c4ce1712ac69c553c094",
+        "bb9d5a8a0935dce6a3f3"
+      ],
+      "discoveryQueries": [
+        {
+          "query": "creator productivity workflow fork:false archived:false",
+          "page": 2,
+          "url": "https://api.github.com/search/repositories?q=creator%20productivity%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        },
+        {
+          "query": "text-to-video tutorial fork:false archived:false",
+          "page": 1,
+          "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        }
+      ],
+      "discoveryScope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다."
+    },
     {
       "at": "2026-11-27T08:17:49.011Z",
       "newCount": 2,
@@ -37182,53 +37277,55 @@
   "localization": {
     "language": "ko",
     "translated": 847,
-    "pending": 34,
+    "pending": 35,
     "updatedAt": "2026-11-14T09:04:24.779Z"
   },
   "discovery": {
-    "at": "2026-11-27T08:17:45.337Z",
+    "at": "2026-11-28T07:39:29.059Z",
     "provider": "github-public-search",
     "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
     "queries": [
       {
-        "query": "ComfyUI video examples fork:false archived:false",
+        "query": "creator productivity workflow fork:false archived:false",
         "page": 2,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+        "url": "https://api.github.com/search/repositories?q=creator%20productivity%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
       },
       {
-        "query": "ComfyUI video examples fork:false archived:false",
+        "query": "text-to-video tutorial fork:false archived:false",
         "page": 1,
-        "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
-      },
-      {
-        "query": "remotion templates fork:false archived:false",
-        "page": 1,
-        "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+        "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
       }
     ],
     "newSourceIds": [
-      "discovered-treza-labs-treza-examples",
-      "discovered-anil-matcha-flux-3-comfyui"
+      "discovered-webvrdev-webvrdev-labs"
     ],
     "errors": [],
-    "poolCount": 31,
+    "poolCount": 32,
     "mode": "random",
     "seedSourceCount": 8,
-    "totalSourceCount": 39,
+    "totalSourceCount": 40,
     "selectedSourceIds": [
-      "discovered-sandbase-lab-awesome-gemini-4-carbon",
-      "discovered-treza-labs-treza-examples",
-      "discovered-cardenluo-comfyui-apt-preset",
-      "discovered-anil-matcha-flux-3-comfyui"
+      "discovered-a719689614-comfyui-workflow",
+      "discovered-webvrdev-webvrdev-labs",
+      "motion-prompt",
+      "djz-workflows"
     ],
     "selectedCount": 4,
     "sampledItemIds": [
-      "1a6e655f3aef36b13c33",
-      "c7c8daafdee894a4a2d3",
-      "e1f5a1681674dc384106",
-      "0278dd5ab85e1f9e911e"
+      "20a6099e68a75b1942b0",
+      "0ce89a8a78d897f5ff64",
+      "e8bfd06512ca64cd733d",
+      "3dc16d546e8095e459ae",
+      "55632c35b84be56bc785",
+      "a762e54dd05fea587d05",
+      "e45eddc0e66877bb1d4c",
+      "10f2fa1d7cbb9012bb7d",
+      "216ead7cce5e6a1d03a7",
+      "05f6161d527c70faaeed",
+      "c4ce1712ac69c553c094",
+      "bb9d5a8a0935dce6a3f3"
     ],
-    "sampledCount": 4,
-    "selectedAt": "2026-11-27T08:17:49.038Z"
+    "sampledCount": 12,
+    "selectedAt": "2026-11-28T07:39:33.151Z"
   }
 }

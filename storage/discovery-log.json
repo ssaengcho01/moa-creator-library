@@ -1,28 +1,22 @@
 {
-  "at": "2026-11-27T08:17:45.337Z",
+  "at": "2026-11-28T07:39:29.059Z",
   "provider": "github-public-search",
   "scope": "GitHub 공개 저장소 검색과 README 확인만 수행합니다. 전체 웹·SNS를 크롤링하지 않습니다.",
   "queries": [
     {
-      "query": "ComfyUI video examples fork:false archived:false",
+      "query": "creator productivity workflow fork:false archived:false",
       "page": 2,
-      "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
+      "url": "https://api.github.com/search/repositories?q=creator%20productivity%20workflow%20fork%3Afalse%20archived%3Afalse&per_page=30&page=2"
     },
     {
-      "query": "ComfyUI video examples fork:false archived:false",
+      "query": "text-to-video tutorial fork:false archived:false",
       "page": 1,
-      "url": "https://api.github.com/search/repositories?q=ComfyUI%20video%20examples%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
-    },
-    {
-      "query": "remotion templates fork:false archived:false",
-      "page": 1,
-      "url": "https://api.github.com/search/repositories?q=remotion%20templates%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
+      "url": "https://api.github.com/search/repositories?q=text-to-video%20tutorial%20fork%3Afalse%20archived%3Afalse&per_page=30&page=1"
     }
   ],
   "newSourceIds": [
-    "discovered-treza-labs-treza-examples",
-    "discovered-anil-matcha-flux-3-comfyui"
+    "discovered-webvrdev-webvrdev-labs"
   ],
   "errors": [],
-  "poolCount": 31
+  "poolCount": 32
 }
